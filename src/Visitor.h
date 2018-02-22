@@ -6,6 +6,7 @@
 #include <clang/AST/ASTContext.h>
 #include <clang/Lex/Lexer.h>
 #include <clang/Frontend/CompilerInstance.h>
+#include <clang/Analysis/CFG.h>
 
 /**
  * LOG6302 Cette classe est un exemple d'un visiteur récursif de clang. À l'intérieur, vous pouvez y trouver deux exemples
@@ -19,13 +20,24 @@ public:
   // Visites
   bool VisitCXXRecordDecl(clang::CXXRecordDecl *D);
   bool VisitIfStmt(clang::IfStmt *S);
+  bool VisitWhileStmt(clang::WhileStmt *S);
+  bool VisitForStmt(clang::ForStmt *S);
+  bool VisitBreakStmt(clang::BreakStmt *S);
+  bool VisitContinueStmt(clang::ContinueStmt *S);
+  bool VisitVarDecl(clang::VarDecl* D);
+
 
   // Traverses
   bool TraverseCXXMethodDecl(clang::CXXMethodDecl *D);
 
 private:
   clang::ASTContext &context_;
-
+  int nbIf = 0;
+  int nbWhile = 0;
+  int nbFor = 0;
+  int nbContinue = 0;
+  int nbBreak = 0;
+  int nbVar = 0;
 
   std::string GetStatementString(clang::Stmt *S) {
     bool invalid;
