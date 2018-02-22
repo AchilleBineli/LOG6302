@@ -1,8 +1,11 @@
 #include <iostream>
+#include <string>
+#include <vector>
 class Foo {
 
 public:
     int x;
+    std::string name_;
 
     int bar() {
         if (false)
@@ -11,6 +14,15 @@ public:
         return -1;
     }
 
+    void setName(std::string name)
+    {
+	    name_ = name;
+    }
+
+    std::string getName()
+    {
+	    return name_;
+    }
 };
 
 int main(void) {
@@ -24,6 +36,8 @@ int main(void) {
             continue;
         }
     }
-
+    std::string name = "LOG6302";
+    foo.setName(name);
+    
     return 0;
 }

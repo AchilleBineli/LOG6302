@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /usagers/acbin/Bureau/LOG6302_TP
+CMAKE_SOURCE_DIR = /usagers/acbin/Bureau/LOG6302/LOG6302_TP1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /usagers/acbin/Bureau/LOG6302_TP/build
+CMAKE_BINARY_DIR = /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LOG6302.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/LOG6302.dir/flags.make
 
 CMakeFiles/LOG6302.dir/src/main.cpp.o: CMakeFiles/LOG6302.dir/flags.make
 CMakeFiles/LOG6302.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usagers/acbin/Bureau/LOG6302_TP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LOG6302.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LOG6302.dir/src/main.cpp.o -c /usagers/acbin/Bureau/LOG6302_TP/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LOG6302.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LOG6302.dir/src/main.cpp.o -c /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/main.cpp
 
 CMakeFiles/LOG6302.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LOG6302.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usagers/acbin/Bureau/LOG6302_TP/src/main.cpp > CMakeFiles/LOG6302.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/main.cpp > CMakeFiles/LOG6302.dir/src/main.cpp.i
 
 CMakeFiles/LOG6302.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LOG6302.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usagers/acbin/Bureau/LOG6302_TP/src/main.cpp -o CMakeFiles/LOG6302.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/main.cpp -o CMakeFiles/LOG6302.dir/src/main.cpp.s
 
 CMakeFiles/LOG6302.dir/src/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/LOG6302.dir/src/main.cpp.o.provides.build: CMakeFiles/LOG6302.dir/src
 
 CMakeFiles/LOG6302.dir/src/Visitor.cpp.o: CMakeFiles/LOG6302.dir/flags.make
 CMakeFiles/LOG6302.dir/src/Visitor.cpp.o: ../src/Visitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usagers/acbin/Bureau/LOG6302_TP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LOG6302.dir/src/Visitor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LOG6302.dir/src/Visitor.cpp.o -c /usagers/acbin/Bureau/LOG6302_TP/src/Visitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LOG6302.dir/src/Visitor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LOG6302.dir/src/Visitor.cpp.o -c /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.cpp
 
 CMakeFiles/LOG6302.dir/src/Visitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LOG6302.dir/src/Visitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usagers/acbin/Bureau/LOG6302_TP/src/Visitor.cpp > CMakeFiles/LOG6302.dir/src/Visitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.cpp > CMakeFiles/LOG6302.dir/src/Visitor.cpp.i
 
 CMakeFiles/LOG6302.dir/src/Visitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LOG6302.dir/src/Visitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usagers/acbin/Bureau/LOG6302_TP/src/Visitor.cpp -o CMakeFiles/LOG6302.dir/src/Visitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.cpp -o CMakeFiles/LOG6302.dir/src/Visitor.cpp.s
 
 CMakeFiles/LOG6302.dir/src/Visitor.cpp.o.requires:
 
@@ -117,7 +117,7 @@ LOG6302: CMakeFiles/LOG6302.dir/src/main.cpp.o
 LOG6302: CMakeFiles/LOG6302.dir/src/Visitor.cpp.o
 LOG6302: CMakeFiles/LOG6302.dir/build.make
 LOG6302: CMakeFiles/LOG6302.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/usagers/acbin/Bureau/LOG6302_TP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LOG6302"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LOG6302"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LOG6302.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/LOG6302.dir/clean:
 .PHONY : CMakeFiles/LOG6302.dir/clean
 
 CMakeFiles/LOG6302.dir/depend:
-	cd /usagers/acbin/Bureau/LOG6302_TP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /usagers/acbin/Bureau/LOG6302_TP /usagers/acbin/Bureau/LOG6302_TP /usagers/acbin/Bureau/LOG6302_TP/build /usagers/acbin/Bureau/LOG6302_TP/build /usagers/acbin/Bureau/LOG6302_TP/build/CMakeFiles/LOG6302.dir/DependInfo.cmake --color=$(COLOR)
+	cd /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /usagers/acbin/Bureau/LOG6302/LOG6302_TP1 /usagers/acbin/Bureau/LOG6302/LOG6302_TP1 /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/build /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/build /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/build/CMakeFiles/LOG6302.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LOG6302.dir/depend
 

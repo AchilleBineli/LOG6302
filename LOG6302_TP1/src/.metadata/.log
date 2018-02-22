@@ -1,0 +1,16 @@
+!SESSION 2018-01-12 09:43:10.926 -----------------------------------------------
+eclipse.buildId=4.7.1.v20170915-1447
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_CA
+Framework arguments:  /usagers/acbin/Bureau/LOG6302_TP/src/main.cpp
+Command-line arguments:  -os linux -ws gtk -arch x86_64 /usagers/acbin/Bureau/LOG6302_TP/src/main.cpp
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-01-12 09:43:48.439
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-01-12 09:43:48.445
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2018-01-12 09:43:49.148
+!MESSAGE Project 'RemoteSystemsTempFiles' is not open.

@@ -48,6 +48,8 @@ CMakeFiles/LOG6302.dir/src/Visitor.cpp.o
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/AST/TypeLocNodes.def
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/AST/TypeNodes.def
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/AST/UnresolvedSet.h
+ /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/CFG.h
+ /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/Support/BumpVector.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Basic/AddressSpaces.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Basic/Builtins.def
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Basic/CapturedStmt.h
@@ -115,6 +117,7 @@ CMakeFiles/LOG6302.dir/src/Visitor.cpp.o
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/DenseMapInfo.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/DenseSet.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/FoldingSet.h
+ /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/GraphTraits.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/IntrusiveRefCntPtr.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/None.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/Optional.h
@@ -149,8 +152,8 @@ CMakeFiles/LOG6302.dir/src/Visitor.cpp.o
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/Support/SwapByteOrder.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/Support/raw_ostream.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/Support/type_traits.h
- /usagers/acbin/Bureau/LOG6302_TP/src/Visitor.cpp
- /usagers/acbin/Bureau/LOG6302_TP/src/Visitor.h
+ /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.cpp
+ /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.h
 CMakeFiles/LOG6302.dir/src/main.cpp.o
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/AST/APValue.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/AST/ASTConsumer.h
@@ -199,6 +202,8 @@ CMakeFiles/LOG6302.dir/src/main.cpp.o
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/AST/TypeLocNodes.def
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/AST/TypeNodes.def
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/AST/UnresolvedSet.h
+ /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/CFG.h
+ /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/Support/BumpVector.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Basic/AddressSpaces.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Basic/Builtins.def
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Basic/CapturedStmt.h
@@ -273,6 +278,7 @@ CMakeFiles/LOG6302.dir/src/main.cpp.o
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/DenseMapInfo.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/DenseSet.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/FoldingSet.h
+ /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/GraphTraits.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/IntrusiveRefCntPtr.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/None.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/Optional.h
@@ -307,5 +313,5 @@ CMakeFiles/LOG6302.dir/src/main.cpp.o
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/Support/SwapByteOrder.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/Support/raw_ostream.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/Support/type_traits.h
- /usagers/acbin/Bureau/LOG6302_TP/src/Visitor.h
- /usagers/acbin/Bureau/LOG6302_TP/src/main.cpp
+ /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.h
+ /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/main.cpp

@@ -608,6 +608,50 @@ llvm/ADT/SmallVector.h
 iterator
 -
 
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/CFG.h
+clang/AST/Stmt.h
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/clang/AST/Stmt.h
+clang/Analysis/Support/BumpVector.h
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/clang/Analysis/Support/BumpVector.h
+clang/Basic/SourceLocation.h
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/clang/Basic/SourceLocation.h
+llvm/ADT/DenseMap.h
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/llvm/ADT/DenseMap.h
+llvm/ADT/GraphTraits.h
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/llvm/ADT/GraphTraits.h
+llvm/ADT/Optional.h
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/llvm/ADT/Optional.h
+llvm/ADT/OwningPtr.h
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/llvm/ADT/OwningPtr.h
+llvm/ADT/PointerIntPair.h
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/llvm/ADT/PointerIntPair.h
+llvm/Support/Allocator.h
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/llvm/Support/Allocator.h
+llvm/Support/Casting.h
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/llvm/Support/Casting.h
+bitset
+-
+cassert
+-
+iterator
+-
+
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/Support/BumpVector.h
+llvm/ADT/PointerIntPair.h
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/Support/llvm/ADT/PointerIntPair.h
+llvm/Support/Allocator.h
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/Support/llvm/Support/Allocator.h
+llvm/Support/type_traits.h
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Analysis/Support/llvm/Support/type_traits.h
+algorithm
+-
+cstring
+-
+iterator
+-
+memory
+-
+
 /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Basic/AddressSpaces.h
 
 /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/Basic/Builtins.def
@@ -1306,6 +1350,8 @@ llvm/ADT/StringRef.h
 llvm/Support/DataTypes.h
 /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/llvm/Support/DataTypes.h
 
+/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/GraphTraits.h
+
 /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/IntrusiveRefCntPtr.h
 llvm/Support/Casting.h
 /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/ADT/llvm/Support/Casting.h
@@ -1618,11 +1664,11 @@ cstddef
 utility
 -
 
-/usagers/acbin/Bureau/LOG6302_TP/src/Visitor.cpp
+/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.cpp
 Visitor.h
-/usagers/acbin/Bureau/LOG6302_TP/src/Visitor.h
+/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.h
 
-/usagers/acbin/Bureau/LOG6302_TP/src/Visitor.h
+/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.h
 iostream
 -
 clang/AST/RecursiveASTVisitor.h
@@ -1633,8 +1679,10 @@ clang/Lex/Lexer.h
 -
 clang/Frontend/CompilerInstance.h
 -
+clang/Analysis/CFG.h
+-
 
-/usagers/acbin/Bureau/LOG6302_TP/src/main.cpp
+/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/main.cpp
 iostream
 -
 clang/Basic/Version.h
@@ -1650,5 +1698,5 @@ clang/Frontend/CompilerInstance.h
 clang/Tooling/CompilationDatabase.h
 -
 Visitor.h
-/usagers/acbin/Bureau/LOG6302_TP/src/Visitor.h
+/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.h
 
