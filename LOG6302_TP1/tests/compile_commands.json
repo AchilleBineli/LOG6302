@@ -1,7 +1,0 @@
-[
-{
-  "directory":"/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/tests",
-  "command":"/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/bin/clang -I/usagers/acbin/Bureau/libcxx-3.3.src/include -I/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/lib/clang/3.3/include/ /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/tests/LOG6302_TP1_example.cpp",
-  "file":"/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/tests/LOG6302_TP1_example"
-}
-]
