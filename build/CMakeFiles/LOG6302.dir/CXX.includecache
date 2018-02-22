@@ -1618,11 +1618,11 @@ cstddef
 utility
 -
 
-/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.cpp
+/usagers/acbin/Bureau/LOG6302/src/Visitor.cpp
 Visitor.h
-/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.h
+/usagers/acbin/Bureau/LOG6302/src/Visitor.h
 
-/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.h
+/usagers/acbin/Bureau/LOG6302/src/Visitor.h
 iostream
 -
 clang/AST/RecursiveASTVisitor.h
@@ -1634,7 +1634,7 @@ clang/Lex/Lexer.h
 clang/Frontend/CompilerInstance.h
 -
 
-/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/main.cpp
+/usagers/acbin/Bureau/LOG6302/src/main.cpp
 iostream
 -
 clang/Basic/Version.h
@@ -1650,5 +1650,5 @@ clang/Frontend/CompilerInstance.h
 clang/Tooling/CompilationDatabase.h
 -
 Visitor.h
-/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.h
+/usagers/acbin/Bureau/LOG6302/src/Visitor.h
 

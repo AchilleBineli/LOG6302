@@ -149,8 +149,8 @@ CMakeFiles/LOG6302.dir/src/Visitor.cpp.o
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/Support/SwapByteOrder.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/Support/raw_ostream.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/Support/type_traits.h
- /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.cpp
- /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.h
+ /usagers/acbin/Bureau/LOG6302/src/Visitor.cpp
+ /usagers/acbin/Bureau/LOG6302/src/Visitor.h
 CMakeFiles/LOG6302.dir/src/main.cpp.o
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/AST/APValue.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/AST/ASTConsumer.h
@@ -307,5 +307,5 @@ CMakeFiles/LOG6302.dir/src/main.cpp.o
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/Support/SwapByteOrder.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/Support/raw_ostream.h
  /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/Support/type_traits.h
- /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/Visitor.h
- /usagers/acbin/Bureau/LOG6302/LOG6302_TP1/src/main.cpp
+ /usagers/acbin/Bureau/LOG6302/src/Visitor.h
+ /usagers/acbin/Bureau/LOG6302/src/main.cpp

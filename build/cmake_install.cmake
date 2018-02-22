@@ -1,4 +1,4 @@
-# Install script for directory: /usagers/acbin/Bureau/LOG6302/LOG6302_TP1
+# Install script for directory: /usagers/acbin/Bureau/LOG6302
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/usagers/acbin/Bureau/LOG6302/LOG6302_TP1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/usagers/acbin/Bureau/LOG6302/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
