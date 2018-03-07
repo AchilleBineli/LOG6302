@@ -4,18 +4,22 @@
 /* C++ Class traverse */
 /**********************/
 bool Visitor::VisitCXXRecordDecl(clang::CXXRecordDecl *D) {
-  if(context_.getSourceManager().isFromMainFile(D->getLocStart()) ||  clang::TranslationUnitDecl::classof(D))
-  {
-  std::cout<<"[LOG6302] Visite de la classe \""<<D->getName().str()<<"\"\n";
-  nbVar = 0;
-}
-  return true;
+
+	clang::SourceManager &sm = context_.getSourceManager();
+    if(!D->isThisDeclarationADefinition() || D == nullptr )
+        return true;
+    if(!sm.isInSystemHeader(D->getLocStart()) /*|| clang::TranslationUnitDecl::classof(D)*/)
+    {
+    std::cout<<"[LOG6302] Visite de la classe \""<< D->getNameAsString() <<"\"\n";
+    nbVar = 0;
+    }
+ 
+    return true;
 }
 
 /**********************/
 /* If visit           */
 /**********************/
-
 bool Visitor::VisitIfStmt(clang::IfStmt *S) {
 
    if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
@@ -62,6 +66,22 @@ bool Visitor::VisitBreakStmt(clang::BreakStmt *S)
   return true;
 }
 
+
+/**********************/
+/* Continue visit     */
+/**********************/
+bool Visitor::VisitContinueStmt(clang::ContinueStmt *S)
+{
+  if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
+  {
+  std::cout<<"[LOG6302] Visite d'une expression : \" Continue \"\n";
+  ++nbContinue;}
+  return true;
+}
+
+/**********************/
+/* visit declarations */
+/**********************/
 bool Visitor::VisitVarDecl(clang::VarDecl* D)
 {
 	if(context_.getSourceManager().isFromMainFile(D->getLocStart()))
@@ -77,18 +97,6 @@ bool Visitor::VisitVarDecl(clang::VarDecl* D)
 	return true;
 }
 
-/**********************/
-/* Continue visit     */
-/**********************/
-bool Visitor::VisitContinueStmt(clang::ContinueStmt *S)
-{
-  if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
-  {
-  std::cout<<"[LOG6302] Visite d'une expression : \" Continue \"\n";
-  ++nbContinue;}
-  return true;
-}
-
 /***********************/
 /* C++ Method traverse */
 /***********************/
@@ -100,7 +108,8 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 	nbContinue = 0;
 	nbBreak = 0;
 	nbVar = 0;
-	if (!D->isThisDeclarationADefinition() /*|| static_cast<clang::NamedDecl>(D).getIdentifier()*/) {
+
+	if (!D->isThisDeclarationADefinition() || D == nullptr ) {
 		return true;
 	}
 
@@ -112,24 +121,19 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 		clang::FullSourceLoc location = context_.getFullLoc(D->getLocStart());
 
 		std::string file_path = sm.getFileEntryForID(location.getFileID())->getName();
-		std::cout << std::endl <<"PATH_YESSS" << std::endl;
 		unsigned int line_number = location.getSpellingLineNumber();
-		std::cout << "LINE_NUMBER_YESSSS" << std::endl;
+		unsigned int numberParameters = D->getNumParams();
+		std::cout << "numberOfParam  = " << numberParameters << std::endl;
+		
 
-		std::cout
-		<< "\" ("
-                << file_path
-                << ":"
-                << line_number
-                <<")\n"
+		std::cout                
 		<< "[LOG6302] Traverse de la méthode \""
-
-		<< "methodeName" /*D->getName().str()*/<< std::endl << "NAME_YESSSS" << std::endl;
-	//	<< "\" ("
-	//	<< file_path
-	//	<< ":"
-	//	<< line_number
-	//	<<")\n";
+		<< D->getNameAsString()
+		<< "\" ("
+		<< file_path
+		<< ":"
+		<< line_number
+		<<")\n";
 
 
 		clang::RecursiveASTVisitor<Visitor>::TraverseCXXMethodDecl(D);
@@ -141,8 +145,9 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 		std::cout << "Nombre de Continue = " << nbContinue << std::endl;
 		std::cout << "Nombre de variables locales = " << nbVar  << std::endl;
 
-		std::cout<<"[LOG6302] Fin traverse de la méthode \""<< "MethodeName" /*D->getName().str()*/  <<" \" \n";
-	}
+		std::cout<<"[LOG6302] Fin traverse de la méthode \""<<  D->getNameAsString()  <<" \" \n";
+}
+
 
    return true;
 }

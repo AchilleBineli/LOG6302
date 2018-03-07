@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/usagers/acbin/Bureau/LOG6302/stubProj/build",
+  "command": "/usr/bin/c++  -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS    -I/usagers/acbin/Bureau/libcxx-3.3.src/include -I/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/lib/clang/3.3/include/ -std=gnu++11 -o CMakeFiles/Polyland.dir/src/main.cpp.o -c /usagers/acbin/Bureau/LOG6302/stubProj/src/main.cpp",
+  "file": "/usagers/acbin/Bureau/LOG6302/stubProj/src/main.cpp"
+},
+{
+  "directory": "/usagers/acbin/Bureau/LOG6302/stubProj/build",
+  "command": "/usr/bin/c++  -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS    -I/usagers/acbin/Bureau/libcxx-3.3.src/include -I/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/lib/clang/3.3/include/ -std=gnu++11 -o CMakeFiles/Polyland.dir/src/AttaqueMagiqueConfusion.cpp.o -c /usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiqueConfusion.cpp",
+  "file": "/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiqueConfusion.cpp"
+},
+{
+  "directory": "/usagers/acbin/Bureau/LOG6302/stubProj/build",
+  "command": "/usr/bin/c++  -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS    -I/usagers/acbin/Bureau/libcxx-3.3.src/include -I/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/lib/clang/3.3/include/ -std=gnu++11 -o CMakeFiles/Polyland.dir/src/Creature.cpp.o -c /usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp",
+  "file": "/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp"
+},
+{
+  "directory": "/usagers/acbin/Bureau/LOG6302/stubProj/build",
+  "command": "/usr/bin/c++  -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS    -I/usagers/acbin/Bureau/libcxx-3.3.src/include -I/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/lib/clang/3.3/include/ -std=gnu++11 -o CMakeFiles/Polyland.dir/src/Pouvoir.cpp.o -c /usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp",
+  "file": "/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp"
+},
+{
+  "directory": "/usagers/acbin/Bureau/LOG6302/stubProj/build",
+  "command": "/usr/bin/c++  -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS    -I/usagers/acbin/Bureau/libcxx-3.3.src/include -I/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/lib/clang/3.3/include/ -std=gnu++11 -o CMakeFiles/Polyland.dir/src/CreatureMagique.cpp.o -c /usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp",
+  "file": "/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp"
+},
+{
+  "directory": "/usagers/acbin/Bureau/LOG6302/stubProj/build",
+  "command": "/usr/bin/c++  -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS    -I/usagers/acbin/Bureau/libcxx-3.3.src/include -I/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/lib/clang/3.3/include/ -std=gnu++11 -o CMakeFiles/Polyland.dir/src/ObjetMagique.cpp.o -c /usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp",
+  "file": "/usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp"
+},
+{
+  "directory": "/usagers/acbin/Bureau/LOG6302/stubProj/build",
+  "command": "/usr/bin/c++  -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS    -I/usagers/acbin/Bureau/libcxx-3.3.src/include -I/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/lib/clang/3.3/include/ -std=gnu++11 -o CMakeFiles/Polyland.dir/src/AttaqueMagiquePoison.cpp.o -c /usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiquePoison.cpp",
+  "file": "/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiquePoison.cpp"
+},
+{
+  "directory": "/usagers/acbin/Bureau/LOG6302/stubProj/build",
+  "command": "/usr/bin/c++  -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS    -I/usagers/acbin/Bureau/libcxx-3.3.src/include -I/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/lib/clang/3.3/include/ -std=gnu++11 -o CMakeFiles/Polyland.dir/src/Dresseur.cpp.o -c /usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp",
+  "file": "/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp"
+},
+{
+  "directory": "/usagers/acbin/Bureau/LOG6302/stubProj/build",
+  "command": "/usr/bin/c++  -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS    -I/usagers/acbin/Bureau/libcxx-3.3.src/include -I/home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/lib/clang/3.3/include/ -std=gnu++11 -o CMakeFiles/Polyland.dir/src/PolyLand.cpp.o -c /usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp",
+  "file": "/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp"
+}
+]

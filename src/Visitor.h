@@ -25,6 +25,16 @@ public:
   bool VisitBreakStmt(clang::BreakStmt *S);
   bool VisitContinueStmt(clang::ContinueStmt *S);
   bool VisitVarDecl(clang::VarDecl* D);
+  
+  /*
+  CFBBlock* VisitIfStmt(clang::IfStmt* S);
+  CFBBlock* VisitForStmt(clang::ForStmt* S);
+  CFBBlock* VisitWhileStmt(clang::WhileStmt* S);
+  CFGBlock* VisitDoStmt(clang::DoStmt *S);
+  CFGBlock* VisitSwitchStmt(clang::SwitchStmt *S);
+  CFBBlock* VisitBreakStmt(clang::BreakStmt* S);
+  CFGBlock* VisitContinueStmt(clang::ContinueStmt *S);
+  CFGBlock* VisitReturnStmt(clang::ContinueStmt *S);*/
 
 
   // Traverses

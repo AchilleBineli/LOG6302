@@ -1,0 +1,3 @@
+/usagers/acbin/Bureau/LOG6302/stubProj/build/CMakeFiles/rebuild_cache.dir
+/usagers/acbin/Bureau/LOG6302/stubProj/build/CMakeFiles/Polyland.dir
+/usagers/acbin/Bureau/LOG6302/stubProj/build/CMakeFiles/edit_cache.dir

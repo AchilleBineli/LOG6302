@@ -1,0 +1,46 @@
+Determining if the function log exists failed with the following output:
+Change Dir: /usagers/acbin/Bureau/LOG6302/stubProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d3461/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d3461.dir/build.make CMakeFiles/cmTC_d3461.dir/build
+gmake[1]: Entering directory '/usagers/acbin/Bureau/LOG6302/stubProj/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3461.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=log   -o CMakeFiles/cmTC_d3461.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘log’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_d3461
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3461.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=log    -rdynamic CMakeFiles/cmTC_d3461.dir/CheckFunctionExists.c.o  -o cmTC_d3461 
+CMakeFiles/cmTC_d3461.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `log'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_d3461.dir/build.make:98: cmTC_d3461] Error 1
+gmake[1]: Leaving directory '/usagers/acbin/Bureau/LOG6302/stubProj/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_d3461/fast] Error 2
+
+
+Determining if the function exp exists failed with the following output:
+Change Dir: /usagers/acbin/Bureau/LOG6302/stubProj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_793d1/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_793d1.dir/build.make CMakeFiles/cmTC_793d1.dir/build
+gmake[1]: Entering directory '/usagers/acbin/Bureau/LOG6302/stubProj/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_793d1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=exp   -o CMakeFiles/cmTC_793d1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘exp’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_793d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_793d1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=exp    -rdynamic CMakeFiles/cmTC_793d1.dir/CheckFunctionExists.c.o  -o cmTC_793d1 
+CMakeFiles/cmTC_793d1.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `exp'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_793d1.dir/build.make:98: cmTC_793d1] Error 1
+gmake[1]: Leaving directory '/usagers/acbin/Bureau/LOG6302/stubProj/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_793d1/fast] Error 2
+
+
