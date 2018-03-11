@@ -4,16 +4,16 @@
 /* C++ Class traverse */
 /**********************/
 bool Visitor::VisitCXXRecordDecl(clang::CXXRecordDecl *D) {
-
-	clang::SourceManager &sm = context_.getSourceManager();
+    clang::SourceManager &sm = context_.getSourceManager();
     if(!D->isThisDeclarationADefinition() || D == nullptr )
+    {
         return true;
-    if(!sm.isInSystemHeader(D->getLocStart()) /*|| clang::TranslationUnitDecl::classof(D)*/)
+    }
+    if(!sm.isInSystemHeader(D->getLocStart()))
     {
     std::cout<<"[LOG6302] Visite de la classe \""<< D->getNameAsString() <<"\"\n";
-    nbVar = 0;
+    nbDataMember = 0;
     }
- 
     return true;
 }
 
@@ -23,7 +23,7 @@ bool Visitor::VisitCXXRecordDecl(clang::CXXRecordDecl *D) {
 bool Visitor::VisitIfStmt(clang::IfStmt *S) {
 
    if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
-  {std::cout<<"[LOG6302] Visite d'une condition : \" if ("<<GetStatementString(S->getCond())<<") \"\n";
+  {std::cout<<"[LOG6302] Visite d'une condition : \" if "<< "" /*GetStatementString(S->getCond())*/ <<" \"\n";
   ++nbIf;
 }
   return true;
@@ -34,10 +34,11 @@ bool Visitor::VisitIfStmt(clang::IfStmt *S) {
 /**********************/
 bool Visitor::VisitWhileStmt(clang::WhileStmt *S)
 {
-	 if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
+  if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
-  std::cout<<"[LOG6302] Visite d'une expression : \" While ("<<GetStatementString(S->getCond())<<") \"\n";
-  ++nbWhile;}
+  std::cout<<"[LOG6302] Visite d'une expression : \" While " << "" /*GetStatementString(S->getCond())*/<< " \"\n";
+  ++nbWhile;
+  }
   return true;
 }
 
@@ -46,10 +47,11 @@ bool Visitor::VisitWhileStmt(clang::WhileStmt *S)
 /**********************/
 bool Visitor::VisitForStmt(clang::ForStmt *S)
 {
-	 if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
+  if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
   std::cout<<"[LOG6302] Visite d'une expression : \" For \"\n";
-  ++nbFor;}
+  ++nbFor;
+  }
   return true;
 }
 
@@ -75,24 +77,36 @@ bool Visitor::VisitContinueStmt(clang::ContinueStmt *S)
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
   std::cout<<"[LOG6302] Visite d'une expression : \" Continue \"\n";
-  ++nbContinue;}
+  ++nbContinue;
+  }
   return true;
 }
 
 /**********************/
 /* visit declarations */
 /**********************/
-bool Visitor::VisitVarDecl(clang::VarDecl* D)
+bool Visitor::VisitFieldDecl(clang::FieldDecl* D)
 {
-	if(context_.getSourceManager().isFromMainFile(D->getLocStart()))
+  clang::SourceManager &sm = context_.getSourceManager();
+  if(sm.isInSystemHeader(D->getLocStart()))
+  {
+    return true;
+  }
+  ++nbDataMember;
+  std::cout << "[LOG6302] Data member : " << D->getNameAsString() << std::endl;
+  return true; 
+}
+
+
+/**********************/
+/* visit declarations */
+/**********************/
+bool Visitor::VisitVarDecl(clang::VarDecl* D)
+{	
+	clang::SourceManager &sm = context_.getSourceManager();
+	if(context_.getSourceManager().isFromMainFile(D->getLocStart()) && !sm.isInSystemHeader(D->getLocStart()) )
 	{
-		if(D->hasLocalStorage() || D->isStaticLocal())
-       		{
-		//std::string varName = D->getQualifiedNameAsString();
-		//std::string varType = D->getType().getAsString();
-		//std::cout << "visit de la variable " << varName << " de type " << varType << std::endl;
 		++nbVar;
-		}
 	}
 	return true;
 }
@@ -114,7 +128,6 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 	}
 
 	clang::SourceManager &sm = context_.getSourceManager();
-	//const char* declKindName = D->getDeclKindName();
 	if(sm.isFromMainFile(D->getLocStart()) || clang::TranslationUnitDecl::classof(D) )
 	{
 
@@ -122,32 +135,50 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 
 		std::string file_path = sm.getFileEntryForID(location.getFileID())->getName();
 		unsigned int line_number = location.getSpellingLineNumber();
-		unsigned int numberParameters = D->getNumParams();
-		std::cout << "numberOfParam  = " << numberParameters << std::endl;
 		
-
+		unsigned int numberParameters = D->getNumParams();
+		
+		clang::QualType Q = D->getResultType();
 		std::cout                
 		<< "[LOG6302] Traverse de la méthode \""
 		<< D->getNameAsString()
-		<< "\" ("
+		<< " (";
+		
+		clang::ParmVarDecl* decl;  
+		std::string paramType;
+
+		for(int i = 0; i < numberParameters; ++i)
+		{
+			decl = D->getParamDecl(i);
+		       	paramType = decl->getType().getAsString();	
+			std::cout << paramType; 
+			if(i  != numberParameters - 1) 	
+				std::cout << ", ";
+		}	
+		
+		std::cout 
+		<< ") "
+		<< " : " 
+		<< D->getResultType().getAsString()
+		<< "\""
+		<< std::endl
 		<< file_path
 		<< ":"
 		<< line_number
-		<<")\n";
-
+		<< std::endl;
+		
 
 		clang::RecursiveASTVisitor<Visitor>::TraverseCXXMethodDecl(D);
 
-		std::cout << "Nombre de if = " << nbIf << std::endl;
-		std::cout << "Nombre de for = " << nbFor << std::endl;
-		std::cout << "Nombre de while = " << nbWhile << std::endl;
-		std::cout << "Nombre de Break = " << nbBreak << std::endl;
-		std::cout << "Nombre de Continue = " << nbContinue << std::endl;
-		std::cout << "Nombre de variables locales = " << nbVar  << std::endl;
+//		std::cout << "Nombre de if = " << nbIf << std::endl;
+//		std::cout << "Nombre de for = " << nbFor << std::endl;
+//		std::cout << "Nombre de while = " << nbWhile << std::endl;
+//		std::cout << "Nombre de Break = " << nbBreak << std::endl;
+//		std::cout << "Nombre de Continue = " << nbContinue << std::endl;
+//		std::cout << "Nombre de variables locales = " << nbVar  << std::endl;
 
 		std::cout<<"[LOG6302] Fin traverse de la méthode \""<<  D->getNameAsString()  <<" \" \n";
 }
 
-
-   return true;
+  return true;
 }

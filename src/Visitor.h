@@ -6,7 +6,8 @@
 #include <clang/AST/ASTContext.h>
 #include <clang/Lex/Lexer.h>
 #include <clang/Frontend/CompilerInstance.h>
-#include <clang/Analysis/CFG.h>
+#include <clang/AST/Decl.h>
+#include <clang/Basic/LLVM.h> 
 
 /**
  * LOG6302 Cette classe est un exemple d'un visiteur récursif de clang. À l'intérieur, vous pouvez y trouver deux exemples
@@ -25,17 +26,7 @@ public:
   bool VisitBreakStmt(clang::BreakStmt *S);
   bool VisitContinueStmt(clang::ContinueStmt *S);
   bool VisitVarDecl(clang::VarDecl* D);
-  
-  /*
-  CFBBlock* VisitIfStmt(clang::IfStmt* S);
-  CFBBlock* VisitForStmt(clang::ForStmt* S);
-  CFBBlock* VisitWhileStmt(clang::WhileStmt* S);
-  CFGBlock* VisitDoStmt(clang::DoStmt *S);
-  CFGBlock* VisitSwitchStmt(clang::SwitchStmt *S);
-  CFBBlock* VisitBreakStmt(clang::BreakStmt* S);
-  CFGBlock* VisitContinueStmt(clang::ContinueStmt *S);
-  CFGBlock* VisitReturnStmt(clang::ContinueStmt *S);*/
-
+  bool VisitFieldDecl(clang::FieldDecl* D); 
 
   // Traverses
   bool TraverseCXXMethodDecl(clang::CXXMethodDecl *D);
@@ -48,6 +39,7 @@ private:
   int nbContinue = 0;
   int nbBreak = 0;
   int nbVar = 0;
+  int nbDataMember = 0;
 
   std::string GetStatementString(clang::Stmt *S) {
     bool invalid;

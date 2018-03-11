@@ -1,848 +1,497 @@
 Using clang's libraries version 3.3
 [11%] /usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp
 [LOG6302] Visite de la classe "ObjetMagique"
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirNom" (/usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp:18)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Data member : nom_
+[LOG6302] Data member : bonus_
+[LOG6302] Traverse de la méthode "obtenirNom ()  : std::string"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp:18
 [LOG6302] Fin traverse de la méthode "obtenirNom " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirBonus" (/usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp:23)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirBonus ()  : int"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp:23
 [LOG6302] Fin traverse de la méthode "obtenirBonus " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierNom" (/usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp:28)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierNom (const std::string &)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp:28
 [LOG6302] Fin traverse de la méthode "modifierNom " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierBonus" (/usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp:33)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierBonus (int)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp:33
 [LOG6302] Fin traverse de la méthode "modifierBonus " 
 [22%] /usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp
 [LOG6302] Visite de la classe "Pouvoir"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : nombreDeDegat_
+[LOG6302] Data member : energieNecessaire_
 [LOG6302] Visite de la classe "Creature"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : attaque_
+[LOG6302] Data member : defense_
+[LOG6302] Data member : pointDeVie_
+[LOG6302] Data member : pointDeVieTotal_
+[LOG6302] Data member : energie_
+[LOG6302] Data member : energieTotal_
+[LOG6302] Data member : experience_
+[LOG6302] Data member : experienceNecessaire_
+[LOG6302] Data member : niveau_
+[LOG6302] Data member : pouvoirs_
 [LOG6302] Visite de la classe "ObjetMagique"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : bonus_
 [LOG6302] Visite de la classe "Dresseur"
-[LOG6302] Visite d'une expression : " While (creatures_.size() != 0) "
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirNom" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:23)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Data member : nom_
+[LOG6302] Data member : creatures_
+[LOG6302] Data member : equipe_
+[LOG6302] Data member : objetMagique_
+[LOG6302] Visite d'une expression : " While  "
+[LOG6302] Traverse de la méthode "obtenirNom ()  : std::string"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:23
 [LOG6302] Fin traverse de la méthode "obtenirNom " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierNom" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:28)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierNom (const std::string &)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:28
 [LOG6302] Fin traverse de la méthode "modifierNom " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirNombreCreatures" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:33)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirNombreCreatures ()  : unsigned int"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:33
 [LOG6302] Fin traverse de la méthode "obtenirNombreCreatures " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirCreatures" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:38)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirCreatures ()  : std::vector<Creature *>"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:38
 [LOG6302] Fin traverse de la méthode "obtenirCreatures " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "obtenirUneCreature" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:43)
+[LOG6302] Traverse de la méthode "obtenirUneCreature (const std::string &)  : class Creature *"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:43
 [LOG6302] Visite d'une expression : " For "
-[LOG6302] Visite d'une condition : " if (*(creatures_[i]) == nom) "
-Nombre de if = 1
-Nombre de for = 1
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 2
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "obtenirUneCreature " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierCreature" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:55)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierCreature (std::vector<Creature *>)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:55
 [LOG6302] Fin traverse de la méthode "modifierCreature " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "ajouterCreature" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:60)
+[LOG6302] Traverse de la méthode "ajouterCreature (class Creature *)  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:60
 [LOG6302] Visite d'une expression : " For "
-[LOG6302] Visite d'une condition : " if (*creatures_[i] == *creature) "
-Nombre de if = 1
-Nombre de for = 1
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 2
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "ajouterCreature " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "enleverCreature" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:73)
+[LOG6302] Traverse de la méthode "enleverCreature (const std::string &)  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:73
 [LOG6302] Visite d'une expression : " For "
-[LOG6302] Visite d'une condition : " if (*creatures_[i] == nom) "
-Nombre de if = 1
-Nombre de for = 1
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 2
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "enleverCreature " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirObjetMagique" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:88)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirObjetMagique ()  : class ObjetMagique"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:88
 [LOG6302] Fin traverse de la méthode "obtenirObjetMagique " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierObjetMagique" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:93)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierObjetMagique (const class ObjetMagique &)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:93
 [LOG6302] Fin traverse de la méthode "modifierObjetMagique " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "utiliserObjetMagique" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:98)
-[LOG6302] Visite d'une condition : " if ((creature-&gt;obtenirPointDeVieTotal() - creature-&gt;obtenirPointDeVie()) &gt;= objetMagique_.obtenirBonus()) "
-[LOG6302] Visite d'une condition : " if ((creature-&gt;obtenirEnergieTotale() - creature-&gt;obtenirEnergie()) &gt; objetMagique_.obtenirBonus()) "
-Nombre de if = 2
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "utiliserObjetMagique (class Creature *)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:98
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "utiliserObjetMagique " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirEquipe" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:115)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirEquipe ()  : std::string"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:115
 [LOG6302] Fin traverse de la méthode "obtenirEquipe " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierEquipe" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:120)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierEquipe (const std::string &)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:120
 [LOG6302] Fin traverse de la méthode "modifierEquipe " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "operator==" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:130)
-[LOG6302] Visite d'une condition : " if (creatures_.size() == 0 &amp;&amp; dresseur.creatures_.size() == 0) "
-[LOG6302] Visite d'une condition : " if (creatures_.size() == dresseur.creatures_.size()) "
+[LOG6302] Traverse de la méthode "operator== (const class Dresseur &)  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:130
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Visite d'une expression : " For "
 [LOG6302] Visite d'une expression : " For "
-[LOG6302] Visite d'une condition : " if (*(creatures_[i]) == *(dresseur.creatures_[j])) "
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Visite d'une expression : " break "
-[LOG6302] Visite d'une condition : " if (j == dresseur.creatures_.size() - 1) "
-Nombre de if = 4
-Nombre de for = 2
-Nombre de while = 0
-Nombre de Break = 1
-Nombre de Continue = 0
-Nombre de variables locales = 3
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "operator== " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "operator==" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:160)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "operator== (const std::string &)  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:160
 [LOG6302] Fin traverse de la méthode "operator== " 
 [33%] /usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiqueConfusion.cpp
 [LOG6302] Visite de la classe "Pouvoir"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : nombreDeDegat_
+[LOG6302] Data member : energieNecessaire_
 [LOG6302] Visite de la classe "Creature"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : attaque_
+[LOG6302] Data member : defense_
+[LOG6302] Data member : pointDeVie_
+[LOG6302] Data member : pointDeVieTotal_
+[LOG6302] Data member : energie_
+[LOG6302] Data member : energieTotal_
+[LOG6302] Data member : experience_
+[LOG6302] Data member : experienceNecessaire_
+[LOG6302] Data member : niveau_
+[LOG6302] Data member : pouvoirs_
 [LOG6302] Visite de la classe "AttaqueMagique"
+[LOG6302] Data member : duree_
 [LOG6302] Visite de la classe "AttaqueMagiqueConfusion"
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirTypeAttaque" (/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiqueConfusion.cpp:25)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirTypeAttaque ()  : string"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiqueConfusion.cpp:25
 [LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "appliquerAttaque" (/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiqueConfusion.cpp:31)
-[LOG6302] Visite d'une condition : " if (duree_&gt;0) "
-[LOG6302] Visite d'une condition : " if (prob==0) "
-[LOG6302] Visite d'une condition : " if (creature.obtenirEnergie()&gt;=5) "
-Nombre de if = 3
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 2
+[LOG6302] Traverse de la méthode "appliquerAttaque (class Creature &)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiqueConfusion.cpp:31
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "estFini" (/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiqueConfusion.cpp:46)
-[LOG6302] Visite d'une condition : " if (duree_==0) "
-Nombre de if = 1
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "estFini ()  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiqueConfusion.cpp:46
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "estFini " 
 [44%] /usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp
 [LOG6302] Visite de la classe "Pouvoir"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : nombreDeDegat_
+[LOG6302] Data member : energieNecessaire_
 [LOG6302] Visite de la classe "Creature"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : attaque_
+[LOG6302] Data member : defense_
+[LOG6302] Data member : pointDeVie_
+[LOG6302] Data member : pointDeVieTotal_
+[LOG6302] Data member : energie_
+[LOG6302] Data member : energieTotal_
+[LOG6302] Data member : experience_
+[LOG6302] Data member : experienceNecessaire_
+[LOG6302] Data member : niveau_
+[LOG6302] Data member : pouvoirs_
 [LOG6302] Visite de la classe "ObjetMagique"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : bonus_
 [LOG6302] Visite de la classe "Dresseur"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : creatures_
+[LOG6302] Data member : equipe_
+[LOG6302] Data member : objetMagique_
 [LOG6302] Visite de la classe "PolyLand"
-[LOG6302] Visite d'une expression : " While (creatures_.size() != 0) "
-[LOG6302] Visite d'une expression : " While (dresseurs_.size() != 0) "
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "ajouterDresseur" (/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:33)
+[LOG6302] Data member : dresseurs_
+[LOG6302] Data member : creatures_
+[LOG6302] Visite d'une expression : " While  "
+[LOG6302] Visite d'une expression : " While  "
+[LOG6302] Traverse de la méthode "ajouterDresseur (class Dresseur *)  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:33
 [LOG6302] Visite d'une expression : " For "
-[LOG6302] Visite d'une condition : " if (dresseur-&gt;obtenirNom() == *(dresseurs_[i])) "
-Nombre de if = 1
-Nombre de for = 1
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 2
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "ajouterDresseur " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "retirerDresseur" (/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:48)
+[LOG6302] Traverse de la méthode "retirerDresseur (const std::string &)  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:48
 [LOG6302] Visite d'une expression : " For "
-[LOG6302] Visite d'une condition : " if (*(dresseurs_[i]) == nom) "
-Nombre de if = 1
-Nombre de for = 1
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 2
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "retirerDresseur " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "ajouterCreature" (/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:63)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "ajouterCreature (class Creature *)  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:63
 [LOG6302] Fin traverse de la méthode "ajouterCreature " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "retirerCreature" (/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:70)
+[LOG6302] Traverse de la méthode "retirerCreature (const std::string &)  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:70
 [LOG6302] Visite d'une expression : " For "
-[LOG6302] Visite d'une condition : " if (creatures_[i]-&gt;obtenirNom() == nom) "
-Nombre de if = 1
-Nombre de for = 1
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 2
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "retirerCreature " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "choisirDresseurAleatoire" (/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:86)
-[LOG6302] Visite d'une condition : " if (dresseurs_.size() &gt; 0) "
-Nombre de if = 1
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "choisirDresseurAleatoire ()  : class Dresseur *"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:86
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "choisirDresseurAleatoire " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "choisirCreatureAleatoire" (/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:97)
-[LOG6302] Visite d'une condition : " if (creatures_.size() &gt; 0) "
-Nombre de if = 1
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "choisirCreatureAleatoire ()  : class Creature *"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:97
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "choisirCreatureAleatoire " 
-numberOfParam  = 2
-[LOG6302] Traverse de la méthode "attraperCreature" (/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:108)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 2
+[LOG6302] Traverse de la méthode "attraperCreature (class Dresseur *, class Creature *)  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:108
 [LOG6302] Fin traverse de la méthode "attraperCreature " 
-numberOfParam  = 2
-[LOG6302] Traverse de la méthode "relacherCreature" (/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:113)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 2
+[LOG6302] Traverse de la méthode "relacherCreature (class Dresseur *, const std::string)  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:113
 [LOG6302] Fin traverse de la méthode "relacherCreature " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "operator+=" (/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:118)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "operator+= (class Dresseur *)  : class PolyLand &"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:118
 [LOG6302] Fin traverse de la méthode "operator+= " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "operator-=" (/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:124)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "operator-= (class Dresseur *)  : class PolyLand &"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:124
 [LOG6302] Fin traverse de la méthode "operator-= " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "operator+=" (/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:130)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "operator+= (class Creature *)  : class PolyLand &"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:130
 [LOG6302] Fin traverse de la méthode "operator+= " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "operator-=" (/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:136)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "operator-= (class Creature *)  : class PolyLand &"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:136
 [LOG6302] Fin traverse de la méthode "operator-= " 
 [LOG6302] Visite d'une expression : " For "
 [56%] /usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp
 [LOG6302] Visite de la classe "Pouvoir"
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirEnergieNecessaire" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:20)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Data member : nom_
+[LOG6302] Data member : nombreDeDegat_
+[LOG6302] Data member : energieNecessaire_
+[LOG6302] Traverse de la méthode "obtenirEnergieNecessaire ()  : unsigned int"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:20
 [LOG6302] Fin traverse de la méthode "obtenirEnergieNecessaire " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirNom" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:25)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirNom ()  : std::string"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:25
 [LOG6302] Fin traverse de la méthode "obtenirNom " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierNombreDeDegat" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:30)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierNombreDeDegat (unsigned int)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:30
 [LOG6302] Fin traverse de la méthode "modifierNombreDeDegat " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierEnergieNecessarie" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:35)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierEnergieNecessarie (unsigned int)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:35
 [LOG6302] Fin traverse de la méthode "modifierEnergieNecessarie " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierNom" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:40)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierNom (const std::string &)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:40
 [LOG6302] Fin traverse de la méthode "modifierNom " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirNombreDeDegat" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:45)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirNombreDeDegat ()  : unsigned int"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:45
 [LOG6302] Fin traverse de la méthode "obtenirNombreDeDegat " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "operator=" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:57)
-[LOG6302] Visite d'une condition : " if (this != &amp;pouvoir) "
-Nombre de if = 1
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "operator= (const class Pouvoir &)  : class Pouvoir &"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:57
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "operator= " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "operator==" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:68)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "operator== (const class Pouvoir &)  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:68
 [LOG6302] Fin traverse de la méthode "operator== " 
 [67%] /usagers/acbin/Bureau/LOG6302/stubProj/src/main.cpp
 [LOG6302] Visite de la classe "Pouvoir"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : nombreDeDegat_
+[LOG6302] Data member : energieNecessaire_
 [LOG6302] Visite de la classe "Creature"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : attaque_
+[LOG6302] Data member : defense_
+[LOG6302] Data member : pointDeVie_
+[LOG6302] Data member : pointDeVieTotal_
+[LOG6302] Data member : energie_
+[LOG6302] Data member : energieTotal_
+[LOG6302] Data member : experience_
+[LOG6302] Data member : experienceNecessaire_
+[LOG6302] Data member : niveau_
+[LOG6302] Data member : pouvoirs_
 [LOG6302] Visite de la classe "ObjetMagique"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : bonus_
 [LOG6302] Visite de la classe "Dresseur"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : creatures_
+[LOG6302] Data member : equipe_
+[LOG6302] Data member : objetMagique_
 [LOG6302] Visite de la classe "PolyLand"
+[LOG6302] Data member : dresseurs_
+[LOG6302] Data member : creatures_
 [LOG6302] Visite de la classe "AttaqueMagique"
+[LOG6302] Data member : duree_
 [LOG6302] Visite de la classe "AttaqueMagiqueConfusion"
 [LOG6302] Visite de la classe "AttaqueMagiquePoison"
 [LOG6302] Visite de la classe "CreatureMagique"
-[LOG6302] Visite d'une expression : " While (Salimouche.obtenirPointDeVie() &gt; 0) "
-[LOG6302] Visite d'une condition : " if (polyland.attraperCreature(&amp;Vous, &amp;Salimouche)) "
-[LOG6302] Visite d'une expression : " While (Touflamme.obtenirPointDeVie() &gt; 0) "
-[LOG6302] Visite d'une condition : " if (Vous.obtenirUneCreature(&quot;Pokachoum&quot;)-&gt;obtenirPointDeVie() &gt; 0) "
-[LOG6302] Visite d'une condition : " if (Touflamme.obtenirPointDeVie() &gt; 0) "
+[LOG6302] Data member : attaqueMagique_
+[LOG6302] Data member : bonus_
+[LOG6302] Visite d'une expression : " While  "
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une expression : " While  "
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Visite d'une expression : " break "
-[LOG6302] Visite d'une condition : " if (Touflamme.obtenirPointDeVie() == 0) "
-[LOG6302] Visite d'une expression : " While (Touflamme.obtenirPointDeVie() &gt; 0) "
-[LOG6302] Visite d'une condition : " if (polyland.relacherCreature(&amp;Vous, &quot;Pokachoum&quot;)) "
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une expression : " While  "
+[LOG6302] Visite d'une condition : " if  "
 [78%] /usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiquePoison.cpp
 [LOG6302] Visite de la classe "Pouvoir"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : nombreDeDegat_
+[LOG6302] Data member : energieNecessaire_
 [LOG6302] Visite de la classe "Creature"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : attaque_
+[LOG6302] Data member : defense_
+[LOG6302] Data member : pointDeVie_
+[LOG6302] Data member : pointDeVieTotal_
+[LOG6302] Data member : energie_
+[LOG6302] Data member : energieTotal_
+[LOG6302] Data member : experience_
+[LOG6302] Data member : experienceNecessaire_
+[LOG6302] Data member : niveau_
+[LOG6302] Data member : pouvoirs_
 [LOG6302] Visite de la classe "AttaqueMagique"
+[LOG6302] Data member : duree_
 [LOG6302] Visite de la classe "AttaqueMagiqueConfusion"
 [LOG6302] Visite de la classe "CreatureMagique"
+[LOG6302] Data member : attaqueMagique_
+[LOG6302] Data member : bonus_
 [LOG6302] Visite de la classe "AttaqueMagiquePoison"
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirTypeAttaque" (/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiquePoison.cpp:25)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirTypeAttaque ()  : string"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiquePoison.cpp:25
 [LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "appliquerAttaque" (/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiquePoison.cpp:31)
-[LOG6302] Visite d'une condition : " if (duree_&gt;0) "
-[LOG6302] Visite d'une condition : " if (prob!=0) "
-[LOG6302] Visite d'une condition : " if (creature.obtenirEnergie()&gt;=5) "
-Nombre de if = 3
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 2
+[LOG6302] Traverse de la méthode "appliquerAttaque (class Creature &)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiquePoison.cpp:31
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "estFini" (/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiquePoison.cpp:47)
-[LOG6302] Visite d'une condition : " if (duree_==0) "
-Nombre de if = 1
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "estFini ()  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiquePoison.cpp:47
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "estFini " 
 [89%] /usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp
 [LOG6302] Visite de la classe "Pouvoir"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : nombreDeDegat_
+[LOG6302] Data member : energieNecessaire_
 [LOG6302] Visite de la classe "Creature"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : attaque_
+[LOG6302] Data member : defense_
+[LOG6302] Data member : pointDeVie_
+[LOG6302] Data member : pointDeVieTotal_
+[LOG6302] Data member : energie_
+[LOG6302] Data member : energieTotal_
+[LOG6302] Data member : experience_
+[LOG6302] Data member : experienceNecessaire_
+[LOG6302] Data member : niveau_
+[LOG6302] Data member : pouvoirs_
 [LOG6302] Visite de la classe "AttaqueMagique"
+[LOG6302] Data member : duree_
 [LOG6302] Visite de la classe "AttaqueMagiqueConfusion"
 [LOG6302] Visite de la classe "AttaqueMagiquePoison"
 [LOG6302] Visite de la classe "CreatureMagique"
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "operator=" (/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:43)
-[LOG6302] Visite d'une condition : " if (this!=&amp;creatureMagique) "
-Nombre de if = 1
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Data member : attaqueMagique_
+[LOG6302] Data member : bonus_
+[LOG6302] Traverse de la méthode "operator= (const class CreatureMagique &)  : class CreatureMagique &"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:43
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "operator= " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirAttaqueMagique" (/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:54)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirAttaqueMagique ()  : class AttaqueMagique *"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:54
 [LOG6302] Fin traverse de la méthode "obtenirAttaqueMagique " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirBonus" (/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:60)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirBonus ()  : unsigned int"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:60
 [LOG6302] Fin traverse de la méthode "obtenirBonus " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierBonus" (/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:66)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierBonus (unsigned int)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:66
 [LOG6302] Fin traverse de la méthode "modifierBonus " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modfierAttaqueMagique" (/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:72)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modfierAttaqueMagique (const class AttaqueMagique &)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:72
 [LOG6302] Fin traverse de la méthode "modfierAttaqueMagique " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirTypeCreature" (/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:78)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirTypeCreature ()  : string"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:78
 [LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
-numberOfParam  = 2
-[LOG6302] Traverse de la méthode "attaquer" (/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:84)
-[LOG6302] Visite d'une condition : " if ((bonus_+pointDeVie_)&lt;pointDeVieTotal_) "
-[LOG6302] Visite d'une condition : " if (attaqueMagique_!=nullptr) "
-[LOG6302] Visite d'une condition : " if (!(attaqueMagique_-&gt;estFini())) "
-Nombre de if = 3
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 2
+[LOG6302] Traverse de la méthode "attaquer (const class Pouvoir &, class Creature &)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:84
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "attaquer " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "apprendreAttaqueMagique" (/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:101)
-[LOG6302] Visite d'une condition : " if (typeid(attaqueMagique)==typeid(AttaqueMagiqueConfusion)) "
-[LOG6302] Visite d'une condition : " if (typeid(attaqueMagique)==typeid(AttaqueMagiquePoison)) "
-Nombre de if = 2
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "apprendreAttaqueMagique (const class AttaqueMagique &)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:101
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "apprendreAttaqueMagique " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "oublierAttaqueMagique" (/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:114)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "oublierAttaqueMagique ()  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:114
 [LOG6302] Fin traverse de la méthode "oublierAttaqueMagique " 
 [100%] /usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp
 [LOG6302] Visite de la classe "Pouvoir"
+[LOG6302] Data member : nom_
+[LOG6302] Data member : nombreDeDegat_
+[LOG6302] Data member : energieNecessaire_
 [LOG6302] Visite de la classe "Creature"
-[LOG6302] Visite d'une expression : " While (pouvoirs_.size() != 0) "
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirNom" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:37)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Data member : nom_
+[LOG6302] Data member : attaque_
+[LOG6302] Data member : defense_
+[LOG6302] Data member : pointDeVie_
+[LOG6302] Data member : pointDeVieTotal_
+[LOG6302] Data member : energie_
+[LOG6302] Data member : energieTotal_
+[LOG6302] Data member : experience_
+[LOG6302] Data member : experienceNecessaire_
+[LOG6302] Data member : niveau_
+[LOG6302] Data member : pouvoirs_
+[LOG6302] Visite d'une expression : " While  "
+[LOG6302] Traverse de la méthode "obtenirNom ()  : string"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:37
 [LOG6302] Fin traverse de la méthode "obtenirNom " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirAttaque" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:42)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirAttaque ()  : unsigned int"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:42
 [LOG6302] Fin traverse de la méthode "obtenirAttaque " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirDefense" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:47)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirDefense ()  : unsigned int"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:47
 [LOG6302] Fin traverse de la méthode "obtenirDefense " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirPointDeVie" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:52)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirPointDeVie ()  : unsigned int"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:52
 [LOG6302] Fin traverse de la méthode "obtenirPointDeVie " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirPointDeVieTotal" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:57)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirPointDeVieTotal ()  : unsigned int"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:57
 [LOG6302] Fin traverse de la méthode "obtenirPointDeVieTotal " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirEnergie" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:62)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirEnergie ()  : unsigned int"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:62
 [LOG6302] Fin traverse de la méthode "obtenirEnergie " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirEnergieTotale" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:67)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirEnergieTotale ()  : unsigned int"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:67
 [LOG6302] Fin traverse de la méthode "obtenirEnergieTotale " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirExperience" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:72)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirExperience ()  : unsigned int"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:72
 [LOG6302] Fin traverse de la méthode "obtenirExperience " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirExperienceNecessaire" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:77)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirExperienceNecessaire ()  : unsigned int"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:77
 [LOG6302] Fin traverse de la méthode "obtenirExperienceNecessaire " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirNiveau" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:82)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirNiveau ()  : unsigned int"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:82
 [LOG6302] Fin traverse de la méthode "obtenirNiveau " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirPouvoirs" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:87)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirPouvoirs ()  : vector<class Pouvoir *>"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:87
 [LOG6302] Fin traverse de la méthode "obtenirPouvoirs " 
-numberOfParam  = 0
-[LOG6302] Traverse de la méthode "obtenirTypeCreature" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:93)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 0
+[LOG6302] Traverse de la méthode "obtenirTypeCreature ()  : string"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:93
 [LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
-numberOfParam  = 2
-[LOG6302] Traverse de la méthode "attaquer" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:98)
+[LOG6302] Traverse de la méthode "attaquer (const class Pouvoir &, class Creature &)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:98
 [LOG6302] Visite d'une expression : " For "
-[LOG6302] Visite d'une condition : " if (*pouvoirs_[i] == pouvoir) "
-[LOG6302] Visite d'une condition : " if (energie_ &gt;= pouvoir.obtenirEnergieNecessaire() &amp;&amp; pouvoirEstDansVector) "
-[LOG6302] Visite d'une condition : " if (creature.obtenirPointDeVie() &gt;= 0) "
-[LOG6302] Visite d'une condition : " if (tentative != 3) "
-[LOG6302] Visite d'une condition : " if (degat &gt; creature.obtenirPointDeVie()) "
-Nombre de if = 5
-Nombre de for = 1
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 7
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "attaquer " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "experienceGagnee" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:137)
-[LOG6302] Visite d'une condition : " if (creature.obtenirPointDeVie() &lt;= 0) "
-[LOG6302] Visite d'une condition : " if (experience &gt; (experienceNecessaire_ - experience_)) "
-Nombre de if = 2
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 3
+[LOG6302] Traverse de la méthode "experienceGagnee (const class Creature &)  : int"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:137
+[LOG6302] Visite d'une condition : " if  "
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "experienceGagnee " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "apprendrePouvoir" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:162)
+[LOG6302] Traverse de la méthode "apprendrePouvoir (class Pouvoir *)  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:162
 [LOG6302] Visite d'une expression : " For "
-[LOG6302] Visite d'une condition : " if (*pouvoirs_[i] == *pouvoir) "
-Nombre de if = 1
-Nombre de for = 1
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 2
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "apprendrePouvoir " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "oublierPouvoir" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:175)
+[LOG6302] Traverse de la méthode "oublierPouvoir (class Pouvoir *)  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:175
 [LOG6302] Visite d'une expression : " For "
-[LOG6302] Visite d'une condition : " if (*(pouvoirs_[i]) == *pouvoir) "
-Nombre de if = 1
-Nombre de for = 1
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 2
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Fin traverse de la méthode "oublierPouvoir " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierNom" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:193)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierNom (const string &)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:193
 [LOG6302] Fin traverse de la méthode "modifierNom " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierAttaque" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:198)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierAttaque (unsigned int)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:198
 [LOG6302] Fin traverse de la méthode "modifierAttaque " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierDefense" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:203)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierDefense (unsigned int)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:203
 [LOG6302] Fin traverse de la méthode "modifierDefense " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierPointDeVie" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:208)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierPointDeVie (unsigned int)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:208
 [LOG6302] Fin traverse de la méthode "modifierPointDeVie " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierEnergie" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:213)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierEnergie (unsigned int)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:213
 [LOG6302] Fin traverse de la méthode "modifierEnergie " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierExperience" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:218)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierExperience (unsigned int)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:218
 [LOG6302] Fin traverse de la méthode "modifierExperience " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierNiveau" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:223)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "modifierNiveau (unsigned int)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:223
 [LOG6302] Fin traverse de la méthode "modifierNiveau " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "modifierPouvoirs" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:228)
-[LOG6302] Visite d'une expression : " While (pouvoirs_.size() != 0) "
+[LOG6302] Traverse de la méthode "modifierPouvoirs (vector<class Pouvoir *>)  : void"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:228
+[LOG6302] Visite d'une expression : " While  "
 [LOG6302] Visite d'une expression : " For "
-Nombre de if = 0
-Nombre de for = 1
-Nombre de while = 1
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 2
 [LOG6302] Fin traverse de la méthode "modifierPouvoirs " 
 [LOG6302] Visite d'une expression : " For "
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "operator=" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:252)
-[LOG6302] Visite d'une condition : " if (this != &amp;creature) "
+[LOG6302] Traverse de la méthode "operator= (const class Creature &)  : class Creature &"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:252
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Visite d'une expression : " For "
-Nombre de if = 1
-Nombre de for = 1
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 2
 [LOG6302] Fin traverse de la méthode "operator= " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "operator==" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:271)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "operator== (const class Creature &)  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:271
 [LOG6302] Fin traverse de la méthode "operator== " 
-numberOfParam  = 1
-[LOG6302] Traverse de la méthode "operator==" (/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:278)
-Nombre de if = 0
-Nombre de for = 0
-Nombre de while = 0
-Nombre de Break = 0
-Nombre de Continue = 0
-Nombre de variables locales = 1
+[LOG6302] Traverse de la méthode "operator== (const string &)  : _Bool"
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:278
 [LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Visite d'une condition : " if (!creature.pouvoirs_.empty()) "
+[LOG6302] Visite d'une condition : " if  "
 [LOG6302] Visite d'une expression : " For "
