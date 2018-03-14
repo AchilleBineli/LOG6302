@@ -11,7 +11,7 @@ bool Visitor::VisitCXXRecordDecl(clang::CXXRecordDecl *D) {
     }
     if(!sm.isInSystemHeader(D->getLocStart()))
     {
-    std::cout<<"[LOG6302] Visite de la classe \""<< D->getNameAsString() <<"\"\n";
+    std::cout<<"[LOG6302] Visite de la classe "<< D->getNameAsString() <<"\n";
     nbDataMember = 0;
     }
     return true;
@@ -23,7 +23,8 @@ bool Visitor::VisitCXXRecordDecl(clang::CXXRecordDecl *D) {
 bool Visitor::VisitIfStmt(clang::IfStmt *S) {
 
    if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
-  {std::cout<<"[LOG6302] Visite d'une condition : \" if "<< "" /*GetStatementString(S->getCond())*/ <<" \"\n";
+  {
+//std::cout<<"[LOG6302] Visite d'une condition : \" if "<< "" /*GetStatementString(S->getCond())*/ <<" \"\n";
   ++nbIf;
 }
   return true;
@@ -36,7 +37,7 @@ bool Visitor::VisitWhileStmt(clang::WhileStmt *S)
 {
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
-  std::cout<<"[LOG6302] Visite d'une expression : \" While " << "" /*GetStatementString(S->getCond())*/<< " \"\n";
+ // std::cout<<"[LOG6302] Visite d'une expression : \" While " << "" /*GetStatementString(S->getCond())*/<< " \"\n";
   ++nbWhile;
   }
   return true;
@@ -49,7 +50,7 @@ bool Visitor::VisitForStmt(clang::ForStmt *S)
 {
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
-  std::cout<<"[LOG6302] Visite d'une expression : \" For \"\n";
+//  std::cout<<"[LOG6302] Visite d'une expression : \" For \"\n";
   ++nbFor;
   }
   return true;
@@ -62,7 +63,7 @@ bool Visitor::VisitBreakStmt(clang::BreakStmt *S)
 {
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
-  std::cout<<"[LOG6302] Visite d'une expression : \" break \"\n";
+ // std::cout<<"[LOG6302] Visite d'une expression : \" break \"\n";
   ++nbBreak;
   }
   return true;
@@ -76,7 +77,7 @@ bool Visitor::VisitContinueStmt(clang::ContinueStmt *S)
 {
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
-  std::cout<<"[LOG6302] Visite d'une expression : \" Continue \"\n";
+ // std::cout<<"[LOG6302] Visite d'une expression : \" Continue \"\n";
   ++nbContinue;
   }
   return true;
@@ -140,7 +141,7 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 		
 		clang::QualType Q = D->getResultType();
 		std::cout                
-		<< "[LOG6302] Traverse de la méthode \""
+		<< "[LOG6302] Traverse de la méthode "
 		<< D->getNameAsString()
 		<< " (";
 		
@@ -160,13 +161,15 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 		<< ") "
 		<< " : " 
 		<< D->getResultType().getAsString()
-		<< "\""
-		<< std::endl
+		<< std::endl;
+
+		/*
+		std::cout 
 		<< file_path
 		<< ":"
 		<< line_number
 		<< std::endl;
-		
+		*/
 
 		clang::RecursiveASTVisitor<Visitor>::TraverseCXXMethodDecl(D);
 
