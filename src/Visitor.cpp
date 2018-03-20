@@ -24,8 +24,9 @@ bool Visitor::VisitIfStmt(clang::IfStmt *S) {
 
    if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
-//std::cout<<"[LOG6302] Visite d'une condition : \" if "<< "" /*GetStatementString(S->getCond())*/ <<" \"\n";
-  ++nbIf;
+	  std::cout<<"[LOG6302] Visite d'une condition : if";
+	  ++nbIf;
+	  std::cout<<"[LOG6302] Fin condition : if\n";
 }
   return true;
 }
@@ -37,8 +38,9 @@ bool Visitor::VisitWhileStmt(clang::WhileStmt *S)
 {
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
- // std::cout<<"[LOG6302] Visite d'une expression : \" While " << "" /*GetStatementString(S->getCond())*/<< " \"\n";
+  std::cout<<"[LOG6302] Visite d'une expression : While ";
   ++nbWhile;
+  std::cout<<"[LOG6302] Fin expression : While";
   }
   return true;
 }
@@ -50,8 +52,9 @@ bool Visitor::VisitForStmt(clang::ForStmt *S)
 {
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
-//  std::cout<<"[LOG6302] Visite d'une expression : \" For \"\n";
+  std::cout<<"[LOG6302] Visite d'une expression : For";
   ++nbFor;
+  std::cout << "[LOG6302] Fin expression : For\n";
   }
   return true;
 }
@@ -63,7 +66,7 @@ bool Visitor::VisitBreakStmt(clang::BreakStmt *S)
 {
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
- // std::cout<<"[LOG6302] Visite d'une expression : \" break \"\n";
+  std::cout<<"[LOG6302] Visite d'une expression : break\n";
   ++nbBreak;
   }
   return true;
@@ -77,11 +80,57 @@ bool Visitor::VisitContinueStmt(clang::ContinueStmt *S)
 {
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
- // std::cout<<"[LOG6302] Visite d'une expression : \" Continue \"\n";
+  std::cout<<"[LOG6302] Visite d'une expression : Continue\n";
   ++nbContinue;
   }
   return true;
 }
+
+
+/**********************/
+/* Do visit     */
+/**********************/
+bool Visitor::VisitDoStmt(clang::DoStmt *S)
+{
+  if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
+  {
+  std::cout<<"[LOG6302] Visite d'une expression : Do\n";
+  ++nbDo;
+  std::cout<<"[LOG6302] Fin expression : Do\n ";
+  }
+  return true;
+}
+
+/**********************/
+/* Switch visit     */
+/**********************/
+bool Visitor::VisitSwitchStmt(clang::SwitchStmt *S)
+{
+  if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
+  {
+  std::cout<<"[LOG6302] Visite d'une expression : Switch\n";
+  ++nbSwitch;
+  std::cout<<"[LOG6302] Fin expression : Switch\n ";
+  }
+  return true;
+}
+
+
+/**********************/
+/* Return visit     */
+/**********************/
+bool Visitor::VisitReturnStmt(clang::ReturnStmt *S)
+{
+  if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
+  {
+  std::cout<<"[LOG6302] Visite d'une expression : Return\n";
+  ++nbReturn;
+  }
+  return true;
+}
+
+
+
 
 /**********************/
 /* visit declarations */
@@ -122,6 +171,8 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 	nbFor = 0;
 	nbContinue = 0;
 	nbBreak = 0;
+	nbSwitch = 0;
+	nbDo = 0;
 	nbVar = 0;
 
 	if (!D->isThisDeclarationADefinition() || D == nullptr ) {

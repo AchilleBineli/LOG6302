@@ -25,6 +25,9 @@ public:
   bool VisitForStmt(clang::ForStmt *S);
   bool VisitBreakStmt(clang::BreakStmt *S);
   bool VisitContinueStmt(clang::ContinueStmt *S);
+  bool VisitSwitchStmt(clang::SwitchStmt *S);
+  bool VisitDoStmt(clang::DoStmt *S);
+  bool VisitReturnStmt(clang::ReturnStmt *S);
   bool VisitVarDecl(clang::VarDecl* D);
   bool VisitFieldDecl(clang::FieldDecl* D); 
 
@@ -38,6 +41,9 @@ private:
   int nbFor = 0;
   int nbContinue = 0;
   int nbBreak = 0;
+  int nbDo = 0;
+  int nbSwitch = 0;
+  int nbReturn = 0;
   int nbVar = 0;
   int nbDataMember = 0;
 
