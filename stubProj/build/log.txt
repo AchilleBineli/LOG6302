@@ -1,345 +1,345 @@
 Using clang's libraries version 3.3
 [11%] /usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp
-[LOG6302] Visite de la classe ObjetMagique
-[LOG6302] Data member : nom_
-[LOG6302] Data member : bonus_
-[LOG6302] Traverse de la méthode obtenirNom ()  : std::string
+[LOG6302] Visite de la classe :ObjetMagique
+[LOG6302] Data member :nom_
+[LOG6302] Data member :bonus_
+[LOG6302] Traverse de la méthode "obtenirNom ()  : std::string
 [LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la méthode obtenirBonus ()  : int
+[LOG6302] Traverse de la méthode "obtenirBonus ()  : int
 [LOG6302] Fin traverse de la méthode "obtenirBonus " 
-[LOG6302] Traverse de la méthode modifierNom (const std::string &)  : void
+[LOG6302] Traverse de la méthode "modifierNom (const std::string &)  : void
 [LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la méthode modifierBonus (int)  : void
+[LOG6302] Traverse de la méthode "modifierBonus (int)  : void
 [LOG6302] Fin traverse de la méthode "modifierBonus " 
 [22%] /usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp
-[LOG6302] Visite de la classe Pouvoir
-[LOG6302] Data member : nom_
-[LOG6302] Data member : nombreDeDegat_
-[LOG6302] Data member : energieNecessaire_
-[LOG6302] Visite de la classe Creature
-[LOG6302] Data member : nom_
-[LOG6302] Data member : attaque_
-[LOG6302] Data member : defense_
-[LOG6302] Data member : pointDeVie_
-[LOG6302] Data member : pointDeVieTotal_
-[LOG6302] Data member : energie_
-[LOG6302] Data member : energieTotal_
-[LOG6302] Data member : experience_
-[LOG6302] Data member : experienceNecessaire_
-[LOG6302] Data member : niveau_
-[LOG6302] Data member : pouvoirs_
-[LOG6302] Visite de la classe ObjetMagique
-[LOG6302] Data member : nom_
-[LOG6302] Data member : bonus_
-[LOG6302] Visite de la classe Dresseur
-[LOG6302] Data member : nom_
-[LOG6302] Data member : creatures_
-[LOG6302] Data member : equipe_
-[LOG6302] Data member : objetMagique_
-[LOG6302] Traverse de la méthode obtenirNom ()  : std::string
+[LOG6302] Visite de la classe :Pouvoir
+[LOG6302] Data member :nom_
+[LOG6302] Data member :nombreDeDegat_
+[LOG6302] Data member :energieNecessaire_
+[LOG6302] Visite de la classe :Creature
+[LOG6302] Data member :nom_
+[LOG6302] Data member :attaque_
+[LOG6302] Data member :defense_
+[LOG6302] Data member :pointDeVie_
+[LOG6302] Data member :pointDeVieTotal_
+[LOG6302] Data member :energie_
+[LOG6302] Data member :energieTotal_
+[LOG6302] Data member :experience_
+[LOG6302] Data member :experienceNecessaire_
+[LOG6302] Data member :niveau_
+[LOG6302] Data member :pouvoirs_
+[LOG6302] Visite de la classe :ObjetMagique
+[LOG6302] Data member :nom_
+[LOG6302] Data member :bonus_
+[LOG6302] Visite de la classe :Dresseur
+[LOG6302] Data member :nom_
+[LOG6302] Data member :creatures_
+[LOG6302] Data member :equipe_
+[LOG6302] Data member :objetMagique_
+[LOG6302] Traverse de la méthode "obtenirNom ()  : std::string
 [LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la méthode modifierNom (const std::string &)  : void
+[LOG6302] Traverse de la méthode "modifierNom (const std::string &)  : void
 [LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la méthode obtenirNombreCreatures ()  : unsigned int
+[LOG6302] Traverse de la méthode "obtenirNombreCreatures ()  : unsigned int
 [LOG6302] Fin traverse de la méthode "obtenirNombreCreatures " 
-[LOG6302] Traverse de la méthode obtenirCreatures ()  : std::vector<Creature *>
+[LOG6302] Traverse de la méthode "obtenirCreatures ()  : std::vector<Creature *>
 [LOG6302] Fin traverse de la méthode "obtenirCreatures " 
-[LOG6302] Traverse de la méthode obtenirUneCreature (const std::string &)  : class Creature *
+[LOG6302] Traverse de la méthode "obtenirUneCreature (const std::string &)  : class Creature *
 [LOG6302] Fin traverse de la méthode "obtenirUneCreature " 
-[LOG6302] Traverse de la méthode modifierCreature (std::vector<Creature *>)  : void
+[LOG6302] Traverse de la méthode "modifierCreature (std::vector<Creature *>)  : void
 [LOG6302] Fin traverse de la méthode "modifierCreature " 
-[LOG6302] Traverse de la méthode ajouterCreature (class Creature *)  : _Bool
+[LOG6302] Traverse de la méthode "ajouterCreature (class Creature *)  : _Bool
 [LOG6302] Fin traverse de la méthode "ajouterCreature " 
-[LOG6302] Traverse de la méthode enleverCreature (const std::string &)  : _Bool
+[LOG6302] Traverse de la méthode "enleverCreature (const std::string &)  : _Bool
 [LOG6302] Fin traverse de la méthode "enleverCreature " 
-[LOG6302] Traverse de la méthode obtenirObjetMagique ()  : class ObjetMagique
+[LOG6302] Traverse de la méthode "obtenirObjetMagique ()  : class ObjetMagique
 [LOG6302] Fin traverse de la méthode "obtenirObjetMagique " 
-[LOG6302] Traverse de la méthode modifierObjetMagique (const class ObjetMagique &)  : void
+[LOG6302] Traverse de la méthode "modifierObjetMagique (const class ObjetMagique &)  : void
 [LOG6302] Fin traverse de la méthode "modifierObjetMagique " 
-[LOG6302] Traverse de la méthode utiliserObjetMagique (class Creature *)  : void
+[LOG6302] Traverse de la méthode "utiliserObjetMagique (class Creature *)  : void
 [LOG6302] Fin traverse de la méthode "utiliserObjetMagique " 
-[LOG6302] Traverse de la méthode obtenirEquipe ()  : std::string
+[LOG6302] Traverse de la méthode "obtenirEquipe ()  : std::string
 [LOG6302] Fin traverse de la méthode "obtenirEquipe " 
-[LOG6302] Traverse de la méthode modifierEquipe (const std::string &)  : void
+[LOG6302] Traverse de la méthode "modifierEquipe (const std::string &)  : void
 [LOG6302] Fin traverse de la méthode "modifierEquipe " 
-[LOG6302] Traverse de la méthode operator== (const class Dresseur &)  : _Bool
+[LOG6302] Traverse de la méthode "operator== (const class Dresseur &)  : _Bool
 [LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la méthode operator== (const std::string &)  : _Bool
+[LOG6302] Traverse de la méthode "operator== (const std::string &)  : _Bool
 [LOG6302] Fin traverse de la méthode "operator== " 
 [33%] /usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiqueConfusion.cpp
-[LOG6302] Visite de la classe Pouvoir
-[LOG6302] Data member : nom_
-[LOG6302] Data member : nombreDeDegat_
-[LOG6302] Data member : energieNecessaire_
-[LOG6302] Visite de la classe Creature
-[LOG6302] Data member : nom_
-[LOG6302] Data member : attaque_
-[LOG6302] Data member : defense_
-[LOG6302] Data member : pointDeVie_
-[LOG6302] Data member : pointDeVieTotal_
-[LOG6302] Data member : energie_
-[LOG6302] Data member : energieTotal_
-[LOG6302] Data member : experience_
-[LOG6302] Data member : experienceNecessaire_
-[LOG6302] Data member : niveau_
-[LOG6302] Data member : pouvoirs_
-[LOG6302] Visite de la classe AttaqueMagique
-[LOG6302] Data member : duree_
-[LOG6302] Visite de la classe AttaqueMagiqueConfusion
-[LOG6302] Traverse de la méthode obtenirTypeAttaque ()  : string
+[LOG6302] Visite de la classe :Pouvoir
+[LOG6302] Data member :nom_
+[LOG6302] Data member :nombreDeDegat_
+[LOG6302] Data member :energieNecessaire_
+[LOG6302] Visite de la classe :Creature
+[LOG6302] Data member :nom_
+[LOG6302] Data member :attaque_
+[LOG6302] Data member :defense_
+[LOG6302] Data member :pointDeVie_
+[LOG6302] Data member :pointDeVieTotal_
+[LOG6302] Data member :energie_
+[LOG6302] Data member :energieTotal_
+[LOG6302] Data member :experience_
+[LOG6302] Data member :experienceNecessaire_
+[LOG6302] Data member :niveau_
+[LOG6302] Data member :pouvoirs_
+[LOG6302] Visite de la classe :AttaqueMagique
+[LOG6302] Data member :duree_
+[LOG6302] Visite de la classe :AttaqueMagiqueConfusion
+[LOG6302] Traverse de la méthode "obtenirTypeAttaque ()  : string
 [LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-[LOG6302] Traverse de la méthode appliquerAttaque (class Creature &)  : void
+[LOG6302] Traverse de la méthode "appliquerAttaque (class Creature &)  : void
 [LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-[LOG6302] Traverse de la méthode estFini ()  : _Bool
+[LOG6302] Traverse de la méthode "estFini ()  : _Bool
 [LOG6302] Fin traverse de la méthode "estFini " 
 [44%] /usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp
-[LOG6302] Visite de la classe Pouvoir
-[LOG6302] Data member : nom_
-[LOG6302] Data member : nombreDeDegat_
-[LOG6302] Data member : energieNecessaire_
-[LOG6302] Visite de la classe Creature
-[LOG6302] Data member : nom_
-[LOG6302] Data member : attaque_
-[LOG6302] Data member : defense_
-[LOG6302] Data member : pointDeVie_
-[LOG6302] Data member : pointDeVieTotal_
-[LOG6302] Data member : energie_
-[LOG6302] Data member : energieTotal_
-[LOG6302] Data member : experience_
-[LOG6302] Data member : experienceNecessaire_
-[LOG6302] Data member : niveau_
-[LOG6302] Data member : pouvoirs_
-[LOG6302] Visite de la classe ObjetMagique
-[LOG6302] Data member : nom_
-[LOG6302] Data member : bonus_
-[LOG6302] Visite de la classe Dresseur
-[LOG6302] Data member : nom_
-[LOG6302] Data member : creatures_
-[LOG6302] Data member : equipe_
-[LOG6302] Data member : objetMagique_
-[LOG6302] Visite de la classe PolyLand
-[LOG6302] Data member : dresseurs_
-[LOG6302] Data member : creatures_
-[LOG6302] Traverse de la méthode ajouterDresseur (class Dresseur *)  : _Bool
+[LOG6302] Visite de la classe :Pouvoir
+[LOG6302] Data member :nom_
+[LOG6302] Data member :nombreDeDegat_
+[LOG6302] Data member :energieNecessaire_
+[LOG6302] Visite de la classe :Creature
+[LOG6302] Data member :nom_
+[LOG6302] Data member :attaque_
+[LOG6302] Data member :defense_
+[LOG6302] Data member :pointDeVie_
+[LOG6302] Data member :pointDeVieTotal_
+[LOG6302] Data member :energie_
+[LOG6302] Data member :energieTotal_
+[LOG6302] Data member :experience_
+[LOG6302] Data member :experienceNecessaire_
+[LOG6302] Data member :niveau_
+[LOG6302] Data member :pouvoirs_
+[LOG6302] Visite de la classe :ObjetMagique
+[LOG6302] Data member :nom_
+[LOG6302] Data member :bonus_
+[LOG6302] Visite de la classe :Dresseur
+[LOG6302] Data member :nom_
+[LOG6302] Data member :creatures_
+[LOG6302] Data member :equipe_
+[LOG6302] Data member :objetMagique_
+[LOG6302] Visite de la classe :PolyLand
+[LOG6302] Data member :dresseurs_
+[LOG6302] Data member :creatures_
+[LOG6302] Traverse de la méthode "ajouterDresseur (class Dresseur *)  : _Bool
 [LOG6302] Fin traverse de la méthode "ajouterDresseur " 
-[LOG6302] Traverse de la méthode retirerDresseur (const std::string &)  : _Bool
+[LOG6302] Traverse de la méthode "retirerDresseur (const std::string &)  : _Bool
 [LOG6302] Fin traverse de la méthode "retirerDresseur " 
-[LOG6302] Traverse de la méthode ajouterCreature (class Creature *)  : _Bool
+[LOG6302] Traverse de la méthode "ajouterCreature (class Creature *)  : _Bool
 [LOG6302] Fin traverse de la méthode "ajouterCreature " 
-[LOG6302] Traverse de la méthode retirerCreature (const std::string &)  : _Bool
+[LOG6302] Traverse de la méthode "retirerCreature (const std::string &)  : _Bool
 [LOG6302] Fin traverse de la méthode "retirerCreature " 
-[LOG6302] Traverse de la méthode choisirDresseurAleatoire ()  : class Dresseur *
+[LOG6302] Traverse de la méthode "choisirDresseurAleatoire ()  : class Dresseur *
 [LOG6302] Fin traverse de la méthode "choisirDresseurAleatoire " 
-[LOG6302] Traverse de la méthode choisirCreatureAleatoire ()  : class Creature *
+[LOG6302] Traverse de la méthode "choisirCreatureAleatoire ()  : class Creature *
 [LOG6302] Fin traverse de la méthode "choisirCreatureAleatoire " 
-[LOG6302] Traverse de la méthode attraperCreature (class Dresseur *, class Creature *)  : _Bool
+[LOG6302] Traverse de la méthode "attraperCreature (class Dresseur *, class Creature *)  : _Bool
 [LOG6302] Fin traverse de la méthode "attraperCreature " 
-[LOG6302] Traverse de la méthode relacherCreature (class Dresseur *, const std::string)  : _Bool
+[LOG6302] Traverse de la méthode "relacherCreature (class Dresseur *, const std::string)  : _Bool
 [LOG6302] Fin traverse de la méthode "relacherCreature " 
-[LOG6302] Traverse de la méthode operator+= (class Dresseur *)  : class PolyLand &
+[LOG6302] Traverse de la méthode "operator+= (class Dresseur *)  : class PolyLand &
 [LOG6302] Fin traverse de la méthode "operator+= " 
-[LOG6302] Traverse de la méthode operator-= (class Dresseur *)  : class PolyLand &
+[LOG6302] Traverse de la méthode "operator-= (class Dresseur *)  : class PolyLand &
 [LOG6302] Fin traverse de la méthode "operator-= " 
-[LOG6302] Traverse de la méthode operator+= (class Creature *)  : class PolyLand &
+[LOG6302] Traverse de la méthode "operator+= (class Creature *)  : class PolyLand &
 [LOG6302] Fin traverse de la méthode "operator+= " 
-[LOG6302] Traverse de la méthode operator-= (class Creature *)  : class PolyLand &
+[LOG6302] Traverse de la méthode "operator-= (class Creature *)  : class PolyLand &
 [LOG6302] Fin traverse de la méthode "operator-= " 
 [56%] /usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp
-[LOG6302] Visite de la classe Pouvoir
-[LOG6302] Data member : nom_
-[LOG6302] Data member : nombreDeDegat_
-[LOG6302] Data member : energieNecessaire_
-[LOG6302] Traverse de la méthode obtenirEnergieNecessaire ()  : unsigned int
+[LOG6302] Visite de la classe :Pouvoir
+[LOG6302] Data member :nom_
+[LOG6302] Data member :nombreDeDegat_
+[LOG6302] Data member :energieNecessaire_
+[LOG6302] Traverse de la méthode "obtenirEnergieNecessaire ()  : unsigned int
 [LOG6302] Fin traverse de la méthode "obtenirEnergieNecessaire " 
-[LOG6302] Traverse de la méthode obtenirNom ()  : std::string
+[LOG6302] Traverse de la méthode "obtenirNom ()  : std::string
 [LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la méthode modifierNombreDeDegat (unsigned int)  : void
+[LOG6302] Traverse de la méthode "modifierNombreDeDegat (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierNombreDeDegat " 
-[LOG6302] Traverse de la méthode modifierEnergieNecessarie (unsigned int)  : void
+[LOG6302] Traverse de la méthode "modifierEnergieNecessarie (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierEnergieNecessarie " 
-[LOG6302] Traverse de la méthode modifierNom (const std::string &)  : void
+[LOG6302] Traverse de la méthode "modifierNom (const std::string &)  : void
 [LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la méthode obtenirNombreDeDegat ()  : unsigned int
+[LOG6302] Traverse de la méthode "obtenirNombreDeDegat ()  : unsigned int
 [LOG6302] Fin traverse de la méthode "obtenirNombreDeDegat " 
-[LOG6302] Traverse de la méthode operator= (const class Pouvoir &)  : class Pouvoir &
+[LOG6302] Traverse de la méthode "operator= (const class Pouvoir &)  : class Pouvoir &
 [LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la méthode operator== (const class Pouvoir &)  : _Bool
+[LOG6302] Traverse de la méthode "operator== (const class Pouvoir &)  : _Bool
 [LOG6302] Fin traverse de la méthode "operator== " 
 [67%] /usagers/acbin/Bureau/LOG6302/stubProj/src/main.cpp
-[LOG6302] Visite de la classe Pouvoir
-[LOG6302] Data member : nom_
-[LOG6302] Data member : nombreDeDegat_
-[LOG6302] Data member : energieNecessaire_
-[LOG6302] Visite de la classe Creature
-[LOG6302] Data member : nom_
-[LOG6302] Data member : attaque_
-[LOG6302] Data member : defense_
-[LOG6302] Data member : pointDeVie_
-[LOG6302] Data member : pointDeVieTotal_
-[LOG6302] Data member : energie_
-[LOG6302] Data member : energieTotal_
-[LOG6302] Data member : experience_
-[LOG6302] Data member : experienceNecessaire_
-[LOG6302] Data member : niveau_
-[LOG6302] Data member : pouvoirs_
-[LOG6302] Visite de la classe ObjetMagique
-[LOG6302] Data member : nom_
-[LOG6302] Data member : bonus_
-[LOG6302] Visite de la classe Dresseur
-[LOG6302] Data member : nom_
-[LOG6302] Data member : creatures_
-[LOG6302] Data member : equipe_
-[LOG6302] Data member : objetMagique_
-[LOG6302] Visite de la classe PolyLand
-[LOG6302] Data member : dresseurs_
-[LOG6302] Data member : creatures_
-[LOG6302] Visite de la classe AttaqueMagique
-[LOG6302] Data member : duree_
-[LOG6302] Visite de la classe AttaqueMagiqueConfusion
-[LOG6302] Visite de la classe AttaqueMagiquePoison
-[LOG6302] Visite de la classe CreatureMagique
-[LOG6302] Data member : attaqueMagique_
-[LOG6302] Data member : bonus_
+[LOG6302] Visite de la classe :Pouvoir
+[LOG6302] Data member :nom_
+[LOG6302] Data member :nombreDeDegat_
+[LOG6302] Data member :energieNecessaire_
+[LOG6302] Visite de la classe :Creature
+[LOG6302] Data member :nom_
+[LOG6302] Data member :attaque_
+[LOG6302] Data member :defense_
+[LOG6302] Data member :pointDeVie_
+[LOG6302] Data member :pointDeVieTotal_
+[LOG6302] Data member :energie_
+[LOG6302] Data member :energieTotal_
+[LOG6302] Data member :experience_
+[LOG6302] Data member :experienceNecessaire_
+[LOG6302] Data member :niveau_
+[LOG6302] Data member :pouvoirs_
+[LOG6302] Visite de la classe :ObjetMagique
+[LOG6302] Data member :nom_
+[LOG6302] Data member :bonus_
+[LOG6302] Visite de la classe :Dresseur
+[LOG6302] Data member :nom_
+[LOG6302] Data member :creatures_
+[LOG6302] Data member :equipe_
+[LOG6302] Data member :objetMagique_
+[LOG6302] Visite de la classe :PolyLand
+[LOG6302] Data member :dresseurs_
+[LOG6302] Data member :creatures_
+[LOG6302] Visite de la classe :AttaqueMagique
+[LOG6302] Data member :duree_
+[LOG6302] Visite de la classe :AttaqueMagiqueConfusion
+[LOG6302] Visite de la classe :AttaqueMagiquePoison
+[LOG6302] Visite de la classe :CreatureMagique
+[LOG6302] Data member :attaqueMagique_
+[LOG6302] Data member :bonus_
 [78%] /usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiquePoison.cpp
-[LOG6302] Visite de la classe Pouvoir
-[LOG6302] Data member : nom_
-[LOG6302] Data member : nombreDeDegat_
-[LOG6302] Data member : energieNecessaire_
-[LOG6302] Visite de la classe Creature
-[LOG6302] Data member : nom_
-[LOG6302] Data member : attaque_
-[LOG6302] Data member : defense_
-[LOG6302] Data member : pointDeVie_
-[LOG6302] Data member : pointDeVieTotal_
-[LOG6302] Data member : energie_
-[LOG6302] Data member : energieTotal_
-[LOG6302] Data member : experience_
-[LOG6302] Data member : experienceNecessaire_
-[LOG6302] Data member : niveau_
-[LOG6302] Data member : pouvoirs_
-[LOG6302] Visite de la classe AttaqueMagique
-[LOG6302] Data member : duree_
-[LOG6302] Visite de la classe AttaqueMagiqueConfusion
-[LOG6302] Visite de la classe CreatureMagique
-[LOG6302] Data member : attaqueMagique_
-[LOG6302] Data member : bonus_
-[LOG6302] Visite de la classe AttaqueMagiquePoison
-[LOG6302] Traverse de la méthode obtenirTypeAttaque ()  : string
+[LOG6302] Visite de la classe :Pouvoir
+[LOG6302] Data member :nom_
+[LOG6302] Data member :nombreDeDegat_
+[LOG6302] Data member :energieNecessaire_
+[LOG6302] Visite de la classe :Creature
+[LOG6302] Data member :nom_
+[LOG6302] Data member :attaque_
+[LOG6302] Data member :defense_
+[LOG6302] Data member :pointDeVie_
+[LOG6302] Data member :pointDeVieTotal_
+[LOG6302] Data member :energie_
+[LOG6302] Data member :energieTotal_
+[LOG6302] Data member :experience_
+[LOG6302] Data member :experienceNecessaire_
+[LOG6302] Data member :niveau_
+[LOG6302] Data member :pouvoirs_
+[LOG6302] Visite de la classe :AttaqueMagique
+[LOG6302] Data member :duree_
+[LOG6302] Visite de la classe :AttaqueMagiqueConfusion
+[LOG6302] Visite de la classe :CreatureMagique
+[LOG6302] Data member :attaqueMagique_
+[LOG6302] Data member :bonus_
+[LOG6302] Visite de la classe :AttaqueMagiquePoison
+[LOG6302] Traverse de la méthode "obtenirTypeAttaque ()  : string
 [LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-[LOG6302] Traverse de la méthode appliquerAttaque (class Creature &)  : void
+[LOG6302] Traverse de la méthode "appliquerAttaque (class Creature &)  : void
 [LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-[LOG6302] Traverse de la méthode estFini ()  : _Bool
+[LOG6302] Traverse de la méthode "estFini ()  : _Bool
 [LOG6302] Fin traverse de la méthode "estFini " 
 [89%] /usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp
-[LOG6302] Visite de la classe Pouvoir
-[LOG6302] Data member : nom_
-[LOG6302] Data member : nombreDeDegat_
-[LOG6302] Data member : energieNecessaire_
-[LOG6302] Visite de la classe Creature
-[LOG6302] Data member : nom_
-[LOG6302] Data member : attaque_
-[LOG6302] Data member : defense_
-[LOG6302] Data member : pointDeVie_
-[LOG6302] Data member : pointDeVieTotal_
-[LOG6302] Data member : energie_
-[LOG6302] Data member : energieTotal_
-[LOG6302] Data member : experience_
-[LOG6302] Data member : experienceNecessaire_
-[LOG6302] Data member : niveau_
-[LOG6302] Data member : pouvoirs_
-[LOG6302] Visite de la classe AttaqueMagique
-[LOG6302] Data member : duree_
-[LOG6302] Visite de la classe AttaqueMagiqueConfusion
-[LOG6302] Visite de la classe AttaqueMagiquePoison
-[LOG6302] Visite de la classe CreatureMagique
-[LOG6302] Data member : attaqueMagique_
-[LOG6302] Data member : bonus_
-[LOG6302] Traverse de la méthode operator= (const class CreatureMagique &)  : class CreatureMagique &
+[LOG6302] Visite de la classe :Pouvoir
+[LOG6302] Data member :nom_
+[LOG6302] Data member :nombreDeDegat_
+[LOG6302] Data member :energieNecessaire_
+[LOG6302] Visite de la classe :Creature
+[LOG6302] Data member :nom_
+[LOG6302] Data member :attaque_
+[LOG6302] Data member :defense_
+[LOG6302] Data member :pointDeVie_
+[LOG6302] Data member :pointDeVieTotal_
+[LOG6302] Data member :energie_
+[LOG6302] Data member :energieTotal_
+[LOG6302] Data member :experience_
+[LOG6302] Data member :experienceNecessaire_
+[LOG6302] Data member :niveau_
+[LOG6302] Data member :pouvoirs_
+[LOG6302] Visite de la classe :AttaqueMagique
+[LOG6302] Data member :duree_
+[LOG6302] Visite de la classe :AttaqueMagiqueConfusion
+[LOG6302] Visite de la classe :AttaqueMagiquePoison
+[LOG6302] Visite de la classe :CreatureMagique
+[LOG6302] Data member :attaqueMagique_
+[LOG6302] Data member :bonus_
+[LOG6302] Traverse de la méthode "operator= (const class CreatureMagique &)  : class CreatureMagique &
 [LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la méthode obtenirAttaqueMagique ()  : class AttaqueMagique *
+[LOG6302] Traverse de la méthode "obtenirAttaqueMagique ()  : class AttaqueMagique *
 [LOG6302] Fin traverse de la méthode "obtenirAttaqueMagique " 
-[LOG6302] Traverse de la méthode obtenirBonus ()  : unsigned int
+[LOG6302] Traverse de la méthode "obtenirBonus ()  : unsigned int
 [LOG6302] Fin traverse de la méthode "obtenirBonus " 
-[LOG6302] Traverse de la méthode modifierBonus (unsigned int)  : void
+[LOG6302] Traverse de la méthode "modifierBonus (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierBonus " 
-[LOG6302] Traverse de la méthode modfierAttaqueMagique (const class AttaqueMagique &)  : void
+[LOG6302] Traverse de la méthode "modfierAttaqueMagique (const class AttaqueMagique &)  : void
 [LOG6302] Fin traverse de la méthode "modfierAttaqueMagique " 
-[LOG6302] Traverse de la méthode obtenirTypeCreature ()  : string
+[LOG6302] Traverse de la méthode "obtenirTypeCreature ()  : string
 [LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
-[LOG6302] Traverse de la méthode attaquer (const class Pouvoir &, class Creature &)  : void
+[LOG6302] Traverse de la méthode "attaquer (const class Pouvoir &, class Creature &)  : void
 [LOG6302] Fin traverse de la méthode "attaquer " 
-[LOG6302] Traverse de la méthode apprendreAttaqueMagique (const class AttaqueMagique &)  : void
+[LOG6302] Traverse de la méthode "apprendreAttaqueMagique (const class AttaqueMagique &)  : void
 [LOG6302] Fin traverse de la méthode "apprendreAttaqueMagique " 
-[LOG6302] Traverse de la méthode oublierAttaqueMagique ()  : void
+[LOG6302] Traverse de la méthode "oublierAttaqueMagique ()  : void
 [LOG6302] Fin traverse de la méthode "oublierAttaqueMagique " 
 [100%] /usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp
-[LOG6302] Visite de la classe Pouvoir
-[LOG6302] Data member : nom_
-[LOG6302] Data member : nombreDeDegat_
-[LOG6302] Data member : energieNecessaire_
-[LOG6302] Visite de la classe Creature
-[LOG6302] Data member : nom_
-[LOG6302] Data member : attaque_
-[LOG6302] Data member : defense_
-[LOG6302] Data member : pointDeVie_
-[LOG6302] Data member : pointDeVieTotal_
-[LOG6302] Data member : energie_
-[LOG6302] Data member : energieTotal_
-[LOG6302] Data member : experience_
-[LOG6302] Data member : experienceNecessaire_
-[LOG6302] Data member : niveau_
-[LOG6302] Data member : pouvoirs_
-[LOG6302] Traverse de la méthode obtenirNom ()  : string
+[LOG6302] Visite de la classe :Pouvoir
+[LOG6302] Data member :nom_
+[LOG6302] Data member :nombreDeDegat_
+[LOG6302] Data member :energieNecessaire_
+[LOG6302] Visite de la classe :Creature
+[LOG6302] Data member :nom_
+[LOG6302] Data member :attaque_
+[LOG6302] Data member :defense_
+[LOG6302] Data member :pointDeVie_
+[LOG6302] Data member :pointDeVieTotal_
+[LOG6302] Data member :energie_
+[LOG6302] Data member :energieTotal_
+[LOG6302] Data member :experience_
+[LOG6302] Data member :experienceNecessaire_
+[LOG6302] Data member :niveau_
+[LOG6302] Data member :pouvoirs_
+[LOG6302] Traverse de la méthode "obtenirNom ()  : string
 [LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la méthode obtenirAttaque ()  : unsigned int
+[LOG6302] Traverse de la méthode "obtenirAttaque ()  : unsigned int
 [LOG6302] Fin traverse de la méthode "obtenirAttaque " 
-[LOG6302] Traverse de la méthode obtenirDefense ()  : unsigned int
+[LOG6302] Traverse de la méthode "obtenirDefense ()  : unsigned int
 [LOG6302] Fin traverse de la méthode "obtenirDefense " 
-[LOG6302] Traverse de la méthode obtenirPointDeVie ()  : unsigned int
+[LOG6302] Traverse de la méthode "obtenirPointDeVie ()  : unsigned int
 [LOG6302] Fin traverse de la méthode "obtenirPointDeVie " 
-[LOG6302] Traverse de la méthode obtenirPointDeVieTotal ()  : unsigned int
+[LOG6302] Traverse de la méthode "obtenirPointDeVieTotal ()  : unsigned int
 [LOG6302] Fin traverse de la méthode "obtenirPointDeVieTotal " 
-[LOG6302] Traverse de la méthode obtenirEnergie ()  : unsigned int
+[LOG6302] Traverse de la méthode "obtenirEnergie ()  : unsigned int
 [LOG6302] Fin traverse de la méthode "obtenirEnergie " 
-[LOG6302] Traverse de la méthode obtenirEnergieTotale ()  : unsigned int
+[LOG6302] Traverse de la méthode "obtenirEnergieTotale ()  : unsigned int
 [LOG6302] Fin traverse de la méthode "obtenirEnergieTotale " 
-[LOG6302] Traverse de la méthode obtenirExperience ()  : unsigned int
+[LOG6302] Traverse de la méthode "obtenirExperience ()  : unsigned int
 [LOG6302] Fin traverse de la méthode "obtenirExperience " 
-[LOG6302] Traverse de la méthode obtenirExperienceNecessaire ()  : unsigned int
+[LOG6302] Traverse de la méthode "obtenirExperienceNecessaire ()  : unsigned int
 [LOG6302] Fin traverse de la méthode "obtenirExperienceNecessaire " 
-[LOG6302] Traverse de la méthode obtenirNiveau ()  : unsigned int
+[LOG6302] Traverse de la méthode "obtenirNiveau ()  : unsigned int
 [LOG6302] Fin traverse de la méthode "obtenirNiveau " 
-[LOG6302] Traverse de la méthode obtenirPouvoirs ()  : vector<class Pouvoir *>
+[LOG6302] Traverse de la méthode "obtenirPouvoirs ()  : vector<class Pouvoir *>
 [LOG6302] Fin traverse de la méthode "obtenirPouvoirs " 
-[LOG6302] Traverse de la méthode obtenirTypeCreature ()  : string
+[LOG6302] Traverse de la méthode "obtenirTypeCreature ()  : string
 [LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
-[LOG6302] Traverse de la méthode attaquer (const class Pouvoir &, class Creature &)  : void
+[LOG6302] Traverse de la méthode "attaquer (const class Pouvoir &, class Creature &)  : void
 [LOG6302] Fin traverse de la méthode "attaquer " 
-[LOG6302] Traverse de la méthode experienceGagnee (const class Creature &)  : int
+[LOG6302] Traverse de la méthode "experienceGagnee (const class Creature &)  : int
 [LOG6302] Fin traverse de la méthode "experienceGagnee " 
-[LOG6302] Traverse de la méthode apprendrePouvoir (class Pouvoir *)  : _Bool
+[LOG6302] Traverse de la méthode "apprendrePouvoir (class Pouvoir *)  : _Bool
 [LOG6302] Fin traverse de la méthode "apprendrePouvoir " 
-[LOG6302] Traverse de la méthode oublierPouvoir (class Pouvoir *)  : _Bool
+[LOG6302] Traverse de la méthode "oublierPouvoir (class Pouvoir *)  : _Bool
 [LOG6302] Fin traverse de la méthode "oublierPouvoir " 
-[LOG6302] Traverse de la méthode modifierNom (const string &)  : void
+[LOG6302] Traverse de la méthode "modifierNom (const string &)  : void
 [LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la méthode modifierAttaque (unsigned int)  : void
+[LOG6302] Traverse de la méthode "modifierAttaque (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierAttaque " 
-[LOG6302] Traverse de la méthode modifierDefense (unsigned int)  : void
+[LOG6302] Traverse de la méthode "modifierDefense (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierDefense " 
-[LOG6302] Traverse de la méthode modifierPointDeVie (unsigned int)  : void
+[LOG6302] Traverse de la méthode "modifierPointDeVie (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierPointDeVie " 
-[LOG6302] Traverse de la méthode modifierEnergie (unsigned int)  : void
+[LOG6302] Traverse de la méthode "modifierEnergie (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierEnergie " 
-[LOG6302] Traverse de la méthode modifierExperience (unsigned int)  : void
+[LOG6302] Traverse de la méthode "modifierExperience (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierExperience " 
-[LOG6302] Traverse de la méthode modifierNiveau (unsigned int)  : void
+[LOG6302] Traverse de la méthode "modifierNiveau (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierNiveau " 
-[LOG6302] Traverse de la méthode modifierPouvoirs (vector<class Pouvoir *>)  : void
+[LOG6302] Traverse de la méthode "modifierPouvoirs (vector<class Pouvoir *>)  : void
 [LOG6302] Fin traverse de la méthode "modifierPouvoirs " 
-[LOG6302] Traverse de la méthode operator= (const class Creature &)  : class Creature &
+[LOG6302] Traverse de la méthode "operator= (const class Creature &)  : class Creature &
 [LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la méthode operator== (const class Creature &)  : _Bool
+[LOG6302] Traverse de la méthode "operator== (const class Creature &)  : _Bool
 [LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la méthode operator== (const string &)  : _Bool
+[LOG6302] Traverse de la méthode "operator== (const string &)  : _Bool
 [LOG6302] Fin traverse de la méthode "operator== " 

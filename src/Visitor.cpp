@@ -11,7 +11,7 @@ bool Visitor::VisitCXXRecordDecl(clang::CXXRecordDecl *D) {
     }
     if(!sm.isInSystemHeader(D->getLocStart()))
     {
-    std::cout<<"[LOG6302] Visite de la classe "<< D->getNameAsString() <<"\n";
+    std::cout<<"[LOG6302] Visite de la classe :"<< D->getNameAsString() <<"\n";
     nbDataMember = 0;
     }
     return true;
@@ -94,7 +94,7 @@ bool Visitor::VisitFieldDecl(clang::FieldDecl* D)
     return true;
   }
   ++nbDataMember;
-  std::cout << "[LOG6302] Data member : " << D->getNameAsString() << std::endl;
+  std::cout << "[LOG6302] Data member :" << D->getNameAsString() << std::endl;
   return true; 
 }
 
@@ -141,7 +141,7 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 		
 		clang::QualType Q = D->getResultType();
 		std::cout                
-		<< "[LOG6302] Traverse de la méthode "
+		<< "[LOG6302] Traverse de la méthode \""
 		<< D->getNameAsString()
 		<< " (";
 		
