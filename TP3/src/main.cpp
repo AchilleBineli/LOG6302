@@ -5,22 +5,24 @@
 #include <memory>
 #include <set>
 #include <map>
+#include "tinyxml2.h"
 
-class Method
+
+
+int main(int argc, char* argv[])
 {
 
-}
+    std::ofstream ast_file(argv[1] | std::ios::out); 
 
-class Visitor
-{
+    std::string ast_string;
+    getline(ast_file, ast_string);
+        
+    
+    do{ 
+            
+    
+    }while(file.eof());
 
-}
-
-
-
-int main()
-{
-
-   return 0;
+    return 0;
 }
 
