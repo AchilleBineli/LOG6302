@@ -12,7 +12,7 @@
 
 int main(int argc, char* argv[])
 {
-
+#if 0
 #if 0
    //std::ofstream ast_file(argv[1] , std::ios::out); 
     XMLDocument document("test.xml");
@@ -81,7 +81,10 @@ int main(int argc, char* argv[])
 
 
     #endif
-    
+#endif
+
+
+
     
     return 0;
 }

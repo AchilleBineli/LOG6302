@@ -8,6 +8,7 @@ public:
     int bar() {
         if (false)
             return 42;
+	int k = baz();
         for (int i = 0; i < -1; i++)
 	{
 		if( i == 100)
@@ -17,6 +18,14 @@ public:
         return -1;
     }
 
+    int baz(){
+	    if(true)
+	    {
+		    for(int j = 0; j < 10; ++j)
+			    ++x;
+	    }
+	    return x;
+    }
 };
 
 int main(void) {

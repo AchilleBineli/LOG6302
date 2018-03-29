@@ -22,19 +22,34 @@ public:
 
   // Visites
   bool VisitCXXRecordDecl(clang::CXXRecordDecl *D);
-  bool VisitIfStmt(clang::IfStmt *S);
-  bool VisitWhileStmt(clang::WhileStmt *S);
-  bool VisitForStmt(clang::ForStmt *S);
+  
   bool VisitBreakStmt(clang::BreakStmt *S);
   bool VisitContinueStmt(clang::ContinueStmt *S);
-  bool VisitSwitchStmt(clang::SwitchStmt *S);
-  bool VisitDoStmt(clang::DoStmt *S);
   bool VisitReturnStmt(clang::ReturnStmt *S);
   bool VisitVarDecl(clang::VarDecl* D);
   bool VisitFieldDecl(clang::FieldDecl* D); 
 
+#if 0
+  bool VisitSwitchStmt(clang::SwitchStmt *S);
+  bool VisitDoStmt(clang::DoStmt *S);
+  bool VisitIfStmt(clang::IfStmt *S);
+  bool VisitWhileStmt(clang::WhileStmt *S);
+  bool VisitForStmt(clang::ForStmt *S);
+#endif
+
   // Traverses
   bool TraverseCXXMethodDecl(clang::CXXMethodDecl *D);
+  bool TraverseForStmt(clang::ForStmt *S);
+  bool TraverseIfStmt(clang::IfStmt *S);
+  bool TraverseWhileStmt(clang::WhileStmt *S);
+  bool TraverseDoStmt(clang::DoStmt *S);
+  bool TraverseSwitchStmt(clang::SwitchStmt *S);
+ #if 0
+  //may not be useful  
+  bool TraverseContinueStmt(clang::ContinueStmt *S);
+  bool TraverseBreakStmt(clang::BreakStmt *S);
+  bool TraverseReturnStmt(clang::ReturnStmt *S);
+#endif
 
 private:
   clang::ASTContext &context_;
