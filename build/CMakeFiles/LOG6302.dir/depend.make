@@ -150,6 +150,7 @@ CMakeFiles/LOG6302.dir/src/Visitor.cpp.o: /home/local/cours/INF6603/clang+llvm-3
 CMakeFiles/LOG6302.dir/src/Visitor.cpp.o: /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/llvm/Support/type_traits.h
 CMakeFiles/LOG6302.dir/src/Visitor.cpp.o: ../src/Visitor.cpp
 CMakeFiles/LOG6302.dir/src/Visitor.cpp.o: ../src/Visitor.h
+CMakeFiles/LOG6302.dir/src/Visitor.cpp.o: ../src/tinyxml2.h
 
 CMakeFiles/LOG6302.dir/src/main.cpp.o: /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/AST/APValue.h
 CMakeFiles/LOG6302.dir/src/main.cpp.o: /home/local/cours/INF6603/clang+llvm-3.3-x86_64-fedora18/include/clang/AST/ASTConsumer.h

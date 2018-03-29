@@ -8,7 +8,9 @@
 #include <clang/Frontend/CompilerInstance.h>
 #include <clang/AST/Decl.h>
 #include <clang/Basic/LLVM.h> 
-
+#include <stack>
+#include <utility>
+#include <string>
 /**
  * LOG6302 Cette classe est un exemple d'un visiteur récursif de clang. À l'intérieur, vous pouvez y trouver deux exemples
  * de visites, et un exemple de traverse.
@@ -46,7 +48,10 @@ private:
   int nbReturn = 0;
   int nbVar = 0;
   int nbDataMember = 0;
-
+  int nodeNumber = 0;
+  std::stack<std::pair<unsigned int, std::string>> parents;
+  std::map<unsigned int, std::string> nodes;
+  std::vector<std::list<unsigned int>>edges;
   std::string GetStatementString(clang::Stmt *S) {
     bool invalid;
     if (!S) return "Something";

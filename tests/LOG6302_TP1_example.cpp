@@ -8,7 +8,12 @@ public:
     int bar() {
         if (false)
             return 42;
-        for (int i = 0; i < -1; i++);
+        for (int i = 0; i < -1; i++)
+	{
+		if( i == 100)
+			break;
+	}
+
         return -1;
     }
 

@@ -1,5 +1,6 @@
 #include "Visitor.h"
-
+#include "tinyxml2.h"
+#include <sstream>
 /**********************/
 /* C++ Class traverse */
 /**********************/
@@ -24,9 +25,9 @@ bool Visitor::VisitIfStmt(clang::IfStmt *S) {
 
    if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
-	  std::cout<<"[LOG6302] Visite d'une condition : if";
+	  std::cout<<"[LOG6302] Visite d'une condition :if\n";
 	  ++nbIf;
-	  std::cout<<"[LOG6302] Fin condition : if\n";
+	  std::cout<<"[LOG6302] Fin condition :if\n";
 }
   return true;
 }
@@ -38,9 +39,9 @@ bool Visitor::VisitWhileStmt(clang::WhileStmt *S)
 {
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
-  std::cout<<"[LOG6302] Visite d'une expression : While ";
+  std::cout<<"[LOG6302] Visite d'une expression :While\n";
   ++nbWhile;
-  std::cout<<"[LOG6302] Fin expression : While";
+  std::cout<<"[LOG6302] Fin expression : While\n";
   }
   return true;
 }
@@ -52,10 +53,27 @@ bool Visitor::VisitForStmt(clang::ForStmt *S)
 {
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
-  std::cout<<"[LOG6302] Visite d'une expression : For";
-  ++nbFor;
-  std::cout << "[LOG6302] Fin expression : For\n";
+  	std::cout<<"[LOG6302] Visite d'une expression :For\n";
+  	++nbFor;
+  	parents.push(std::make_pair(nodeNumber, "if"));
+  	nodeNumber++;
+  	if(!parents.empty())
+  	{
+	  std::cout << "Node number" << nodeNumber << ", from node " << parents.top().first << std::endl;
+  	}
+//	clang::RecursiveASTVisitor<Visitor>::VisitForStmt(static_cast<clang::Stmt*>(S));
+//	clang::RecursiveASTVisitor<Visitor>::VisitIfStmt(static_cast<clang::Stmt*>(S));
+//	clang::RecursiveASTVisitor<Visitor>::VisitSwitchStmt(static_cast<clang::Stmt*>(S));
+//	clang::RecursiveASTVisitor<Visitor>::VisitWhileStmt(static_cast<clang::Stmt*>(S));
+//	clang::RecursiveASTVisitor<Visitor>::VisitDoStmt(static_cast<clang::Stmt*>(S));
+//	clang::RecursiveASTVisitor<Visitor>::VisitBreakStmt(static_cast<clang::Stmt*>(S));
+//	clang::RecursiveASTVisitor<Visitor>::VisitReturnStmt(static_cast<clang::Stmt*>(S));
+//	clang::RecursiveASTVisitor<Visitor>::VisitContinueStmt(static_cast<clang::Stmt*>(S));
+	clang::RecursiveASTVisitor<Visitor>::TraverseCXXMethodDecl(static_cast<clang::CXXMethodDecl *>(S));
+//  	clang::RecursiveASTVisitor<Visitor>::TraverseCXXMethodDecl(S);
+  	std::cout << "[LOG6302] Fin expression : For\n";
   }
+  parents.pop();
   return true;
 }
 
@@ -66,7 +84,7 @@ bool Visitor::VisitBreakStmt(clang::BreakStmt *S)
 {
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
-  std::cout<<"[LOG6302] Visite d'une expression : break\n";
+  std::cout<<"[LOG6302] Visite d'une expression :break\n";
   ++nbBreak;
   }
   return true;
@@ -80,7 +98,8 @@ bool Visitor::VisitContinueStmt(clang::ContinueStmt *S)
 {
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
-  std::cout<<"[LOG6302] Visite d'une expression : Continue\n";
+  
+  std::cout<<"[LOG6302] Visite d'une expression :Continue\n";
   ++nbContinue;
   }
   return true;
@@ -94,9 +113,9 @@ bool Visitor::VisitDoStmt(clang::DoStmt *S)
 {
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
-  std::cout<<"[LOG6302] Visite d'une expression : Do\n";
+  std::cout<<"[LOG6302] Visite d'une expression :Do\n";
   ++nbDo;
-  std::cout<<"[LOG6302] Fin expression : Do\n ";
+  std::cout<<"[LOG6302] Fin expression :Do\n ";
   }
   return true;
 }
@@ -106,11 +125,20 @@ bool Visitor::VisitDoStmt(clang::DoStmt *S)
 /**********************/
 bool Visitor::VisitSwitchStmt(clang::SwitchStmt *S)
 {
+//	clang::Stmt* st = nullptr;
+//	clang::Stmt::child_iterator it  = S->child_begin();
+//	for(it; it != S->child_end(); ++it)
+//	{
+//		//st = it->get<clang::Stmt>();
+//		it->dump();
+//	}i
+
+  
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
-  std::cout<<"[LOG6302] Visite d'une expression : Switch\n";
+  std::cout<<"[LOG6302] Visite d'une expression :Switch\n";
   ++nbSwitch;
-  std::cout<<"[LOG6302] Fin expression : Switch\n ";
+  std::cout<<"[LOG6302] Fin expression :Switch\n ";
   }
   return true;
 }
@@ -121,11 +149,27 @@ bool Visitor::VisitSwitchStmt(clang::SwitchStmt *S)
 /**********************/
 bool Visitor::VisitReturnStmt(clang::ReturnStmt *S)
 {
+	const clang::Stmt* st = nullptr;
   if(context_.getSourceManager().isFromMainFile(S->getLocStart()))
   {
-  std::cout<<"[LOG6302] Visite d'une expression : Return\n";
-  ++nbReturn;
+ // std::cout<<"[LOG6302] Visite d'une expression :Return\n";
+  	++nbReturn;
+ 	if(!parents.empty())
+  	{
+		std::cout << "return " << ", node number" << nodeNumber << ", from node " << parents.top().first << std::endl;
+	}
   }
+  
+#if 0
+//      clang::Stmt* st = nullptr;
+      clang::Stmt::child_iterator it  = S->child_begin();
+      for(it; it != S->child_end(); ++it)
+      {
+              //st = it->get<clang::Stmt>();
+	      if(*it == nullptr ) return false;
+              it->dump();
+      }
+#endif	
   return true;
 }
 
@@ -138,6 +182,7 @@ bool Visitor::VisitReturnStmt(clang::ReturnStmt *S)
 bool Visitor::VisitFieldDecl(clang::FieldDecl* D)
 {
   clang::SourceManager &sm = context_.getSourceManager();
+
   if(sm.isInSystemHeader(D->getLocStart()))
   {
     return true;
@@ -174,11 +219,12 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 	nbSwitch = 0;
 	nbDo = 0;
 	nbVar = 0;
+	nodeNumber = 0;
 
 	if (!D->isThisDeclarationADefinition() || D == nullptr ) {
 		return true;
 	}
-
+   
 	clang::SourceManager &sm = context_.getSourceManager();
 	if(sm.isFromMainFile(D->getLocStart()) || clang::TranslationUnitDecl::classof(D) )
 	{
@@ -191,10 +237,20 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 		unsigned int numberParameters = D->getNumParams();
 		
 		clang::QualType Q = D->getResultType();
-		std::cout                
-		<< "[LOG6302] Traverse de la méthode "
+		std::ostringstream name;
+		name
+		<< "[LOG6302] Traverse de la méthode\" "
 		<< D->getNameAsString()
 		<< " (";
+		
+		// XML additions
+		#if 0
+		TinyXML::XMLElement root;
+		root.setAttribute("Node 1", D->getNameString());
+		root.setAttribute("Node 2", )
+		
+		#endif
+				
 		
 		clang::ParmVarDecl* decl;  
 		std::string paramType;
@@ -203,17 +259,30 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 		{
 			decl = D->getParamDecl(i);
 		       	paramType = decl->getType().getAsString();	
-			std::cout << paramType; 
+			name << paramType; 
 			if(i  != numberParameters - 1) 	
 				std::cout << ", ";
 		}	
 		
-		std::cout 
+		name
 		<< ") "
 		<< " : " 
 		<< D->getResultType().getAsString()
 		<< std::endl;
+		std::string name_str = name.str();
+		std::cout << name_str << std::endl;
+		std::cout << "Node number " << std::to_string(nodeNumber) << std::endl;
+		parents.push(std::make_pair(nodeNumber, name_str));
+		nodeNumber++;
+#if 0 
+		nodes[nodeNumber] = name_str;
+		edges.push_back(std::list<int>())
+		++nodeNumber;
 
+		nodes[nodeNumnber] = "Exit" + name_str;
+		edges.push_back(std::list<int>());
+		++nodeNumber;
+#endif		
 		/*
 		std::cout 
 		<< file_path
@@ -230,8 +299,10 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 //		std::cout << "Nombre de Break = " << nbBreak << std::endl;
 //		std::cout << "Nombre de Continue = " << nbContinue << std::endl;
 //		std::cout << "Nombre de variables locales = " << nbVar  << std::endl;
-
+        
 		std::cout<<"[LOG6302] Fin traverse de la méthode \""<<  D->getNameAsString()  <<" \" \n";
+ 
+		parents.pop();
 }
 
   return true;

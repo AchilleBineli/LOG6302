@@ -1,4 +1,4 @@
-unsigned int fib(unsigned int n){
+ int fib(unsigned int n){
  unsigned int i = n - 1, a = 1, b = 0, c = 0, d = 1, t;
  if (n <= 0)
  return 0;

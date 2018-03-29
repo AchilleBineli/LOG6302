@@ -1621,6 +1621,10 @@ utility
 /usagers/acbin/Bureau/LOG6302/src/Visitor.cpp
 Visitor.h
 /usagers/acbin/Bureau/LOG6302/src/Visitor.h
+tinyxml2.h
+/usagers/acbin/Bureau/LOG6302/src/tinyxml2.h
+sstream
+-
 
 /usagers/acbin/Bureau/LOG6302/src/Visitor.h
 iostream
@@ -1636,6 +1640,12 @@ clang/Frontend/CompilerInstance.h
 clang/AST/Decl.h
 -
 clang/Basic/LLVM.h
+-
+stack
+-
+utility
+-
+string
 -
 
 /usagers/acbin/Bureau/LOG6302/src/main.cpp
@@ -1655,4 +1665,34 @@ clang/Tooling/CompilationDatabase.h
 -
 Visitor.h
 /usagers/acbin/Bureau/LOG6302/src/Visitor.h
+
+/usagers/acbin/Bureau/LOG6302/src/tinyxml2.h
+ctype.h
+-
+limits.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stddef.h
+-
+cctype
+-
+climits
+-
+cstdio
+-
+cstdlib
+-
+cstring
+-
+stdint.h
+-
+android/log.h
+-
+assert.h
+-
 
