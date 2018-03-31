@@ -339,12 +339,15 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 	if (!D->isThisDeclarationADefinition() || D == nullptr ) {
 		return true;
 	}
-   
+	
+	clang::FullSourceLoc location = context_.getFullLoc(D->getLocation());   
 	clang::SourceManager &sm = context_.getSourceManager();
 	if(sm.isFromMainFile(D->getLocStart()) || clang::TranslationUnitDecl::classof(D) )
 	{
 
-		clang::FullSourceLoc location = context_.getFullLoc(D->getLocStart());
+	if(!sm.isInSystemHeader(D->getLocation()) && !sm.isInExternCSystemHeader(D->getLocation()))
+	{
+	//	clang::FullSourceLoc location = context_.getFullLoc(D->getLocStart());
 
 		std::string file_path = sm.getFileEntryForID(location.getFileID())->getName();
 		unsigned int line_number = location.getSpellingLineNumber();
@@ -354,7 +357,7 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 		clang::QualType Q = D->getResultType();
 		std::ostringstream name;
 		name
-		<< "[LOG6302] Traverse de la méthode\" "
+		<< "[LOG6302] Traverse de la methode\" "
 		<< D->getNameAsString()
 		<< " (";
 		
@@ -422,11 +425,13 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 //		std::cout << "Nombre de Break = " << nbBreak << std::endl;
 //		std::cout << "Nombre de Continue = " << nbContinue << std::endl;
 //		std::cout << "Nombre de variables locales = " << nbVar  << std::endl;
-        
+ 	        std::cout 
+                << file_path
+		<< std::endl;       
 		std::cout<<"[LOG6302] Fin traverse de la méthode \""<<  D->getNameAsString()  <<" \" \n";
 		nodeNumber = 0; 
 		parents.pop();
 }
-
+}
   return true;
 }
