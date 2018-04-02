@@ -1621,6 +1621,8 @@ utility
 /usagers/acbin/Bureau/LOG6302/src/Visitor.cpp
 Visitor.h
 /usagers/acbin/Bureau/LOG6302/src/Visitor.h
+sstream
+-
 
 /usagers/acbin/Bureau/LOG6302/src/Visitor.h
 iostream

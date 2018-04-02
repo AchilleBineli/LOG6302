@@ -1,4 +1,5 @@
 #include "Visitor.h"
+#include <sstream>
 
 /**********************/
 /* C++ Class traverse */
@@ -124,13 +125,15 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 	nbBreak = 0;
 	nbVar = 0;
 
-	if (!D->isThisDeclarationADefinition() || D == nullptr ) {
+	if (!D->isThisDeclarationADefinition() && !D->isPure() || D == nullptr ) {
 		return true;
 	}
 
 	clang::SourceManager &sm = context_.getSourceManager();
-	if(sm.isFromMainFile(D->getLocStart()) || clang::TranslationUnitDecl::classof(D) )
-	{
+	//if(/*sm.isFromMainFile(D->getLocation()) || */clang::TranslationUnitDecl::classof(D) )
+	//{
+		if(!sm.isInSystemHeader(D->getLocation()) && !sm.isInExternCSystemHeader(D->getLocation()))
+		{
 
 		clang::FullSourceLoc location = context_.getFullLoc(D->getLocStart());
 
@@ -139,9 +142,13 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 		
 		unsigned int numberParameters = D->getNumParams();
 		
-		clang::QualType Q = D->getResultType();
-		std::cout                
-		<< "[LOG6302] Traverse de la méthode \""
+		
+		std::ostringstream name;
+		
+		std::cout                 
+		<< "[LOG6302] Traverse de la méthode \"";
+		
+		name 
 		<< D->getNameAsString()
 		<< " (";
 		
@@ -152,15 +159,21 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 		{
 			decl = D->getParamDecl(i);
 		       	paramType = decl->getType().getAsString();	
-			std::cout << paramType; 
+			name << paramType; 
 			if(i  != numberParameters - 1) 	
-				std::cout << ", ";
+				name << ", ";
 		}	
 		
-		std::cout 
-		<< ") "
+		name
+		<< ") "		
 		<< " : " 
-		<< D->getResultType().getAsString()
+		<< D->getResultType().getAsString();
+		if(D->isPure())
+		{
+		    name << " = 0";
+		}
+		std::cout 
+		<< name.str()
 		<< std::endl;
 
 		/*
@@ -181,7 +194,8 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 //		std::cout << "Nombre de variables locales = " << nbVar  << std::endl;
 
 		std::cout<<"[LOG6302] Fin traverse de la méthode \""<<  D->getNameAsString()  <<" \" \n";
-}
+		}
+	//}
 
   return true;
 }
