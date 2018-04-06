@@ -1,0 +1,14 @@
+[LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void, node number 0
+[LOG6302] Traverse for,  node number1, parent node 0, parent name [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void
+[LOG6302] Traverse if,  node number2, parent node 1, parent name for
+[LOG6302] Fin de traverse de if
+[LOG6302] Fin de traverse de for
+[LOG6302] Traverse if,  node number3, parent node 0, parent name [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void
+[LOG6302] Traverse if,  node number4, parent node 3, parent name if
+[LOG6302] Traverse if,  node number5, parent node 4, parent name if
+[LOG6302] Traverse if,  node number6, parent node 5, parent name if
+[LOG6302] Fin de traverse de if
+[LOG6302] Fin de traverse de if
+[LOG6302] Fin de traverse de if
+[LOG6302] Fin de traverse de if
+[LOG6302] Fin traverse de la méthode "attaquer " 

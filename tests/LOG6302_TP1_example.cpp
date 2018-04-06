@@ -1,5 +1,5 @@
 
-
+#if 0
 class Foo {
 
 public:
@@ -27,9 +27,11 @@ public:
 	    return x;
     }
 };
+#endif
 
 int main(void) {
-    Foo foo;
+#if 0
+Foo foo;
 
     if (foo.bar() == 17) {
         while (true) {
@@ -39,6 +41,16 @@ int main(void) {
             continue;
         }
     }
+#endif
 
+    int k =5;
+    if(k < 10)
+    {
+	    while(true)
+	    {
+		    if(k == 5) break;
+		    continue;
+	    }
+    }
     return 0;
 }

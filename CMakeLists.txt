@@ -19,6 +19,7 @@ else()
 endif()
 
 include_directories(${LLVM_PATH}/include)
+#include_directories(${LLVM_PATH}/lib/clang/3.3/include)
 link_directories(${LLVM_PATH}/lib)
 add_definitions(-DLLVM_PATH=\"${LLVM_PATH}\")
 

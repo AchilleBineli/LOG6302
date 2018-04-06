@@ -1,0 +1,2 @@
+Using clang's libraries version 3.3
+[100%] ../TP3/tests/tp4_test1.c
