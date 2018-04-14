@@ -1,2 +1,0 @@
-Using clang's libraries version 3.3
-[100%] ../TP3/tests/wordcount.cpp

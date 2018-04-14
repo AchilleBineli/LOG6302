@@ -9,6 +9,36 @@
 #include <stack>
 #include <utility>
 
+#if 0
+class Node
+{
+    unsigned int nodeNumber;
+    Node* left_child;
+    Node* right_child;
+}
+
+class BinarySearchTree
+{
+    BinarySearchTree(){};
+    
+    ~BinarySearchTree(){};
+    
+    void insertElement(std::unique_ptr<Node> node)
+    {
+        if(root == nullptr)
+        root(node);
+        else
+        {
+            
+        }
+    }
+
+private: 
+    std::unique_ptr<Node> root;
+    std::vector<unique_ptr<Node>> table;
+
+}
+#endif
 
 class Graph
 {
@@ -26,47 +56,52 @@ public:
         name_ = methodName;
         //add entry node
         
-        std::string entryName = "Entry" + name_;
+        std::string entryName = "Entry" + name_ ;
         std::string exitName = "Exit" + name_;
-        nodes[nodeNumber] = entryName;
+        nodes[nodeNumber] = entryName + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
-        parentNode = std::make_pair(nodeNumber, entryName);
+        parentNode.push(std::make_pair(nodeNumber, entryName));
         nodeNumber++;
         
         // add exit node
-        nodes[nodeNumber] = exitName;
+        nodes[nodeNumber] = exitName + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
         nodeNumber++;
     }
     
     void addWhile()
     {
-        nodes[nodeNumber] = "WhileBegin";
+        nodes[nodeNumber] = "WhileBegin" + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
-        if( parentNode.first == -1) 
+        if( parentNode.top().first == 0) 
         {
-            vertex.back().push_back(nodeNumber - 1);
+            if(first_time == true)
+            {
+                vertex.back().push_back(0);
+                first_time = false;
+            }
+            else vertex.back().push_back(nodeNumber - 1);
         }
         else
         {
-            if(parentNode.second == "DoBegin")
+            if(parentNode.top().second == "DoBegin")
             {
                 // condition node is a parent too
-                vertex.back().push_back(parentNode.first + 1); 
+                vertex.back().push_back(parentNode.top().first + 1); 
             }
-            vertex.back().push_back(parentNode.first); 
+            vertex.back().push_back(parentNode.top().first); 
         }   
         lastLoopNode.push(nodeNumber);
         nodeNumber++;
         
-        nodes[nodeNumber] = "Condition";
+        nodes[nodeNumber] = "WhileCondition" + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
         vertex.back().push_back(nodeNumber -1);
-        parentNode = std::make_pair(nodeNumber, "Condition");
+        parentNode.push(std::make_pair(nodeNumber, "Condition"));
         nodeNumber++;
         
         
-        nodes[nodeNumber] = "WhileEnd";
+        nodes[nodeNumber] = "WhileEnd" + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
         vertex.back().push_back(nodeNumber - 1);
         nodeNumber++;
@@ -75,67 +110,87 @@ public:
     
     void addIf()
     {
-        nodes[nodeNumber] = "IfBegin";
+        nodes[nodeNumber] = "IfBegin" + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
-        if(parentNode.first == -1) 
-        {
-            vertex.back().push_back(nodeNumber - 1);
-        }
-        else
-        {
-            if(parentNode.second == "DoBegin")
+       
+            if(parentNode.top().first == 0) 
             {
-            // condition node is a parent too
-                vertex.back().push_back(parentNode.first + 1); 
+                if(first_time == true)
+                {
+                    vertex.back().push_back(0);
+                    first_time = false;
+                }
+                else 
+                {
+                   
+                    vertex.back().push_back(lastLoopNode.top() + 2);
+                }
             }
-            vertex.back().push_back(parentNode.first); 
-            
+            else
+            {
+                if(parentNode.top().second == "DoBegin")
+                {
+                // condition node is a parent too
+                    vertex.back().push_back(parentNode.top().first + 1); 
+                }
+                vertex.back().push_back(parentNode.top().first); 
+                
+            }
+        
+        nodeNumber++;
+        
+        
+        nodes[nodeNumber] = "IfCondition" + std::to_string(nodeNumber);
+        vertex.push_back(std::list<unsigned int>());
+        vertex.back().push_back(nodeNumber - 1);
+        parentNode.push(std::make_pair(nodeNumber, "Condition"));
+        nodeNumber++;
+                
+                
+        nodes[nodeNumber] = "IfEnd" + std::to_string(nodeNumber);      
+        vertex.push_back(std::list<unsigned int>());
+        vertex.back().push_back(nodeNumber - 1);
+        if(!lastLoopNode.empty())
+        {
+            vertex[lastLoopNode.top() + 1].push_back(nodeNumber);
         }
-        nodeNumber++;
-        
-        
-        nodes[nodeNumber] = "Condition";
-        vertex.push_back(std::list<unsigned int>());
-        vertex.back().push_back(nodeNumber - 1);
-        parentNode = std::make_pair(nodeNumber, "Condition");
-        nodeNumber++;
-                
-                
-        nodes[nodeNumber] = "IfEnd";      
-        vertex.push_back(std::list<unsigned int>());
-        vertex.back().push_back(nodeNumber - 1);
         nodeNumber++;
     }
     
     
     void addFor()
     {
-        nodes[nodeNumber] = "ForBegin";
+        nodes[nodeNumber] = "ForBegin" + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
-        if(parentNode.first == -1) 
+        if(parentNode.top().first == 0) 
         {
-            vertex.back().push_back(nodeNumber - 1);
+            if(first_time == true)
+            {
+                vertex.back().push_back(0);
+                first_time = false;
+            }
+            else vertex.back().push_back(nodeNumber - 1);
         }
         else
         {
-            if(parentNode.second == "DoBegin")
+            if(parentNode.top().second == "DoBegin")
             {
                 // condition node is a parent too
-                vertex.back().push_back(parentNode.first + 1); 
+                vertex.back().push_back(parentNode.top().first + 1); 
             }
-            vertex.back().push_back(parentNode.first); 
+            vertex.back().push_back(parentNode.top().first); 
         }   
         lastLoopNode.push(nodeNumber); 
         nodeNumber++;
         
-        nodes[nodeNumber] = "Condition";
+        nodes[nodeNumber] = "ForCondition" + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
         vertex.back().push_back(nodeNumber - 1);
-        parentNode = std::make_pair(nodeNumber, "Condition");
+        parentNode.push(std::make_pair(nodeNumber, "Condition"));
         nodeNumber++;
         
         
-        nodes[nodeNumber] = "ForEnd";      
+        nodes[nodeNumber] = "ForEnd" + std::to_string(nodeNumber);      
         vertex.push_back(std::list<unsigned int>());
         vertex.back().push_back(nodeNumber - 1);
         nodeNumber++;
@@ -143,27 +198,32 @@ public:
     
     void addSwitch()
     {
-        nodes[nodeNumber] = "SwitchBegin";
+        nodes[nodeNumber] = "SwitchBegin" + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
-        if(parentNode.first == -1) 
+        if(parentNode.top().first == 0) 
         {
-            vertex.back().push_back(nodeNumber - 1);
+            if(first_time == true)
+            {
+                vertex.back().push_back(0);
+                first_time = false;
+            }
+            else vertex.back().push_back(nodeNumber - 1);
         }
         else
         {
-            if(parentNode.second == "DoBegin")
+            if(parentNode.top().second == "DoBegin")
             {
                 // condition node is a parent too
-                vertex.back().push_back(parentNode.first + 1); 
+                vertex.back().push_back(parentNode.top().first + 1); 
             }
-            vertex.back().push_back(parentNode.first); 
+            vertex.back().push_back(parentNode.top().first); 
         }   
         lastLoopNode.push(nodeNumber); 
         nodeNumber++;
         
         
         
-        nodes[nodeNumber] = "SwitchEnd";
+        nodes[nodeNumber] = "SwitchEnd" + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
         vertex[nodeNumber].push_back(nodeNumber - 1);
         nodeNumber++;
@@ -171,33 +231,38 @@ public:
     
     void addDo()
     {
-        nodes[nodeNumber] = "DoBegin";
+        nodes[nodeNumber] = "DoBegin" + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
-        if(parentNode.first == -1) 
+        if(parentNode.top().first == 0) 
         {
-            vertex.back().push_back(nodeNumber - 1);
+            if(first_time == true)
+            {
+                vertex.back().push_back(0);
+                first_time = false;
+            }
+            else vertex.back().push_back(nodeNumber - 1);
         }
         else
         {
-            if(parentNode.second == "DoBegin")
+            if(parentNode.top().second == "DoBegin")
             {
                 // condition node is a parent too
-                vertex.back().push_back(parentNode.first + 1); 
+                vertex.back().push_back(parentNode.top().first + 1); 
             }
-            vertex.back().push_back(parentNode.first); 
+            vertex.back().push_back(parentNode.top().first); 
         }   
         lastLoopNode.push(nodeNumber); 
-        parentNode = std::make_pair(nodeNumber, "DoBegin");
+        parentNode.push(std::make_pair(nodeNumber, "DoBegin"));
         nodeNumber++;
         
         
-        nodes[nodeNumber] = "Condition";
+        nodes[nodeNumber] = "DoCondition" + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
         vertex.back().push_back(nodeNumber - 1);
         nodeNumber++;
         
         
-        nodes[nodeNumber] = "DoEnd";
+        nodes[nodeNumber] = "DoEnd" + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
         vertex.back().push_back(nodeNumber - 1);
         nodeNumber++;
@@ -205,20 +270,20 @@ public:
     
     void addReturn()
     {
-        nodes[nodeNumber] = "Return";
+        nodes[nodeNumber] = "Return" + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
-         if(parentNode.first == -1) 
+         if(parentNode.top().first == -1) 
         {
             vertex.back().push_back(nodeNumber - 1);
         }
         else
         {
-            if(parentNode.second == "DoBegin")
+            if(parentNode.top().second == "DoBegin")
             {
                 // condition node is a parent too
-                vertex.back().push_back(parentNode.first + 1); 
+                vertex.back().push_back(parentNode.top().first + 1); 
             }
-            vertex.back().push_back(parentNode.first); 
+            vertex.back().push_back(parentNode.top().first); 
         } 
         // add return stmt as one of the parent of the ExitMethod node
         vertex[1].push_back(nodeNumber);
@@ -227,20 +292,20 @@ public:
     
     void addContinue()
     {
-        nodes[nodeNumber] = "Continue";
+        nodes[nodeNumber] = "Continue" + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
-        if(parentNode.first == -1) 
+        if(parentNode.top().first == -1) 
         {
             vertex.back().push_back(nodeNumber - 1);
         }
         else
         {
-            if(parentNode.second == "DoBegin")
+            if(parentNode.top().second == "DoBegin")
             {
                 // condition node is a parent too
-                vertex.back().push_back(parentNode.first + 1); 
+                vertex.back().push_back(parentNode.top().first + 1); 
             }
-            vertex.back().push_back(parentNode.first); 
+            vertex.back().push_back(parentNode.top().first); 
         } 
         vertex[lastLoopNode.top()].push_back(nodeNumber);
         nodeNumber++;        
@@ -248,20 +313,20 @@ public:
     
     void addBreak()
     {
-        nodes[nodeNumber] = "Break";
+        nodes[nodeNumber] = "Break" + std::to_string(nodeNumber);
         vertex.push_back(std::list<unsigned int>());
-        if(parentNode.first == -1) 
+        if(parentNode.top().first == -1) 
         {
             vertex.back().push_back(nodeNumber - 1);
         }
         else
         {
-            if(parentNode.second == "DoBegin")
+            if(parentNode.top().second == "DoBegin")
             {
                 // condition node is a parent too
-                vertex.back().push_back(parentNode.first + 1); 
+                vertex.back().push_back(parentNode.top().first + 1); 
             }
-            vertex.back().push_back(parentNode.first); 
+            vertex.back().push_back(parentNode.top().first); 
         } 
         vertex[lastLoopNode.top()].push_back(nodeNumber);
         nodeNumber++;        
@@ -270,7 +335,11 @@ public:
     void popLastLoop()
     {
         lastLoopNode.pop();
-        parentNode.first = -1;
+    }
+    
+    void endGraph()
+    {
+        vertex[1].push_back(nodeNumber - 1);
     }
     
     
@@ -290,14 +359,25 @@ public:
         outfile << "}";
     }
 
+    void dominators(std::ofstream& outfile)
+    {
+        outfile << "digraph { " << "\n"; 
+        //fill initial structure
+         
+        
+        outfile << "}";    
+    }
+    
 private:
+    bool first_time = true;
     unsigned int nodeNumber = 0;
     std::string dot_file;
     std::string name_;
     std::map<unsigned int, std::string> nodes;
     std::vector<std::list<unsigned int>> vertex;
     std::stack<unsigned int> lastLoopNode;
-    std::pair<unsigned int, std::string> parentNode;
+    std::stack<std::pair<unsigned int, std::string>>parentNode;
+    std::stack::<unsigned int> lastNestedStmt;
     //std::stack<unsigned int>parentNode;
     //unsigned int parentNodeNumber_;
 
@@ -310,6 +390,9 @@ int main(int argc, const char * argv[])
    
     std::ifstream ast_file(argv[1], std::ifstream::in);
     std::ofstream cfg_file("cfg.dot", std::ofstream::out);
+    std::ofstream dominator_file("dominators.dot", std::ofstream::out);
+    
+    #if 0
     cfg_file <<  "digraph G {\n" 
         << " \tfontname = \"Bitstream Vera Sans\"\n"
         << "\tfontsize = 8\n"
@@ -323,16 +406,13 @@ int main(int argc, const char * argv[])
         << "\t\tfontname = \"Bitstream Vera Sans\"\n"
         << "\t\tfontsize = 8\n"
         << "\t]\n\n";
+    #endif
     
     std::string ast_string;
     getline(ast_file, ast_string);
     
-//    unsigned int nodeNumber = 0;
-//    std::map<int, std::string> nodes;
-//    std::vector<std::list<int>>vertex;
-//    std::stack<int> parentNode;
     
-    std::vector<class Graph> tablesOfGraph;
+    //std::unique_ptr<Graph>graph_object;
     Graph graph_object;
 
     do
@@ -343,11 +423,15 @@ int main(int argc, const char * argv[])
             getline(ast_file, ast_string);
         }
         
-	    if(ast_string.find("Traverse de la méthode") != std::string::npos)
+	    if(ast_string.find("Traverse de la methode") != std::string::npos)
         {
         
             std::size_t methodPos = ast_string.find_first_of("\"");
-            std::string methodName = ast_string.substr(methodPos + 1);
+            std::string methodName_deb = ast_string.substr(methodPos + 2);
+            methodPos = methodName_deb.find_first_of("(");
+            std::string methodName = methodName_deb.substr(0, methodPos-1);
+            
+//            graph_object->addMethod(methodName);
             graph_object.addMethod(methodName);
             getline(ast_file, ast_string);
             do
@@ -394,14 +478,17 @@ int main(int argc, const char * argv[])
                 }
                 
 	            // fin traverse 
-                if( ast_string.find("Fin de traverse de for") != std::string::npos ||
-                    ast_string.find("Fin de traverse de While") != std::string::npos ||
-                    ast_string.find("Fin de traverse de Switch") != std::string::npos ||
-                    ast_string.find("Fin de traverse de Do") != std::string::npos)
+	            // fin traverse 
+                if( ast_string.find("Fin de traverse de") != std::string::npos)
                 {
-                
-                    graph_object.popLastLoop();
-		            getline(ast_file, ast_string); 
+                    if( ast_string.find("for") != std::string::npos ||
+                        ast_string.find("While") != std::string::npos ||
+                        ast_string.find("Switch") != std::string::npos ||
+                        ast_string.find("Do") != std::string::npos)
+                    {
+                        graph_object.popLastLoop();
+                    }
+                    getline(ast_file, ast_string); 
                 }
 		        
 		        
@@ -427,18 +514,20 @@ int main(int argc, const char * argv[])
 		            getline(ast_file, ast_string); 
                 }
                 
-                else
+                if(ast_string.find("Fin traverse de la méthode") != std::string::npos)
                 {
-		            getline(ast_file, ast_string); 
-		        }
+                    graph_object.endGraph();
+                }
 		        
-  		    }while(ast_string.find("Fin traverse de la méthode") != std::string::npos);
+  		    }while(ast_string.find("Fin traverse de la méthode") == std::string::npos);
         }
         getline(ast_file, ast_string);
 
     }while(!ast_file.eof());
+    
 
     graph_object.drawCFGDot(cfg_file);
+    graoh_object.dominators(dominator_file);
     
  
     

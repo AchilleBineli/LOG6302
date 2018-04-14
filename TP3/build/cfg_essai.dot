@@ -1,7 +1,0 @@
-digraph G {main -> parse ;
-
-main -> method;
-method -> main;
-}
-    
-

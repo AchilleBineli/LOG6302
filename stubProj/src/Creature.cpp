@@ -153,6 +153,7 @@ int Creature::experienceGagnee(const Creature& creature)
 		}
 		else {
 			experience_ += experience;
+			return experience;
 		}
 		return experience;
 	}

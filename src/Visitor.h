@@ -29,14 +29,6 @@ public:
   bool VisitVarDecl(clang::VarDecl* D);
   bool VisitFieldDecl(clang::FieldDecl* D); 
 
-#if 0
-  bool VisitSwitchStmt(clang::SwitchStmt *S);
-  bool VisitDoStmt(clang::DoStmt *S);
-  bool VisitIfStmt(clang::IfStmt *S);
-  bool VisitWhileStmt(clang::WhileStmt *S);
-  bool VisitForStmt(clang::ForStmt *S);
-#endif
-
   // Traverses
   bool TraverseCXXMethodDecl(clang::CXXMethodDecl *D);
   bool TraverseForStmt(clang::ForStmt *S);
@@ -44,12 +36,7 @@ public:
   bool TraverseWhileStmt(clang::WhileStmt *S);
   bool TraverseDoStmt(clang::DoStmt *S);
   bool TraverseSwitchStmt(clang::SwitchStmt *S);
- #if 0
-  //may not be useful  
-  bool TraverseContinueStmt(clang::ContinueStmt *S);
-  bool TraverseBreakStmt(clang::BreakStmt *S);
-  bool TraverseReturnStmt(clang::ReturnStmt *S);
-#endif
+
 
 private:
   clang::ASTContext &context_;
