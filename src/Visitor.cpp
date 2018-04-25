@@ -94,7 +94,7 @@ bool Visitor::VisitFieldDecl(clang::FieldDecl* D)
     return true;
   }
   ++nbDataMember;
-  std::cout << "[LOG6302] Data member : " << D->getNameAsString() << std::endl;
+ // std::cout << "[LOG6302] Data member : " << D->getNameAsString() << std::endl;
   return true; 
 }
 
@@ -140,8 +140,10 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 		unsigned int numberParameters = D->getNumParams();
 		
 		clang::QualType Q = D->getResultType();
-		std::cout                
-		<< "[LOG6302] Traverse de la méthode \""
+		//std::cout
+		//<< file_path << " line" << line_number << std::endl;
+		std::cout                 
+		//<< "[LOG6302] Traverse de la méthode \""
 		<< D->getNameAsString()
 		<< " (";
 		
@@ -158,27 +160,27 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 		}	
 		
 		std::cout 
-		<< ") "
-		<< " : " 
-		<< D->getResultType().getAsString()
-		<< "\""
-		<< std::endl
-		<< file_path
-		<< ":"
-		<< line_number
-		<< std::endl;
+		<< "):" 
+		<< D->getResultType().getAsString() << "  ";
+		//<< "\""
+		//<< std::endl;
+		
+	//	<< file_path
+	//	<< ":"
+	//	<< line_number
+	//	<< std::endl;
 		
 
 		clang::RecursiveASTVisitor<Visitor>::TraverseCXXMethodDecl(D);
 
-		std::cout << "Nombre de if = " << nbIf << std::endl;
-		std::cout << "Nombre de for = " << nbFor << std::endl;
-		std::cout << "Nombre de while = " << nbWhile << std::endl;
-		std::cout << "Nombre de Break = " << nbBreak << std::endl;
-		std::cout << "Nombre de Continue = " << nbContinue << std::endl;
-		std::cout << "Nombre de variables locales = " << nbVar  << std::endl;
+		std::cout << "#if[" << nbIf << "];";
+		std::cout << "#for[" << nbFor << "];";
+		std::cout << "#while[" << nbWhile << "];";
+		std::cout << "#Break[" << nbBreak << "];";
+		std::cout << "#Continue[" << nbContinue << "]" << std::endl << std::endl;
+		//std::cout << "Nombre de variables locales = " << nbVar  << std::endl;
 
-		std::cout<<"[LOG6302] Fin traverse de la méthode \""<<  D->getNameAsString()  <<" \" \n";
+		//std::cout<<"[LOG6302] Fin traverse de la méthode \""<<  D->getNameAsString()  <<" \" \n";
 }
 
   return true;

@@ -1,0 +1,140 @@
+Using clang's libraries version 3.3
+[11%] /usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp
+obtenirNom ():int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirBonus ():int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+modifierNom (const int &):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+modifierBonus (int):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+[22%] /usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp
+obtenirNom ():int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+modifierNom (const int &):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirNombreCreatures ():unsigned int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirUneCreature (const int &):class Creature *=> #if[0];#for[1];#while[0];#Break[0];#Continue[0]
+
+[33%] /usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiqueConfusion.cpp
+obtenirTypeAttaque ():int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+appliquerAttaque (class Creature &):void=> #if[3];#for[0];#while[0];#Break[0];#Continue[0]
+
+estFini ():_Bool=> #if[1];#for[0];#while[0];#Break[0];#Continue[0]
+
+[44%] /usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp
+ajouterDresseur (class Dresseur *):_Bool=> #if[0];#for[1];#while[0];#Break[0];#Continue[0]
+
+retirerDresseur (const int &):_Bool=> #if[0];#for[1];#while[0];#Break[0];#Continue[0]
+
+ajouterCreature (class Creature *):_Bool=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+retirerCreature (const int &):_Bool=> #if[0];#for[1];#while[0];#Break[0];#Continue[0]
+
+choisirDresseurAleatoire ():class Dresseur *=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+choisirCreatureAleatoire ():class Creature *=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+attraperCreature (class Dresseur *, class Creature *):_Bool=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+relacherCreature (class Dresseur *, const int):_Bool=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+operator+= (class Dresseur *):class PolyLand &=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+operator-= (class Dresseur *):class PolyLand &=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+operator+= (class Creature *):class PolyLand &=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+operator-= (class Creature *):class PolyLand &=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+[56%] /usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp
+obtenirEnergieNecessaire ():unsigned int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirNom ():int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+modifierNombreDeDegat (unsigned int):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+modifierEnergieNecessarie (unsigned int):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+modifierNom (const int &):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirNombreDeDegat ():unsigned int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+operator= (const class Pouvoir &):class Pouvoir &=> #if[1];#for[0];#while[0];#Break[0];#Continue[0]
+
+operator== (const class Pouvoir &):_Bool=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+[67%] /usagers/acbin/Bureau/LOG6302/stubProj/src/main.cpp
+[78%] /usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiquePoison.cpp
+obtenirTypeAttaque ():int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+appliquerAttaque (class Creature &):void=> #if[3];#for[0];#while[0];#Break[0];#Continue[0]
+
+estFini ():_Bool=> #if[1];#for[0];#while[0];#Break[0];#Continue[0]
+
+[89%] /usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp
+operator= (const class CreatureMagique &):class CreatureMagique &=> #if[1];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirAttaqueMagique ():class AttaqueMagique *=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirBonus ():unsigned int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+modifierBonus (unsigned int):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+modfierAttaqueMagique (const class AttaqueMagique &):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirTypeCreature ():int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+attaquer (const class Pouvoir &, class Creature &):void=> #if[3];#for[0];#while[0];#Break[0];#Continue[0]
+
+apprendreAttaqueMagique (const class AttaqueMagique &):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+oublierAttaqueMagique ():void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+[100%] /usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp
+obtenirNom ():int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirAttaque ():unsigned int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirDefense ():unsigned int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirPointDeVie ():unsigned int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirPointDeVieTotal ():unsigned int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirEnergie ():unsigned int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirEnergieTotale ():unsigned int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirExperience ():unsigned int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirExperienceNecessaire ():unsigned int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirNiveau ():unsigned int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+obtenirTypeCreature ():int=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+attaquer (const class Pouvoir &, class Creature &):void=> #if[4];#for[1];#while[0];#Break[0];#Continue[0]
+
+experienceGagnee (const class Creature &):int=> #if[2];#for[0];#while[0];#Break[0];#Continue[0]
+
+apprendrePouvoir (class Pouvoir *):_Bool=> #if[0];#for[1];#while[0];#Break[0];#Continue[0]
+
+oublierPouvoir (class Pouvoir *):_Bool=> #if[0];#for[1];#while[0];#Break[0];#Continue[0]
+
+modifierNom (const int &):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+modifierAttaque (unsigned int):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+modifierDefense (unsigned int):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+modifierPointDeVie (unsigned int):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+modifierEnergie (unsigned int):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+modifierExperience (unsigned int):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+
+modifierNiveau (unsigned int):void=> #if[0];#for[0];#while[0];#Break[0];#Continue[0]
+

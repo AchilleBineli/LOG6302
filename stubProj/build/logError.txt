@@ -1,0 +1,55 @@
+In file included from /usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp:1:
+/usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.h:12:10: fatal error: 'string' file not found
+#include <string>
+         ^
+1 error generated.
+Error while processing /usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp.
+In file included from /usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp:7:
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.h:11:10: fatal error: 'string' file not found
+#include <string>
+         ^
+1 error generated.
+Error while processing /usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp.
+In file included from /usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiqueConfusion.cpp:9:
+/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiqueConfusion.h:13:10: fatal error: 'iostream' file not found
+#include <iostream>
+         ^
+1 error generated.
+Error while processing /usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiqueConfusion.cpp.
+In file included from /usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp:8:
+In file included from /usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.h:12:
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.h:11:10: fatal error: 'string' file not found
+#include <string>
+         ^
+1 error generated.
+Error while processing /usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp.
+In file included from /usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp:1:
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.h:11:10: fatal error: 'string' file not found
+#include <string>
+         ^
+1 error generated.
+Error while processing /usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp.
+/usagers/acbin/Bureau/LOG6302/stubProj/src/main.cpp:9:10: fatal error: 'iostream' file not found
+#include <iostream>
+         ^
+1 error generated.
+Error while processing /usagers/acbin/Bureau/LOG6302/stubProj/src/main.cpp.
+In file included from /usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiquePoison.cpp:9:
+/usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiquePoison.h:12:10: fatal error: 'iostream' file not found
+#include <iostream>
+         ^
+1 error generated.
+Error while processing /usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiquePoison.cpp.
+In file included from /usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp:9:
+In file included from /usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.h:12:
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.h:11:10: fatal error: 'string' file not found
+#include <string>
+         ^
+1 error generated.
+Error while processing /usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp.
+In file included from /usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:1:
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.h:11:10: fatal error: 'string' file not found
+#include <string>
+         ^
+1 error generated.
+Error while processing /usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp.
