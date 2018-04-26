@@ -1,216 +1,33 @@
 Using clang's libraries version 3.3
 [11%] /usagers/acbin/Bureau/LOG6302/stubProj/src/ObjetMagique.cpp
 [LOG6302] Visite de la classe ObjetMagique
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" obtenirBonus ()  : int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirBonus " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" modifierBonus (int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierBonus " 
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirNom ()  : std::string
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" obtenirBonus ()  : int, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirBonus ()  : int
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirBonus " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void
 [LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" modifierBonus (int)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierBonus (int)  : void
 [LOG6302] Fin traverse de la méthode "modifierBonus " 
 [22%] /usagers/acbin/Bureau/LOG6302/stubProj/src/Dresseur.cpp
 [LOG6302] Visite de la classe Pouvoir
-[LOG6302] Traverse de la methode" obtenirNombreDeDegat ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNombreDeDegat " 
-[LOG6302] Traverse de la methode" obtenirEnergieNecessaire ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergieNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" modifierNombreDeDegat (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNombreDeDegat " 
-[LOG6302] Traverse de la methode" modifierEnergieNecessarie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEnergieNecessarie " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" operator= (const class Pouvoir &)  : class Pouvoir &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Pouvoir &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
 [LOG6302] Visite de la classe Creature
-[LOG6302] Traverse de la methode" obtenirNom ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" obtenirAttaque ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirAttaque " 
-[LOG6302] Traverse de la methode" obtenirDefense ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirDefense " 
-[LOG6302] Traverse de la methode" obtenirPointDeVie ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPointDeVie " 
-[LOG6302] Traverse de la methode" obtenirPointDeVieTotal ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPointDeVieTotal " 
-[LOG6302] Traverse de la methode" obtenirEnergie ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergie " 
-[LOG6302] Traverse de la methode" obtenirEnergieTotale ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergieTotale " 
-[LOG6302] Traverse de la methode" obtenirExperience ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirExperience " 
-[LOG6302] Traverse de la methode" obtenirExperienceNecessaire ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirExperienceNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNiveau ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNiveau " 
-[LOG6302] Traverse de la methode" obtenirPouvoirs ()  : vector<class Pouvoir *>, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPouvoirs " 
-, [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "attaquer " 
-[LOG6302] Traverse de la methode" experienceGagnee (const class Creature &)  : int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "experienceGagnee " 
-[LOG6302] Traverse de la methode" apprendrePouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "apprendrePouvoir " 
-[LOG6302] Traverse de la methode" oublierPouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "oublierPouvoir " 
-[LOG6302] Traverse de la methode" modifierNom (const string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" modifierAttaque (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierAttaque " 
-[LOG6302] Traverse de la methode" modifierDefense (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierDefense " 
-[LOG6302] Traverse de la methode" modifierPointDeVie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierPointDeVie " 
-[LOG6302] Traverse de la methode" modifierEnergie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEnergie " 
-[LOG6302] Traverse de la methode" modifierExperience (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierExperience " 
-[LOG6302] Traverse de la methode" modifierNiveau (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNiveau " 
-[LOG6302] Traverse de la methode" modifierPouvoirs (vector<class Pouvoir *>)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierPouvoirs " 
-[LOG6302] Traverse de la methode" operator= (const class Creature &)  : class Creature &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Creature &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" operator== (const string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" obtenirTypeCreature ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
 [LOG6302] Visite de la classe ObjetMagique
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" obtenirBonus ()  : int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirBonus " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" modifierBonus (int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierBonus " 
 [LOG6302] Visite de la classe Dresseur
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" obtenirNombreCreatures ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNombreCreatures " 
-[LOG6302] Traverse de la methode" obtenirCreatures ()  : std::vector<Creature *>, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirCreatures " 
-[LOG6302] Traverse de la methode" obtenirUneCreature (const std::string &)  : class Creature *, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirUneCreature " 
-[LOG6302] Traverse de la methode" modifierCreature (std::vector<Creature *>)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierCreature " 
-[LOG6302] Traverse de la methode" ajouterCreature (class Creature *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "ajouterCreature " 
-[LOG6302] Traverse de la methode" enleverCreature (const std::string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "enleverCreature " 
-[LOG6302] Traverse de la methode" obtenirObjetMagique ()  : class ObjetMagique, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirObjetMagique " 
-[LOG6302] Traverse de la methode" modifierObjetMagique (const class ObjetMagique &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierObjetMagique " 
-[LOG6302] Traverse de la methode" utiliserObjetMagique (class Creature *)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "utiliserObjetMagique " 
-[LOG6302] Traverse de la methode" obtenirEquipe ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEquipe " 
-[LOG6302] Traverse de la methode" modifierEquipe (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEquipe " 
-[LOG6302] Traverse de la methode" operator== (const class Dresseur &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" operator== (const std::string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirNom ()  : std::string
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void
 [LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" obtenirNombreCreatures ()  : unsigned int, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirNombreCreatures ()  : unsigned int
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirNombreCreatures " 
-[LOG6302] Traverse de la methode" obtenirCreatures ()  : std::vector<Creature *>, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirCreatures ()  : std::vector<Creature *>
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirCreatures " 
-[LOG6302] Traverse de la methode" obtenirUneCreature (const std::string &)  : class Creature *, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirUneCreature (const std::string &)  : class Creature *
 [LOG6302] Traverse for
 [LOG6302] Traverse if
 [LOG6302] Visite d'une expression return
@@ -218,11 +35,9 @@ after  push
 [LOG6302] Fin de traverse de for
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirUneCreature " 
-[LOG6302] Traverse de la methode" modifierCreature (std::vector<Creature *>)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierCreature (std::vector<Creature *>)  : void
 [LOG6302] Fin traverse de la méthode "modifierCreature " 
-[LOG6302] Traverse de la methode" ajouterCreature (class Creature *)  : _Bool, node number 0
-after  push
+[LOG6302] Traverse de la methode" ajouterCreature (class Creature *)  : _Bool
 [LOG6302] Traverse for
 [LOG6302] Traverse if
 [LOG6302] Visite d'une expression return
@@ -230,8 +45,7 @@ after  push
 [LOG6302] Fin de traverse de for
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "ajouterCreature " 
-[LOG6302] Traverse de la methode" enleverCreature (const std::string &)  : _Bool, node number 0
-after  push
+[LOG6302] Traverse de la methode" enleverCreature (const std::string &)  : _Bool
 [LOG6302] Traverse for
 [LOG6302] Traverse if
 [LOG6302] Visite d'une expression return
@@ -239,29 +53,23 @@ after  push
 [LOG6302] Fin de traverse de for
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "enleverCreature " 
-[LOG6302] Traverse de la methode" obtenirObjetMagique ()  : class ObjetMagique, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirObjetMagique ()  : class ObjetMagique
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirObjetMagique " 
-[LOG6302] Traverse de la methode" modifierObjetMagique (const class ObjetMagique &)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierObjetMagique (const class ObjetMagique &)  : void
 [LOG6302] Fin traverse de la méthode "modifierObjetMagique " 
-[LOG6302] Traverse de la methode" utiliserObjetMagique (class Creature *)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" utiliserObjetMagique (class Creature *)  : void
 [LOG6302] Traverse if
 [LOG6302] Fin de traverse de if
 [LOG6302] Traverse if
 [LOG6302] Fin de traverse de if
 [LOG6302] Fin traverse de la méthode "utiliserObjetMagique " 
-[LOG6302] Traverse de la methode" obtenirEquipe ()  : std::string, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirEquipe ()  : std::string
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirEquipe " 
-[LOG6302] Traverse de la methode" modifierEquipe (const std::string &)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierEquipe (const std::string &)  : void
 [LOG6302] Fin traverse de la méthode "modifierEquipe " 
-[LOG6302] Traverse de la methode" operator== (const class Dresseur &)  : _Bool, node number 0
-after  push
+[LOG6302] Traverse de la methode" operator== (const class Dresseur &)  : _Bool
 [LOG6302] Traverse if
 [LOG6302] Visite d'une expression return
 [LOG6302] Traverse if
@@ -280,153 +88,18 @@ after  push
 [LOG6302] Fin de traverse de if
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" operator== (const std::string &)  : _Bool, node number 0
-after  push
+[LOG6302] Traverse de la methode" operator== (const std::string &)  : _Bool
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "operator== " 
 [33%] /usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiqueConfusion.cpp
 [LOG6302] Visite de la classe Pouvoir
-[LOG6302] Traverse de la methode" obtenirNombreDeDegat ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNombreDeDegat " 
-[LOG6302] Traverse de la methode" obtenirEnergieNecessaire ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergieNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" modifierNombreDeDegat (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNombreDeDegat " 
-[LOG6302] Traverse de la methode" modifierEnergieNecessarie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEnergieNecessarie " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" operator= (const class Pouvoir &)  : class Pouvoir &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Pouvoir &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
 [LOG6302] Visite de la classe Creature
-[LOG6302] Traverse de la methode" obtenirNom ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" obtenirAttaque ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirAttaque " 
-[LOG6302] Traverse de la methode" obtenirDefense ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirDefense " 
-[LOG6302] Traverse de la methode" obtenirPointDeVie ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPointDeVie " 
-[LOG6302] Traverse de la methode" obtenirPointDeVieTotal ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPointDeVieTotal " 
-[LOG6302] Traverse de la methode" obtenirEnergie ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergie " 
-[LOG6302] Traverse de la methode" obtenirEnergieTotale ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergieTotale " 
-[LOG6302] Traverse de la methode" obtenirExperience ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirExperience " 
-[LOG6302] Traverse de la methode" obtenirExperienceNecessaire ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirExperienceNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNiveau ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNiveau " 
-[LOG6302] Traverse de la methode" obtenirPouvoirs ()  : vector<class Pouvoir *>, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPouvoirs " 
-, [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "attaquer " 
-[LOG6302] Traverse de la methode" experienceGagnee (const class Creature &)  : int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "experienceGagnee " 
-[LOG6302] Traverse de la methode" apprendrePouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "apprendrePouvoir " 
-[LOG6302] Traverse de la methode" oublierPouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "oublierPouvoir " 
-[LOG6302] Traverse de la methode" modifierNom (const string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" modifierAttaque (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierAttaque " 
-[LOG6302] Traverse de la methode" modifierDefense (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierDefense " 
-[LOG6302] Traverse de la methode" modifierPointDeVie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierPointDeVie " 
-[LOG6302] Traverse de la methode" modifierEnergie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEnergie " 
-[LOG6302] Traverse de la methode" modifierExperience (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierExperience " 
-[LOG6302] Traverse de la methode" modifierNiveau (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNiveau " 
-[LOG6302] Traverse de la methode" modifierPouvoirs (vector<class Pouvoir *>)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierPouvoirs " 
-[LOG6302] Traverse de la methode" operator= (const class Creature &)  : class Creature &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Creature &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" operator== (const string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" obtenirTypeCreature ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
 [LOG6302] Visite de la classe AttaqueMagique
-[LOG6302] Traverse de la methode" obtenirDuree ()  : unsigned int, node number 0
-after  push
-[LOG6302] Visite d'une expression return
-[LOG6302] Fin traverse de la méthode "obtenirDuree " 
-[LOG6302] Traverse de la methode" modifierDuree (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierDuree " 
-[LOG6302] Traverse de la methode" obtenirTypeAttaque ()  : string, node number 0
-after  push
-[LOG6302] Visite d'une expression return
-[LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-[LOG6302] Traverse de la methode" appliquerAttaque (class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-[LOG6302] Traverse de la methode" estFini ()  : _Bool, node number 0
-after  push
-[LOG6302] Visite d'une expression return
-[LOG6302] Fin traverse de la méthode "estFini " 
 [LOG6302] Visite de la classe AttaqueMagiqueConfusion
-[LOG6302] Traverse de la methode" obtenirTypeAttaque ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-[LOG6302] Traverse de la methode" appliquerAttaque (class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-[LOG6302] Traverse de la methode" estFini ()  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "estFini " 
-[LOG6302] Traverse de la methode" obtenirTypeAttaque ()  : string, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirTypeAttaque ()  : string
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-[LOG6302] Traverse de la methode" appliquerAttaque (class Creature &)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" appliquerAttaque (class Creature &)  : void
 [LOG6302] Traverse if
 [LOG6302] Traverse if
 [LOG6302] Traverse if
@@ -434,8 +107,7 @@ after  push
 [LOG6302] Fin de traverse de if
 [LOG6302] Fin de traverse de if
 [LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-[LOG6302] Traverse de la methode" estFini ()  : _Bool, node number 0
-after  push
+[LOG6302] Traverse de la methode" estFini ()  : _Bool
 [LOG6302] Traverse if
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin de traverse de if
@@ -443,210 +115,11 @@ after  push
 [LOG6302] Fin traverse de la méthode "estFini " 
 [44%] /usagers/acbin/Bureau/LOG6302/stubProj/src/PolyLand.cpp
 [LOG6302] Visite de la classe Pouvoir
-[LOG6302] Traverse de la methode" obtenirNombreDeDegat ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNombreDeDegat " 
-[LOG6302] Traverse de la methode" obtenirEnergieNecessaire ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergieNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" modifierNombreDeDegat (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNombreDeDegat " 
-[LOG6302] Traverse de la methode" modifierEnergieNecessarie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEnergieNecessarie " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" operator= (const class Pouvoir &)  : class Pouvoir &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Pouvoir &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
 [LOG6302] Visite de la classe Creature
-[LOG6302] Traverse de la methode" obtenirNom ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" obtenirAttaque ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirAttaque " 
-[LOG6302] Traverse de la methode" obtenirDefense ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirDefense " 
-[LOG6302] Traverse de la methode" obtenirPointDeVie ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPointDeVie " 
-[LOG6302] Traverse de la methode" obtenirPointDeVieTotal ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPointDeVieTotal " 
-[LOG6302] Traverse de la methode" obtenirEnergie ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergie " 
-[LOG6302] Traverse de la methode" obtenirEnergieTotale ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergieTotale " 
-[LOG6302] Traverse de la methode" obtenirExperience ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirExperience " 
-[LOG6302] Traverse de la methode" obtenirExperienceNecessaire ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirExperienceNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNiveau ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNiveau " 
-[LOG6302] Traverse de la methode" obtenirPouvoirs ()  : vector<class Pouvoir *>, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPouvoirs " 
-, [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "attaquer " 
-[LOG6302] Traverse de la methode" experienceGagnee (const class Creature &)  : int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "experienceGagnee " 
-[LOG6302] Traverse de la methode" apprendrePouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "apprendrePouvoir " 
-[LOG6302] Traverse de la methode" oublierPouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "oublierPouvoir " 
-[LOG6302] Traverse de la methode" modifierNom (const string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" modifierAttaque (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierAttaque " 
-[LOG6302] Traverse de la methode" modifierDefense (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierDefense " 
-[LOG6302] Traverse de la methode" modifierPointDeVie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierPointDeVie " 
-[LOG6302] Traverse de la methode" modifierEnergie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEnergie " 
-[LOG6302] Traverse de la methode" modifierExperience (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierExperience " 
-[LOG6302] Traverse de la methode" modifierNiveau (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNiveau " 
-[LOG6302] Traverse de la methode" modifierPouvoirs (vector<class Pouvoir *>)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierPouvoirs " 
-[LOG6302] Traverse de la methode" operator= (const class Creature &)  : class Creature &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Creature &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" operator== (const string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" obtenirTypeCreature ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
 [LOG6302] Visite de la classe ObjetMagique
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" obtenirBonus ()  : int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirBonus " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" modifierBonus (int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierBonus " 
 [LOG6302] Visite de la classe Dresseur
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" obtenirNombreCreatures ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNombreCreatures " 
-[LOG6302] Traverse de la methode" obtenirCreatures ()  : std::vector<Creature *>, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirCreatures " 
-[LOG6302] Traverse de la methode" obtenirUneCreature (const std::string &)  : class Creature *, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirUneCreature " 
-[LOG6302] Traverse de la methode" modifierCreature (std::vector<Creature *>)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierCreature " 
-[LOG6302] Traverse de la methode" ajouterCreature (class Creature *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "ajouterCreature " 
-[LOG6302] Traverse de la methode" enleverCreature (const std::string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "enleverCreature " 
-[LOG6302] Traverse de la methode" obtenirObjetMagique ()  : class ObjetMagique, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirObjetMagique " 
-[LOG6302] Traverse de la methode" modifierObjetMagique (const class ObjetMagique &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierObjetMagique " 
-[LOG6302] Traverse de la methode" utiliserObjetMagique (class Creature *)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "utiliserObjetMagique " 
-[LOG6302] Traverse de la methode" obtenirEquipe ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEquipe " 
-[LOG6302] Traverse de la methode" modifierEquipe (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEquipe " 
-[LOG6302] Traverse de la methode" operator== (const class Dresseur &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" operator== (const std::string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
 [LOG6302] Visite de la classe PolyLand
-[LOG6302] Traverse de la methode" ajouterDresseur (class Dresseur *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "ajouterDresseur " 
-[LOG6302] Traverse de la methode" retirerDresseur (const std::string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "retirerDresseur " 
-[LOG6302] Traverse de la methode" ajouterCreature (class Creature *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "ajouterCreature " 
-[LOG6302] Traverse de la methode" retirerCreature (const std::string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "retirerCreature " 
-[LOG6302] Traverse de la methode" choisirDresseurAleatoire ()  : class Dresseur *, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "choisirDresseurAleatoire " 
-[LOG6302] Traverse de la methode" choisirCreatureAleatoire ()  : class Creature *, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "choisirCreatureAleatoire " 
-, [LOG6302] Traverse de la methode" attraperCreature (class Dresseur *class Creature *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "attraperCreature " 
-, [LOG6302] Traverse de la methode" relacherCreature (class Dresseur *const std::string)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "relacherCreature " 
-[LOG6302] Traverse de la methode" operator+= (class Dresseur *)  : class PolyLand &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator+= " 
-[LOG6302] Traverse de la methode" operator-= (class Dresseur *)  : class PolyLand &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator-= " 
-[LOG6302] Traverse de la methode" operator+= (class Creature *)  : class PolyLand &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator+= " 
-[LOG6302] Traverse de la methode" operator-= (class Creature *)  : class PolyLand &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator-= " 
-[LOG6302] Traverse de la methode" ajouterDresseur (class Dresseur *)  : _Bool, node number 0
-after  push
+[LOG6302] Traverse de la methode" ajouterDresseur (class Dresseur *)  : _Bool
 [LOG6302] Traverse for
 [LOG6302] Traverse if
 [LOG6302] Visite d'une expression return
@@ -654,8 +127,7 @@ after  push
 [LOG6302] Fin de traverse de for
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "ajouterDresseur " 
-[LOG6302] Traverse de la methode" retirerDresseur (const std::string &)  : _Bool, node number 0
-after  push
+[LOG6302] Traverse de la methode" retirerDresseur (const std::string &)  : _Bool
 [LOG6302] Traverse for
 [LOG6302] Traverse if
 [LOG6302] Visite d'une expression return
@@ -663,12 +135,10 @@ after  push
 [LOG6302] Fin de traverse de for
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "retirerDresseur " 
-[LOG6302] Traverse de la methode" ajouterCreature (class Creature *)  : _Bool, node number 0
-after  push
+[LOG6302] Traverse de la methode" ajouterCreature (class Creature *)  : _Bool
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "ajouterCreature " 
-[LOG6302] Traverse de la methode" retirerCreature (const std::string &)  : _Bool, node number 0
-after  push
+[LOG6302] Traverse de la methode" retirerCreature (const std::string &)  : _Bool
 [LOG6302] Traverse for
 [LOG6302] Traverse if
 [LOG6302] Visite d'une expression return
@@ -676,553 +146,82 @@ after  push
 [LOG6302] Fin de traverse de for
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "retirerCreature " 
-[LOG6302] Traverse de la methode" choisirDresseurAleatoire ()  : class Dresseur *, node number 0
-after  push
+[LOG6302] Traverse de la methode" choisirDresseurAleatoire ()  : class Dresseur *
 [LOG6302] Traverse if
 [LOG6302] Visite d'une expression return
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin de traverse de if
 [LOG6302] Fin traverse de la méthode "choisirDresseurAleatoire " 
-[LOG6302] Traverse de la methode" choisirCreatureAleatoire ()  : class Creature *, node number 0
-after  push
+[LOG6302] Traverse de la methode" choisirCreatureAleatoire ()  : class Creature *
 [LOG6302] Traverse if
 [LOG6302] Visite d'une expression return
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin de traverse de if
 [LOG6302] Fin traverse de la méthode "choisirCreatureAleatoire " 
-, [LOG6302] Traverse de la methode" attraperCreature (class Dresseur *class Creature *)  : _Bool, node number 0
-after  push
+, [LOG6302] Traverse de la methode" attraperCreature (class Dresseur *class Creature *)  : _Bool
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "attraperCreature " 
-, [LOG6302] Traverse de la methode" relacherCreature (class Dresseur *const std::string)  : _Bool, node number 0
-after  push
+, [LOG6302] Traverse de la methode" relacherCreature (class Dresseur *const std::string)  : _Bool
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "relacherCreature " 
-[LOG6302] Traverse de la methode" operator+= (class Dresseur *)  : class PolyLand &, node number 0
-after  push
+[LOG6302] Traverse de la methode" operator+= (class Dresseur *)  : class PolyLand &
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "operator+= " 
-[LOG6302] Traverse de la methode" operator-= (class Dresseur *)  : class PolyLand &, node number 0
-after  push
+[LOG6302] Traverse de la methode" operator-= (class Dresseur *)  : class PolyLand &
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "operator-= " 
-[LOG6302] Traverse de la methode" operator+= (class Creature *)  : class PolyLand &, node number 0
-after  push
+[LOG6302] Traverse de la methode" operator+= (class Creature *)  : class PolyLand &
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "operator+= " 
-[LOG6302] Traverse de la methode" operator-= (class Creature *)  : class PolyLand &, node number 0
-after  push
+[LOG6302] Traverse de la methode" operator-= (class Creature *)  : class PolyLand &
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "operator-= " 
 [56%] /usagers/acbin/Bureau/LOG6302/stubProj/src/Pouvoir.cpp
 [LOG6302] Visite de la classe Pouvoir
-[LOG6302] Traverse de la methode" obtenirNombreDeDegat ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNombreDeDegat " 
-[LOG6302] Traverse de la methode" obtenirEnergieNecessaire ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergieNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" modifierNombreDeDegat (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNombreDeDegat " 
-[LOG6302] Traverse de la methode" modifierEnergieNecessarie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEnergieNecessarie " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" operator= (const class Pouvoir &)  : class Pouvoir &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Pouvoir &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" obtenirEnergieNecessaire ()  : unsigned int, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirEnergieNecessaire ()  : unsigned int
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirEnergieNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirNom ()  : std::string
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" modifierNombreDeDegat (unsigned int)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierNombreDeDegat (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierNombreDeDegat " 
-[LOG6302] Traverse de la methode" modifierEnergieNecessarie (unsigned int)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierEnergieNecessarie (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierEnergieNecessarie " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void
 [LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" obtenirNombreDeDegat ()  : unsigned int, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirNombreDeDegat ()  : unsigned int
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirNombreDeDegat " 
-[LOG6302] Traverse de la methode" operator= (const class Pouvoir &)  : class Pouvoir &, node number 0
-after  push
+[LOG6302] Traverse de la methode" operator= (const class Pouvoir &)  : class Pouvoir &
 [LOG6302] Traverse if
 [LOG6302] Fin de traverse de if
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Pouvoir &)  : _Bool, node number 0
-after  push
+[LOG6302] Traverse de la methode" operator== (const class Pouvoir &)  : _Bool
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "operator== " 
 [67%] /usagers/acbin/Bureau/LOG6302/stubProj/src/main.cpp
 [LOG6302] Visite de la classe Pouvoir
-[LOG6302] Traverse de la methode" obtenirNombreDeDegat ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNombreDeDegat " 
-[LOG6302] Traverse de la methode" obtenirEnergieNecessaire ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergieNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" modifierNombreDeDegat (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNombreDeDegat " 
-[LOG6302] Traverse de la methode" modifierEnergieNecessarie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEnergieNecessarie " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" operator= (const class Pouvoir &)  : class Pouvoir &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Pouvoir &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
 [LOG6302] Visite de la classe Creature
-[LOG6302] Traverse de la methode" obtenirNom ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" obtenirAttaque ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirAttaque " 
-[LOG6302] Traverse de la methode" obtenirDefense ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirDefense " 
-[LOG6302] Traverse de la methode" obtenirPointDeVie ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPointDeVie " 
-[LOG6302] Traverse de la methode" obtenirPointDeVieTotal ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPointDeVieTotal " 
-[LOG6302] Traverse de la methode" obtenirEnergie ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergie " 
-[LOG6302] Traverse de la methode" obtenirEnergieTotale ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergieTotale " 
-[LOG6302] Traverse de la methode" obtenirExperience ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirExperience " 
-[LOG6302] Traverse de la methode" obtenirExperienceNecessaire ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirExperienceNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNiveau ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNiveau " 
-[LOG6302] Traverse de la methode" obtenirPouvoirs ()  : vector<class Pouvoir *>, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPouvoirs " 
-, [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "attaquer " 
-[LOG6302] Traverse de la methode" experienceGagnee (const class Creature &)  : int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "experienceGagnee " 
-[LOG6302] Traverse de la methode" apprendrePouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "apprendrePouvoir " 
-[LOG6302] Traverse de la methode" oublierPouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "oublierPouvoir " 
-[LOG6302] Traverse de la methode" modifierNom (const string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" modifierAttaque (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierAttaque " 
-[LOG6302] Traverse de la methode" modifierDefense (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierDefense " 
-[LOG6302] Traverse de la methode" modifierPointDeVie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierPointDeVie " 
-[LOG6302] Traverse de la methode" modifierEnergie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEnergie " 
-[LOG6302] Traverse de la methode" modifierExperience (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierExperience " 
-[LOG6302] Traverse de la methode" modifierNiveau (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNiveau " 
-[LOG6302] Traverse de la methode" modifierPouvoirs (vector<class Pouvoir *>)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierPouvoirs " 
-[LOG6302] Traverse de la methode" operator= (const class Creature &)  : class Creature &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Creature &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" operator== (const string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" obtenirTypeCreature ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
 [LOG6302] Visite de la classe ObjetMagique
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" obtenirBonus ()  : int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirBonus " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" modifierBonus (int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierBonus " 
 [LOG6302] Visite de la classe Dresseur
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" obtenirNombreCreatures ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNombreCreatures " 
-[LOG6302] Traverse de la methode" obtenirCreatures ()  : std::vector<Creature *>, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirCreatures " 
-[LOG6302] Traverse de la methode" obtenirUneCreature (const std::string &)  : class Creature *, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirUneCreature " 
-[LOG6302] Traverse de la methode" modifierCreature (std::vector<Creature *>)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierCreature " 
-[LOG6302] Traverse de la methode" ajouterCreature (class Creature *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "ajouterCreature " 
-[LOG6302] Traverse de la methode" enleverCreature (const std::string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "enleverCreature " 
-[LOG6302] Traverse de la methode" obtenirObjetMagique ()  : class ObjetMagique, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirObjetMagique " 
-[LOG6302] Traverse de la methode" modifierObjetMagique (const class ObjetMagique &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierObjetMagique " 
-[LOG6302] Traverse de la methode" utiliserObjetMagique (class Creature *)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "utiliserObjetMagique " 
-[LOG6302] Traverse de la methode" obtenirEquipe ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEquipe " 
-[LOG6302] Traverse de la methode" modifierEquipe (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEquipe " 
-[LOG6302] Traverse de la methode" operator== (const class Dresseur &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" operator== (const std::string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
 [LOG6302] Visite de la classe PolyLand
-[LOG6302] Traverse de la methode" ajouterDresseur (class Dresseur *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "ajouterDresseur " 
-[LOG6302] Traverse de la methode" retirerDresseur (const std::string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "retirerDresseur " 
-[LOG6302] Traverse de la methode" ajouterCreature (class Creature *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "ajouterCreature " 
-[LOG6302] Traverse de la methode" retirerCreature (const std::string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "retirerCreature " 
-[LOG6302] Traverse de la methode" choisirDresseurAleatoire ()  : class Dresseur *, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "choisirDresseurAleatoire " 
-[LOG6302] Traverse de la methode" choisirCreatureAleatoire ()  : class Creature *, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "choisirCreatureAleatoire " 
-, [LOG6302] Traverse de la methode" attraperCreature (class Dresseur *class Creature *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "attraperCreature " 
-, [LOG6302] Traverse de la methode" relacherCreature (class Dresseur *const std::string)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "relacherCreature " 
-[LOG6302] Traverse de la methode" operator+= (class Dresseur *)  : class PolyLand &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator+= " 
-[LOG6302] Traverse de la methode" operator-= (class Dresseur *)  : class PolyLand &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator-= " 
-[LOG6302] Traverse de la methode" operator+= (class Creature *)  : class PolyLand &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator+= " 
-[LOG6302] Traverse de la methode" operator-= (class Creature *)  : class PolyLand &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator-= " 
 [LOG6302] Visite de la classe AttaqueMagique
-[LOG6302] Traverse de la methode" obtenirDuree ()  : unsigned int, node number 0
-after  push
-[LOG6302] Visite d'une expression return
-[LOG6302] Fin traverse de la méthode "obtenirDuree " 
-[LOG6302] Traverse de la methode" modifierDuree (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierDuree " 
-[LOG6302] Traverse de la methode" obtenirTypeAttaque ()  : string, node number 0
-after  push
-[LOG6302] Visite d'une expression return
-[LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-[LOG6302] Traverse de la methode" appliquerAttaque (class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-[LOG6302] Traverse de la methode" estFini ()  : _Bool, node number 0
-after  push
-[LOG6302] Visite d'une expression return
-[LOG6302] Fin traverse de la méthode "estFini " 
 [LOG6302] Visite de la classe AttaqueMagiqueConfusion
-[LOG6302] Traverse de la methode" obtenirTypeAttaque ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-[LOG6302] Traverse de la methode" appliquerAttaque (class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-[LOG6302] Traverse de la methode" estFini ()  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "estFini " 
 [LOG6302] Visite de la classe AttaqueMagiquePoison
-[LOG6302] Traverse de la methode" obtenirTypeAttaque ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-[LOG6302] Traverse de la methode" appliquerAttaque (class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-[LOG6302] Traverse de la methode" estFini ()  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "estFini " 
 [LOG6302] Visite de la classe CreatureMagique
-[LOG6302] Traverse de la methode" operator= (const class CreatureMagique &)  : class CreatureMagique &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" obtenirAttaqueMagique ()  : class AttaqueMagique *, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirAttaqueMagique " 
-[LOG6302] Traverse de la methode" obtenirBonus ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirBonus " 
-[LOG6302] Traverse de la methode" modifierBonus (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierBonus " 
-[LOG6302] Traverse de la methode" modfierAttaqueMagique (const class AttaqueMagique &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modfierAttaqueMagique " 
-[LOG6302] Traverse de la methode" obtenirTypeCreature ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
-, [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "attaquer " 
-[LOG6302] Traverse de la methode" apprendreAttaqueMagique (const class AttaqueMagique &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "apprendreAttaqueMagique " 
-[LOG6302] Traverse de la methode" oublierAttaqueMagique ()  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "oublierAttaqueMagique " 
 [78%] /usagers/acbin/Bureau/LOG6302/stubProj/src/AttaqueMagiquePoison.cpp
 [LOG6302] Visite de la classe Pouvoir
-[LOG6302] Traverse de la methode" obtenirNombreDeDegat ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNombreDeDegat " 
-[LOG6302] Traverse de la methode" obtenirEnergieNecessaire ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergieNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" modifierNombreDeDegat (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNombreDeDegat " 
-[LOG6302] Traverse de la methode" modifierEnergieNecessarie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEnergieNecessarie " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" operator= (const class Pouvoir &)  : class Pouvoir &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Pouvoir &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
 [LOG6302] Visite de la classe Creature
-[LOG6302] Traverse de la methode" obtenirNom ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" obtenirAttaque ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirAttaque " 
-[LOG6302] Traverse de la methode" obtenirDefense ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirDefense " 
-[LOG6302] Traverse de la methode" obtenirPointDeVie ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPointDeVie " 
-[LOG6302] Traverse de la methode" obtenirPointDeVieTotal ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPointDeVieTotal " 
-[LOG6302] Traverse de la methode" obtenirEnergie ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergie " 
-[LOG6302] Traverse de la methode" obtenirEnergieTotale ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergieTotale " 
-[LOG6302] Traverse de la methode" obtenirExperience ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirExperience " 
-[LOG6302] Traverse de la methode" obtenirExperienceNecessaire ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirExperienceNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNiveau ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNiveau " 
-[LOG6302] Traverse de la methode" obtenirPouvoirs ()  : vector<class Pouvoir *>, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPouvoirs " 
-, [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "attaquer " 
-[LOG6302] Traverse de la methode" experienceGagnee (const class Creature &)  : int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "experienceGagnee " 
-[LOG6302] Traverse de la methode" apprendrePouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "apprendrePouvoir " 
-[LOG6302] Traverse de la methode" oublierPouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "oublierPouvoir " 
-[LOG6302] Traverse de la methode" modifierNom (const string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" modifierAttaque (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierAttaque " 
-[LOG6302] Traverse de la methode" modifierDefense (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierDefense " 
-[LOG6302] Traverse de la methode" modifierPointDeVie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierPointDeVie " 
-[LOG6302] Traverse de la methode" modifierEnergie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEnergie " 
-[LOG6302] Traverse de la methode" modifierExperience (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierExperience " 
-[LOG6302] Traverse de la methode" modifierNiveau (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNiveau " 
-[LOG6302] Traverse de la methode" modifierPouvoirs (vector<class Pouvoir *>)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierPouvoirs " 
-[LOG6302] Traverse de la methode" operator= (const class Creature &)  : class Creature &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Creature &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" operator== (const string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" obtenirTypeCreature ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
 [LOG6302] Visite de la classe AttaqueMagique
-[LOG6302] Traverse de la methode" obtenirDuree ()  : unsigned int, node number 0
-after  push
-[LOG6302] Visite d'une expression return
-[LOG6302] Fin traverse de la méthode "obtenirDuree " 
-[LOG6302] Traverse de la methode" modifierDuree (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierDuree " 
-[LOG6302] Traverse de la methode" obtenirTypeAttaque ()  : string, node number 0
-after  push
-[LOG6302] Visite d'une expression return
-[LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-[LOG6302] Traverse de la methode" appliquerAttaque (class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-[LOG6302] Traverse de la methode" estFini ()  : _Bool, node number 0
-after  push
-[LOG6302] Visite d'une expression return
-[LOG6302] Fin traverse de la méthode "estFini " 
 [LOG6302] Visite de la classe AttaqueMagiqueConfusion
-[LOG6302] Traverse de la methode" obtenirTypeAttaque ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-[LOG6302] Traverse de la methode" appliquerAttaque (class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-[LOG6302] Traverse de la methode" estFini ()  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "estFini " 
 [LOG6302] Visite de la classe CreatureMagique
-[LOG6302] Traverse de la methode" operator= (const class CreatureMagique &)  : class CreatureMagique &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" obtenirAttaqueMagique ()  : class AttaqueMagique *, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirAttaqueMagique " 
-[LOG6302] Traverse de la methode" obtenirBonus ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirBonus " 
-[LOG6302] Traverse de la methode" modifierBonus (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierBonus " 
-[LOG6302] Traverse de la methode" modfierAttaqueMagique (const class AttaqueMagique &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modfierAttaqueMagique " 
-[LOG6302] Traverse de la methode" obtenirTypeCreature ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
-, [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "attaquer " 
-[LOG6302] Traverse de la methode" apprendreAttaqueMagique (const class AttaqueMagique &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "apprendreAttaqueMagique " 
-[LOG6302] Traverse de la methode" oublierAttaqueMagique ()  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "oublierAttaqueMagique " 
 [LOG6302] Visite de la classe AttaqueMagiquePoison
-[LOG6302] Traverse de la methode" obtenirTypeAttaque ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-[LOG6302] Traverse de la methode" appliquerAttaque (class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-[LOG6302] Traverse de la methode" estFini ()  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "estFini " 
-[LOG6302] Traverse de la methode" obtenirTypeAttaque ()  : string, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirTypeAttaque ()  : string
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-[LOG6302] Traverse de la methode" appliquerAttaque (class Creature &)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" appliquerAttaque (class Creature &)  : void
 [LOG6302] Traverse if
 [LOG6302] Traverse if
 [LOG6302] Traverse if
@@ -1230,8 +229,7 @@ after  push
 [LOG6302] Fin de traverse de if
 [LOG6302] Fin de traverse de if
 [LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-[LOG6302] Traverse de la methode" estFini ()  : _Bool, node number 0
-after  push
+[LOG6302] Traverse de la methode" estFini ()  : _Bool
 [LOG6302] Traverse if
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin de traverse de if
@@ -1239,205 +237,30 @@ after  push
 [LOG6302] Fin traverse de la méthode "estFini " 
 [89%] /usagers/acbin/Bureau/LOG6302/stubProj/src/CreatureMagique.cpp
 [LOG6302] Visite de la classe Pouvoir
-[LOG6302] Traverse de la methode" obtenirNombreDeDegat ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNombreDeDegat " 
-[LOG6302] Traverse de la methode" obtenirEnergieNecessaire ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergieNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" modifierNombreDeDegat (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNombreDeDegat " 
-[LOG6302] Traverse de la methode" modifierEnergieNecessarie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEnergieNecessarie " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" operator= (const class Pouvoir &)  : class Pouvoir &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Pouvoir &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
 [LOG6302] Visite de la classe Creature
-[LOG6302] Traverse de la methode" obtenirNom ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" obtenirAttaque ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirAttaque " 
-[LOG6302] Traverse de la methode" obtenirDefense ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirDefense " 
-[LOG6302] Traverse de la methode" obtenirPointDeVie ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPointDeVie " 
-[LOG6302] Traverse de la methode" obtenirPointDeVieTotal ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPointDeVieTotal " 
-[LOG6302] Traverse de la methode" obtenirEnergie ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergie " 
-[LOG6302] Traverse de la methode" obtenirEnergieTotale ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergieTotale " 
-[LOG6302] Traverse de la methode" obtenirExperience ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirExperience " 
-[LOG6302] Traverse de la methode" obtenirExperienceNecessaire ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirExperienceNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNiveau ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNiveau " 
-[LOG6302] Traverse de la methode" obtenirPouvoirs ()  : vector<class Pouvoir *>, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPouvoirs " 
-, [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "attaquer " 
-[LOG6302] Traverse de la methode" experienceGagnee (const class Creature &)  : int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "experienceGagnee " 
-[LOG6302] Traverse de la methode" apprendrePouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "apprendrePouvoir " 
-[LOG6302] Traverse de la methode" oublierPouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "oublierPouvoir " 
-[LOG6302] Traverse de la methode" modifierNom (const string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" modifierAttaque (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierAttaque " 
-[LOG6302] Traverse de la methode" modifierDefense (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierDefense " 
-[LOG6302] Traverse de la methode" modifierPointDeVie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierPointDeVie " 
-[LOG6302] Traverse de la methode" modifierEnergie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEnergie " 
-[LOG6302] Traverse de la methode" modifierExperience (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierExperience " 
-[LOG6302] Traverse de la methode" modifierNiveau (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNiveau " 
-[LOG6302] Traverse de la methode" modifierPouvoirs (vector<class Pouvoir *>)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierPouvoirs " 
-[LOG6302] Traverse de la methode" operator= (const class Creature &)  : class Creature &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Creature &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" operator== (const string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" obtenirTypeCreature ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
 [LOG6302] Visite de la classe AttaqueMagique
-[LOG6302] Traverse de la methode" obtenirDuree ()  : unsigned int, node number 0
-after  push
-[LOG6302] Visite d'une expression return
-[LOG6302] Fin traverse de la méthode "obtenirDuree " 
-[LOG6302] Traverse de la methode" modifierDuree (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierDuree " 
-[LOG6302] Traverse de la methode" obtenirTypeAttaque ()  : string, node number 0
-after  push
-[LOG6302] Visite d'une expression return
-[LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-[LOG6302] Traverse de la methode" appliquerAttaque (class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-[LOG6302] Traverse de la methode" estFini ()  : _Bool, node number 0
-after  push
-[LOG6302] Visite d'une expression return
-[LOG6302] Fin traverse de la méthode "estFini " 
 [LOG6302] Visite de la classe AttaqueMagiqueConfusion
-[LOG6302] Traverse de la methode" obtenirTypeAttaque ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-[LOG6302] Traverse de la methode" appliquerAttaque (class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-[LOG6302] Traverse de la methode" estFini ()  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "estFini " 
 [LOG6302] Visite de la classe AttaqueMagiquePoison
-[LOG6302] Traverse de la methode" obtenirTypeAttaque ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeAttaque " 
-[LOG6302] Traverse de la methode" appliquerAttaque (class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "appliquerAttaque " 
-[LOG6302] Traverse de la methode" estFini ()  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "estFini " 
 [LOG6302] Visite de la classe CreatureMagique
-[LOG6302] Traverse de la methode" operator= (const class CreatureMagique &)  : class CreatureMagique &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" obtenirAttaqueMagique ()  : class AttaqueMagique *, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirAttaqueMagique " 
-[LOG6302] Traverse de la methode" obtenirBonus ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirBonus " 
-[LOG6302] Traverse de la methode" modifierBonus (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierBonus " 
-[LOG6302] Traverse de la methode" modfierAttaqueMagique (const class AttaqueMagique &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modfierAttaqueMagique " 
-[LOG6302] Traverse de la methode" obtenirTypeCreature ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
-, [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "attaquer " 
-[LOG6302] Traverse de la methode" apprendreAttaqueMagique (const class AttaqueMagique &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "apprendreAttaqueMagique " 
-[LOG6302] Traverse de la methode" oublierAttaqueMagique ()  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "oublierAttaqueMagique " 
-[LOG6302] Traverse de la methode" operator= (const class CreatureMagique &)  : class CreatureMagique &, node number 0
-after  push
+[LOG6302] Traverse de la methode" operator= (const class CreatureMagique &)  : class CreatureMagique &
 [LOG6302] Traverse if
 [LOG6302] Fin de traverse de if
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" obtenirAttaqueMagique ()  : class AttaqueMagique *, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirAttaqueMagique ()  : class AttaqueMagique *
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirAttaqueMagique " 
-[LOG6302] Traverse de la methode" obtenirBonus ()  : unsigned int, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirBonus ()  : unsigned int
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirBonus " 
-[LOG6302] Traverse de la methode" modifierBonus (unsigned int)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierBonus (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierBonus " 
-[LOG6302] Traverse de la methode" modfierAttaqueMagique (const class AttaqueMagique &)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modfierAttaqueMagique (const class AttaqueMagique &)  : void
 [LOG6302] Fin traverse de la méthode "modfierAttaqueMagique " 
-[LOG6302] Traverse de la methode" obtenirTypeCreature ()  : string, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirTypeCreature ()  : string
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
-, [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void, node number 0
-after  push
+, [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void
 [LOG6302] Traverse if
 [LOG6302] Fin de traverse de if
 [LOG6302] Traverse if
@@ -1445,174 +268,54 @@ after  push
 [LOG6302] Fin de traverse de if
 [LOG6302] Fin de traverse de if
 [LOG6302] Fin traverse de la méthode "attaquer " 
-[LOG6302] Traverse de la methode" apprendreAttaqueMagique (const class AttaqueMagique &)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" apprendreAttaqueMagique (const class AttaqueMagique &)  : void
 [LOG6302] Traverse if
 [LOG6302] Fin de traverse de if
 [LOG6302] Traverse if
 [LOG6302] Fin de traverse de if
 [LOG6302] Fin traverse de la méthode "apprendreAttaqueMagique " 
-[LOG6302] Traverse de la methode" oublierAttaqueMagique ()  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" oublierAttaqueMagique ()  : void
 [LOG6302] Fin traverse de la méthode "oublierAttaqueMagique " 
 [100%] /usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp
 [LOG6302] Visite de la classe Pouvoir
-[LOG6302] Traverse de la methode" obtenirNombreDeDegat ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNombreDeDegat " 
-[LOG6302] Traverse de la methode" obtenirEnergieNecessaire ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergieNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNom ()  : std::string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" modifierNombreDeDegat (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNombreDeDegat " 
-[LOG6302] Traverse de la methode" modifierEnergieNecessarie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEnergieNecessarie " 
-[LOG6302] Traverse de la methode" modifierNom (const std::string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" operator= (const class Pouvoir &)  : class Pouvoir &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Pouvoir &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
 [LOG6302] Visite de la classe Creature
-[LOG6302] Traverse de la methode" obtenirNom ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" obtenirAttaque ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirAttaque " 
-[LOG6302] Traverse de la methode" obtenirDefense ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirDefense " 
-[LOG6302] Traverse de la methode" obtenirPointDeVie ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPointDeVie " 
-[LOG6302] Traverse de la methode" obtenirPointDeVieTotal ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPointDeVieTotal " 
-[LOG6302] Traverse de la methode" obtenirEnergie ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergie " 
-[LOG6302] Traverse de la methode" obtenirEnergieTotale ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirEnergieTotale " 
-[LOG6302] Traverse de la methode" obtenirExperience ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirExperience " 
-[LOG6302] Traverse de la methode" obtenirExperienceNecessaire ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirExperienceNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNiveau ()  : unsigned int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirNiveau " 
-[LOG6302] Traverse de la methode" obtenirPouvoirs ()  : vector<class Pouvoir *>, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirPouvoirs " 
-, [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "attaquer " 
-[LOG6302] Traverse de la methode" experienceGagnee (const class Creature &)  : int, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "experienceGagnee " 
-[LOG6302] Traverse de la methode" apprendrePouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "apprendrePouvoir " 
-[LOG6302] Traverse de la methode" oublierPouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "oublierPouvoir " 
-[LOG6302] Traverse de la methode" modifierNom (const string &)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" modifierAttaque (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierAttaque " 
-[LOG6302] Traverse de la methode" modifierDefense (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierDefense " 
-[LOG6302] Traverse de la methode" modifierPointDeVie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierPointDeVie " 
-[LOG6302] Traverse de la methode" modifierEnergie (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierEnergie " 
-[LOG6302] Traverse de la methode" modifierExperience (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierExperience " 
-[LOG6302] Traverse de la methode" modifierNiveau (unsigned int)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierNiveau " 
-[LOG6302] Traverse de la methode" modifierPouvoirs (vector<class Pouvoir *>)  : void, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "modifierPouvoirs " 
-[LOG6302] Traverse de la methode" operator= (const class Creature &)  : class Creature &, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Creature &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" operator== (const string &)  : _Bool, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" obtenirTypeCreature ()  : string, node number 0
-after  push
-[LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
-[LOG6302] Traverse de la methode" obtenirNom ()  : string, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirNom ()  : string
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirNom " 
-[LOG6302] Traverse de la methode" obtenirAttaque ()  : unsigned int, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirAttaque ()  : unsigned int
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirAttaque " 
-[LOG6302] Traverse de la methode" obtenirDefense ()  : unsigned int, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirDefense ()  : unsigned int
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirDefense " 
-[LOG6302] Traverse de la methode" obtenirPointDeVie ()  : unsigned int, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirPointDeVie ()  : unsigned int
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirPointDeVie " 
-[LOG6302] Traverse de la methode" obtenirPointDeVieTotal ()  : unsigned int, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirPointDeVieTotal ()  : unsigned int
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirPointDeVieTotal " 
-[LOG6302] Traverse de la methode" obtenirEnergie ()  : unsigned int, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirEnergie ()  : unsigned int
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirEnergie " 
-[LOG6302] Traverse de la methode" obtenirEnergieTotale ()  : unsigned int, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirEnergieTotale ()  : unsigned int
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirEnergieTotale " 
-[LOG6302] Traverse de la methode" obtenirExperience ()  : unsigned int, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirExperience ()  : unsigned int
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirExperience " 
-[LOG6302] Traverse de la methode" obtenirExperienceNecessaire ()  : unsigned int, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirExperienceNecessaire ()  : unsigned int
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirExperienceNecessaire " 
-[LOG6302] Traverse de la methode" obtenirNiveau ()  : unsigned int, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirNiveau ()  : unsigned int
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirNiveau " 
-[LOG6302] Traverse de la methode" obtenirPouvoirs ()  : vector<class Pouvoir *>, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirPouvoirs ()  : vector<class Pouvoir *>
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirPouvoirs " 
-[LOG6302] Traverse de la methode" obtenirTypeCreature ()  : string, node number 0
-after  push
+[LOG6302] Traverse de la methode" obtenirTypeCreature ()  : string
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "obtenirTypeCreature " 
-, [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void, node number 0
-after  push
+, [LOG6302] Traverse de la methode" attaquer (const class Pouvoir &class Creature &)  : void
 [LOG6302] Traverse for
 [LOG6302] Traverse if
 [LOG6302] Fin de traverse de if
@@ -1626,8 +329,7 @@ after  push
 [LOG6302] Fin de traverse de if
 [LOG6302] Fin de traverse de if
 [LOG6302] Fin traverse de la méthode "attaquer " 
-[LOG6302] Traverse de la methode" experienceGagnee (const class Creature &)  : int, node number 0
-after  push
+[LOG6302] Traverse de la methode" experienceGagnee (const class Creature &)  : int
 [LOG6302] Traverse if
 [LOG6302] Traverse if
 [LOG6302] Visite d'une expression return
@@ -1636,8 +338,7 @@ after  push
 [LOG6302] Fin de traverse de if
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "experienceGagnee " 
-[LOG6302] Traverse de la methode" apprendrePouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
+[LOG6302] Traverse de la methode" apprendrePouvoir (class Pouvoir *)  : _Bool
 [LOG6302] Traverse for
 [LOG6302] Traverse if
 [LOG6302] Visite d'une expression return
@@ -1645,8 +346,7 @@ after  push
 [LOG6302] Fin de traverse de for
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "apprendrePouvoir " 
-[LOG6302] Traverse de la methode" oublierPouvoir (class Pouvoir *)  : _Bool, node number 0
-after  push
+[LOG6302] Traverse de la methode" oublierPouvoir (class Pouvoir *)  : _Bool
 [LOG6302] Traverse for
 [LOG6302] Traverse if
 [LOG6302] Visite d'une expression return
@@ -1654,47 +354,36 @@ after  push
 [LOG6302] Fin de traverse de for
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "oublierPouvoir " 
-[LOG6302] Traverse de la methode" modifierNom (const string &)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierNom (const string &)  : void
 [LOG6302] Fin traverse de la méthode "modifierNom " 
-[LOG6302] Traverse de la methode" modifierAttaque (unsigned int)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierAttaque (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierAttaque " 
-[LOG6302] Traverse de la methode" modifierDefense (unsigned int)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierDefense (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierDefense " 
-[LOG6302] Traverse de la methode" modifierPointDeVie (unsigned int)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierPointDeVie (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierPointDeVie " 
-[LOG6302] Traverse de la methode" modifierEnergie (unsigned int)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierEnergie (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierEnergie " 
-[LOG6302] Traverse de la methode" modifierExperience (unsigned int)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierExperience (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierExperience " 
-[LOG6302] Traverse de la methode" modifierNiveau (unsigned int)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierNiveau (unsigned int)  : void
 [LOG6302] Fin traverse de la méthode "modifierNiveau " 
-[LOG6302] Traverse de la methode" modifierPouvoirs (vector<class Pouvoir *>)  : void, node number 0
-after  push
+[LOG6302] Traverse de la methode" modifierPouvoirs (vector<class Pouvoir *>)  : void
 [LOG6302] Traverse while
 [LOG6302] Fin de traverse de While
 [LOG6302] Traverse for
 [LOG6302] Fin de traverse de for
 [LOG6302] Fin traverse de la méthode "modifierPouvoirs " 
-[LOG6302] Traverse de la methode" operator= (const class Creature &)  : class Creature &, node number 0
-after  push
+[LOG6302] Traverse de la methode" operator= (const class Creature &)  : class Creature &
 [LOG6302] Traverse if
 [LOG6302] Traverse for
 [LOG6302] Fin de traverse de for
 [LOG6302] Fin de traverse de if
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "operator= " 
-[LOG6302] Traverse de la methode" operator== (const class Creature &)  : _Bool, node number 0
-after  push
+[LOG6302] Traverse de la methode" operator== (const class Creature &)  : _Bool
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "operator== " 
-[LOG6302] Traverse de la methode" operator== (const string &)  : _Bool, node number 0
-after  push
+[LOG6302] Traverse de la methode" operator== (const string &)  : _Bool
 [LOG6302] Visite d'une expression return
 [LOG6302] Fin traverse de la méthode "operator== " 

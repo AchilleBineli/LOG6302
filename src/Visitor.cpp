@@ -9,8 +9,8 @@ bool Visitor::VisitCXXRecordDecl(clang::CXXRecordDecl *D) {
 
     if(!sm.isInSystemHeader(D->getLocation()))
     {
-    std::cout<<"[LOG6302] Visite de la classe "<< D->getNameAsString() <<"\n";
-    nbDataMember = 0;
+        std::cout<<"[LOG6302] Visite de la classe "<< D->getNameAsString() <<"\n";
+        nbDataMember = 0;
     }
     return true;
 }
@@ -22,11 +22,10 @@ bool Visitor::VisitCXXRecordDecl(clang::CXXRecordDecl *D) {
 bool Visitor::VisitBreakStmt(clang::BreakStmt *S)
 {
     
-        ++nbBreak;
-        if(!parents.empty())
+    ++nbBreak;
+    if(!parents.empty())
         std::cout<<"[LOG6302] Visite d'une expression :break\n";
-
-    ++nodeNumber;
+        ++nodeNumber;
     return true;
 }
 
@@ -37,11 +36,11 @@ bool Visitor::VisitBreakStmt(clang::BreakStmt *S)
 bool Visitor::VisitContinueStmt(clang::ContinueStmt *S)
 {
   
-        ++nbContinue;
-        if(!parents.empty()){
-            std::cout<<"[LOG6302] Visite d'une expression :Continue\n";
-    
-    ++nodeNumber;}
+    ++nbContinue;
+    if(!parents.empty()){
+        std::cout<<"[LOG6302] Visite d'une expression :Continue\n";
+        ++nodeNumber;
+    }
     return true;
 }
 
@@ -51,13 +50,11 @@ bool Visitor::VisitContinueStmt(clang::ContinueStmt *S)
 /**********************/
 bool Visitor::VisitReturnStmt(clang::ReturnStmt *S)
 {
-  
-  	
- 	if(!parents.empty()){
-		std::cout << "[LOG6302] Visite d'une expression return\n";
-  ++nbReturn;  
-  }   
-  return true;
+    if(!parents.empty()){
+        std::cout << "[LOG6302] Visite d'une expression return\n";
+        ++nbReturn;  
+    }   
+    return true;
 }
 
 
@@ -126,6 +123,7 @@ bool Visitor::TraverseIfStmt(clang::IfStmt* S)
         }
         #endif
     }
+    ++nbIf;
     return true;
 }
 
@@ -151,6 +149,7 @@ bool Visitor::TraverseForStmt(clang::ForStmt* S)
         parents.pop();
         std::cout << "[LOG6302] Fin de traverse de for" << std::endl;
     }
+    ++nbFor;
     return true;
 }
 
@@ -166,12 +165,13 @@ bool Visitor::TraverseWhileStmt(clang::WhileStmt* S)
    
     else
     {
-        std::cout << "[LOG6302] Traverse while\n";
+       std::cout << "[LOG6302] Traverse while\n";
         parents.push(std::make_pair(nodeNumber, "While"));
         nodeNumber++; clang::RecursiveASTVisitor<Visitor>::TraverseWhileStmt(S);
         parents.pop();
         std::cout << "[LOG6302] Fin de traverse de While" << std::endl;
     }
+    ++nbWhile;
     return true;
 }
 
@@ -193,6 +193,7 @@ bool Visitor::TraverseDoStmt(clang::DoStmt* S)
         parents.pop();
         std::cout << "[LOG6302] Fin de traverse de Do" << std::endl;
     }
+    ++nbDo;
     return true;
 }
 
@@ -216,6 +217,7 @@ bool Visitor::TraverseSwitchStmt(clang::SwitchStmt* S)
         parents.pop();
         std::cout << "[LOG6302] Fin de traverse de Switch" << std::endl;
     }
+    ++nbSwitch;
     return true;
 }
 
@@ -242,8 +244,8 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 	
 	clang::FullSourceLoc location = context_.getFullLoc(D->getLocation());   
 	clang::SourceManager &sm = context_.getSourceManager();
-	//if(sm.isFromMainFile(D->getLocStart()) || clang::TranslationUnitDecl::classof(D) )
-	//{
+	if(sm.isFromMainFile(D->getLocStart()) || clang::TranslationUnitDecl::classof(D) )
+	{
 
 	if(!sm.isInSystemHeader(D->getLocation()) && !sm.isInExternCSystemHeader(D->getLocation()))
 	{
@@ -280,13 +282,14 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 		<< D->getResultType().getAsString();
 
 		std::string name_str = name.str();
-		std::cout 
-	        << name_str
-		<< ", node number " << nodeNumber << std::endl;
+		std::cout  << name_str << std::endl;
+//		std::cout 
+//	        << name_str
+//		<< ", node number " << nodeNumber << std::endl;
 
 		parents.push(std::make_pair(nodeNumber, name_str));
-		nodeNumber++;
-		std::cout << "after  push" << std::endl;
+//		nodeNumber++;
+//		std::cout << "after  push" << std::endl;
 	
 		/*
 		std::cout 
@@ -298,11 +301,11 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 
 		clang::RecursiveASTVisitor<Visitor>::TraverseCXXMethodDecl(D);
 
-//		std::cout << "Nombre de if = " << nbIf << std::endl;
-//		std::cout << "Nombre de for = " << nbFor << std::endl;
-//		std::cout << "Nombre de while = " << nbWhile << std::endl;
-//		std::cout << "Nombre de Break = " << nbBreak << std::endl;
-//		std::cout << "Nombre de Continue = " << nbContinue << std::endl;
+//		std::cout << "#if[" << nbIf << "];";
+//		std::cout << "#for[" << nbFor << "];";
+//		std::cout << "#while[" << nbWhile << "];";
+//		std::cout << "#Break[" << nbBreak << "];";
+//		std::cout << "#Continue[" << nbContinue << "]" << std::endl;
 //		std::cout << "Nombre de variables locales = " << nbVar  << std::endl;
  	     
         //std::cout 
@@ -313,6 +316,6 @@ bool Visitor::TraverseCXXMethodDecl(clang::CXXMethodDecl *D) {
 
 		
 }
-//}
+}
   return true;
 }

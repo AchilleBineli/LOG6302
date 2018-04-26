@@ -9,10 +9,10 @@ Description: les dresseurs sont les etres capables d'attraper des creatures
 #define DRESSEUR_H
 
 #include <string>
-#include "Creature.h"
-#include "ObjetMagique.h"
 #include <iostream>
 #include <vector>
+#include "Creature.h"
+#include "ObjetMagique.h"
 
 class Dresseur
 {

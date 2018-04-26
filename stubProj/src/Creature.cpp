@@ -1,8 +1,9 @@
-#include "Creature.h"
+
 
 #include <stdio.h>
 #include <iostream>
 #include <stdlib.h>
+#include "Creature.h"
 using namespace std;
 ;
 

@@ -9,8 +9,8 @@ Description: Les creatures sont des etres destines au combat
 #define CREATURE_H
 
 #include <string>
-#include "Pouvoir.h"
 #include <vector>
+#include "Pouvoir.h"
 using namespace std;
 
 class Creature

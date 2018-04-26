@@ -4,8 +4,9 @@ Auteur(s): Alexandre MAO
 Date de creation: 31 aout 2016
 Date de modification: 11 octobre 2016 par Maude Carrier
 */
-#include "Dresseur.h"
+
 #include <iostream>
+#include "Dresseur.h"
 
 Dresseur::Dresseur() :nom_(""), equipe_("") {};
 
