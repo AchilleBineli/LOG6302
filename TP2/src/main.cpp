@@ -90,7 +90,7 @@ class UMLClass
         for(it; it !=  private_data_members_.end(); ++it)
         {
 	    std::cout << "data member is :" << *it << std::endl;
-            dotFile << "+ " << *it << "\\l" ;
+            dotFile << "- " << *it << "\\l" ;
         }
         
         dotFile << "}\"\n]\n\n";

@@ -13,7 +13,7 @@ digraph G {
 	]
 
 AttaqueMagique[
-	label = "{AttaqueMagique||+ duree_\l}"
+	label = "{AttaqueMagique||- duree_\l}"
 ]
 
 AttaqueMagiqueConfusion[
@@ -25,27 +25,27 @@ AttaqueMagiquePoison[
 ]
 
 Creature[
-	label = "{Creature|+ apprendrePouvoir (class Pouvoir *)  : _Bool\l+ attaquer (const class Pouvoir &, class Creature &)  : void\l+ experienceGagnee (const class Creature &)  : int\l+ modifierAttaque (unsigned int)  : void\l+ modifierDefense (unsigned int)  : void\l+ modifierEnergie (unsigned int)  : void\l+ modifierExperience (unsigned int)  : void\l+ modifierNiveau (unsigned int)  : void\l+ modifierNom (const string &)  : void\l+ modifierPointDeVie (unsigned int)  : void\l+ modifierPouvoirs (vector<class Pouvoir *>)  : void\l+ obtenirAttaque ()  : unsigned int\l+ obtenirDefense ()  : unsigned int\l+ obtenirEnergie ()  : unsigned int\l+ obtenirEnergieTotale ()  : unsigned int\l+ obtenirExperience ()  : unsigned int\l+ obtenirExperienceNecessaire ()  : unsigned int\l+ obtenirNiveau ()  : unsigned int\l+ obtenirNom ()  : string\l+ obtenirPointDeVie ()  : unsigned int\l+ obtenirPointDeVieTotal ()  : unsigned int\l+ obtenirPouvoirs ()  : vector<class Pouvoir *>\l+ obtenirTypeCreature ()  : string\l+ operator= (const class Creature &)  : class Creature &\l+ operator== (const class Creature &)  : _Bool\l+ operator== (const string &)  : _Bool\l+ oublierPouvoir (class Pouvoir *)  : _Bool\l|+ attaque_\l+ defense_\l+ energieTotal_\l+ energie_\l+ experienceNecessaire_\l+ experience_\l+ niveau_\l+ nom_\l+ pointDeVieTotal_\l+ pointDeVie_\l+ pouvoirs_\l}"
+	label = "{Creature|+ apprendrePouvoir (class Pouvoir *)  : _Bool\l+ attaquer (const class Pouvoir &, class Creature &)  : void\l+ experienceGagnee (const class Creature &)  : int\l+ modifierAttaque (unsigned int)  : void\l+ modifierDefense (unsigned int)  : void\l+ modifierEnergie (unsigned int)  : void\l+ modifierExperience (unsigned int)  : void\l+ modifierNiveau (unsigned int)  : void\l+ modifierNom (const string &)  : void\l+ modifierPointDeVie (unsigned int)  : void\l+ modifierPouvoirs (vector<class Pouvoir *>)  : void\l+ obtenirAttaque ()  : unsigned int\l+ obtenirDefense ()  : unsigned int\l+ obtenirEnergie ()  : unsigned int\l+ obtenirEnergieTotale ()  : unsigned int\l+ obtenirExperience ()  : unsigned int\l+ obtenirExperienceNecessaire ()  : unsigned int\l+ obtenirNiveau ()  : unsigned int\l+ obtenirNom ()  : string\l+ obtenirPointDeVie ()  : unsigned int\l+ obtenirPointDeVieTotal ()  : unsigned int\l+ obtenirPouvoirs ()  : vector<class Pouvoir *>\l+ obtenirTypeCreature ()  : string\l+ operator= (const class Creature &)  : class Creature &\l+ operator== (const class Creature &)  : _Bool\l+ operator== (const string &)  : _Bool\l+ oublierPouvoir (class Pouvoir *)  : _Bool\l|- attaque_\l- defense_\l- energieTotal_\l- energie_\l- experienceNecessaire_\l- experience_\l- niveau_\l- nom_\l- pointDeVieTotal_\l- pointDeVie_\l- pouvoirs_\l}"
 ]
 
 CreatureMagique[
-	label = "{CreatureMagique|+ apprendreAttaqueMagique (const class AttaqueMagique &)  : void\l+ attaquer (const class Pouvoir &, class Creature &)  : void\l+ modfierAttaqueMagique (const class AttaqueMagique &)  : void\l+ modifierBonus (unsigned int)  : void\l+ obtenirAttaqueMagique ()  : class AttaqueMagique *\l+ obtenirBonus ()  : unsigned int\l+ obtenirTypeCreature ()  : string\l+ operator= (const class CreatureMagique &)  : class CreatureMagique &\l+ oublierAttaqueMagique ()  : void\l|+ attaqueMagique_\l+ bonus_\l}"
+	label = "{CreatureMagique|+ apprendreAttaqueMagique (const class AttaqueMagique &)  : void\l+ attaquer (const class Pouvoir &, class Creature &)  : void\l+ modfierAttaqueMagique (const class AttaqueMagique &)  : void\l+ modifierBonus (unsigned int)  : void\l+ obtenirAttaqueMagique ()  : class AttaqueMagique *\l+ obtenirBonus ()  : unsigned int\l+ obtenirTypeCreature ()  : string\l+ operator= (const class CreatureMagique &)  : class CreatureMagique &\l+ oublierAttaqueMagique ()  : void\l|- attaqueMagique_\l- bonus_\l}"
 ]
 
 Dresseur[
-	label = "{Dresseur|+ ajouterCreature (class Creature *)  : _Bool\l+ enleverCreature (const std::string &)  : _Bool\l+ modifierCreature (std::vector<Creature *>)  : void\l+ modifierEquipe (const std::string &)  : void\l+ modifierNom (const std::string &)  : void\l+ modifierObjetMagique (const class ObjetMagique &)  : void\l+ obtenirCreatures ()  : std::vector<Creature *>\l+ obtenirEquipe ()  : std::string\l+ obtenirNom ()  : std::string\l+ obtenirNombreCreatures ()  : unsigned int\l+ obtenirObjetMagique ()  : class ObjetMagique\l+ obtenirUneCreature (const std::string &)  : class Creature *\l+ operator== (const class Dresseur &)  : _Bool\l+ operator== (const std::string &)  : _Bool\l+ utiliserObjetMagique (class Creature *)  : void\l|+ creatures_\l+ equipe_\l+ nom_\l+ objetMagique_\l}"
+	label = "{Dresseur|+ ajouterCreature (class Creature *)  : _Bool\l+ enleverCreature (const std::string &)  : _Bool\l+ modifierCreature (std::vector<Creature *>)  : void\l+ modifierEquipe (const std::string &)  : void\l+ modifierNom (const std::string &)  : void\l+ modifierObjetMagique (const class ObjetMagique &)  : void\l+ obtenirCreatures ()  : std::vector<Creature *>\l+ obtenirEquipe ()  : std::string\l+ obtenirNom ()  : std::string\l+ obtenirNombreCreatures ()  : unsigned int\l+ obtenirObjetMagique ()  : class ObjetMagique\l+ obtenirUneCreature (const std::string &)  : class Creature *\l+ operator== (const class Dresseur &)  : _Bool\l+ operator== (const std::string &)  : _Bool\l+ utiliserObjetMagique (class Creature *)  : void\l|- creatures_\l- equipe_\l- nom_\l- objetMagique_\l}"
 ]
 
 ObjetMagique[
-	label = "{ObjetMagique|+ modifierBonus (int)  : void\l+ modifierNom (const std::string &)  : void\l+ obtenirBonus ()  : int\l+ obtenirNom ()  : std::string\l|+ bonus_\l+ nom_\l}"
+	label = "{ObjetMagique|+ modifierBonus (int)  : void\l+ modifierNom (const std::string &)  : void\l+ obtenirBonus ()  : int\l+ obtenirNom ()  : std::string\l|- bonus_\l- nom_\l}"
 ]
 
 PolyLand[
-	label = "{PolyLand|+ ajouterCreature (class Creature *)  : _Bool\l+ ajouterDresseur (class Dresseur *)  : _Bool\l+ attraperCreature (class Dresseur *, class Creature *)  : _Bool\l+ choisirCreatureAleatoire ()  : class Creature *\l+ choisirDresseurAleatoire ()  : class Dresseur *\l+ operator+= (class Creature *)  : class PolyLand &\l+ operator+= (class Dresseur *)  : class PolyLand &\l+ operator-= (class Creature *)  : class PolyLand &\l+ operator-= (class Dresseur *)  : class PolyLand &\l+ relacherCreature (class Dresseur *, const std::string)  : _Bool\l+ retirerCreature (const std::string &)  : _Bool\l+ retirerDresseur (const std::string &)  : _Bool\l|+ creatures_\l+ dresseurs_\l}"
+	label = "{PolyLand|+ ajouterCreature (class Creature *)  : _Bool\l+ ajouterDresseur (class Dresseur *)  : _Bool\l+ attraperCreature (class Dresseur *, class Creature *)  : _Bool\l+ choisirCreatureAleatoire ()  : class Creature *\l+ choisirDresseurAleatoire ()  : class Dresseur *\l+ operator+= (class Creature *)  : class PolyLand &\l+ operator+= (class Dresseur *)  : class PolyLand &\l+ operator-= (class Creature *)  : class PolyLand &\l+ operator-= (class Dresseur *)  : class PolyLand &\l+ relacherCreature (class Dresseur *, const std::string)  : _Bool\l+ retirerCreature (const std::string &)  : _Bool\l+ retirerDresseur (const std::string &)  : _Bool\l|- creatures_\l- dresseurs_\l}"
 ]
 
 Pouvoir[
-	label = "{Pouvoir|+ modifierEnergieNecessarie (unsigned int)  : void\l+ modifierNom (const std::string &)  : void\l+ modifierNombreDeDegat (unsigned int)  : void\l+ obtenirEnergieNecessaire ()  : unsigned int\l+ obtenirNom ()  : std::string\l+ obtenirNombreDeDegat ()  : unsigned int\l+ operator= (const class Pouvoir &)  : class Pouvoir &\l+ operator== (const class Pouvoir &)  : _Bool\l|+ energieNecessaire_\l+ nom_\l+ nombreDeDegat_\l}"
+	label = "{Pouvoir|+ modifierEnergieNecessarie (unsigned int)  : void\l+ modifierNom (const std::string &)  : void\l+ modifierNombreDeDegat (unsigned int)  : void\l+ obtenirEnergieNecessaire ()  : unsigned int\l+ obtenirNom ()  : std::string\l+ obtenirNombreDeDegat ()  : unsigned int\l+ operator= (const class Pouvoir &)  : class Pouvoir &\l+ operator== (const class Pouvoir &)  : _Bool\l|- energieNecessaire_\l- nom_\l- nombreDeDegat_\l}"
 ]
 
 }
