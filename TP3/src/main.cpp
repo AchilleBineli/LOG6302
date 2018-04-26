@@ -9,41 +9,12 @@
 #include <stack>
 #include <utility>
 
-#if 0
-class Node
-{
-    unsigned int nodeNumber;
-    Node* left_child;
-    Node* right_child;
-}
 
-class BinarySearchTree
-{
-    BinarySearchTree(){};
-    
-    ~BinarySearchTree(){};
-    
-    void insertElement(std::unique_ptr<Node> node)
-    {
-        if(root == nullptr)
-        root(node);
-        else
-        {
-            
-        }
-    }
-
-private: 
-    std::unique_ptr<Node> root;
-    std::vector<unique_ptr<Node>> table;
-
-}
-#endif
 
 class Graph
 {
 public: 
-    Graph(){}
+    Graph(std::ofstream& out):outfile(out){}
     
     ~Graph()
     {
@@ -340,6 +311,7 @@ public:
     void endGraph()
     {
         vertex[1].push_back(nodeNumber - 1);
+        drawCFGDot(outfile);
     }
     
     
@@ -354,7 +326,10 @@ public:
         {
         
             for(auto it =  vertex[i].cbegin(); it != vertex[i].cend(); ++it)
+             {
                 outfile << nodes[*it] << " -> " << nodes[i] << "\n"; 
+                std::cout << nodes[*it] << " -> " << nodes[i] << "\n"; 
+             }
         }
         outfile << "}";
     }
@@ -377,7 +352,8 @@ private:
     std::vector<std::list<unsigned int>> vertex;
     std::stack<unsigned int> lastLoopNode;
     std::stack<std::pair<unsigned int, std::string>>parentNode;
-    std::stack::<unsigned int> lastNestedStmt;
+    std::stack<unsigned int> lastNestedStmt;
+    std::ofstream& outfile;
     //std::stack<unsigned int>parentNode;
     //unsigned int parentNodeNumber_;
 
@@ -390,30 +366,14 @@ int main(int argc, const char * argv[])
    
     std::ifstream ast_file(argv[1], std::ifstream::in);
     std::ofstream cfg_file("cfg.dot", std::ofstream::out);
-    std::ofstream dominator_file("dominators.dot", std::ofstream::out);
     
-    #if 0
-    cfg_file <<  "digraph G {\n" 
-        << " \tfontname = \"Bitstream Vera Sans\"\n"
-        << "\tfontsize = 8\n"
-        << "\tnode [\n"
-        << "\t\tfontname = \"Bitstream Vera Sans\"\n"
-        << "\t\tfontsize = 8\n"
-        << "\t\tshape = \"record\"\n"
-        << "\t]\n\n"
-
-        << "\tedge [\n"
-        << "\t\tfontname = \"Bitstream Vera Sans\"\n"
-        << "\t\tfontsize = 8\n"
-        << "\t]\n\n";
-    #endif
+   
     
     std::string ast_string;
     getline(ast_file, ast_string);
     
     
-    //std::unique_ptr<Graph>graph_object;
-    Graph graph_object;
+    Graph graph_object(cfg_file);
 
     do
     {   
@@ -527,7 +487,6 @@ int main(int argc, const char * argv[])
     
 
     graph_object.drawCFGDot(cfg_file);
-    graoh_object.dominators(dominator_file);
     
  
     
