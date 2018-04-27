@@ -1,0 +1,790 @@
+digraph { 
+EntryobtenirNom0
+ExitobtenirNom1
+Return2
+EntryobtenirBonus3
+ExitobtenirBonus4
+Return5
+EntrymodifierNom6
+ExitmodifierNom7
+EntrymodifierBonus8
+ExitmodifierBonus9
+EntryobtenirNom10
+ExitobtenirNom11
+Return12
+EntrymodifierNom13
+ExitmodifierNom14
+EntryobtenirNombreCreatures15
+ExitobtenirNombreCreatures16
+Return17
+EntryobtenirCreatures18
+ExitobtenirCreatures19
+Return20
+EntryobtenirUneCreature21
+ExitobtenirUneCreature22
+ForBegin23
+ForCondition24
+ForEnd25
+IfBegin26
+IfCondition27
+IfEnd28
+Return29
+Return30
+EntrymodifierCreature31
+ExitmodifierCreature32
+EntryajouterCreature33
+ExitajouterCreature34
+ForBegin35
+ForCondition36
+ForEnd37
+IfBegin38
+IfCondition39
+IfEnd40
+Return41
+Return42
+EntryenleverCreature43
+ExitenleverCreature44
+ForBegin45
+ForCondition46
+ForEnd47
+IfBegin48
+IfCondition49
+IfEnd50
+Return51
+Return52
+EntryobtenirObjetMagique53
+ExitobtenirObjetMagique54
+Return55
+EntrymodifierObjetMagique56
+ExitmodifierObjetMagique57
+EntryutiliserObjetMagique58
+ExitutiliserObjetMagique59
+IfBegin60
+IfCondition61
+IfEnd62
+IfBegin63
+IfCondition64
+IfEnd65
+EntryobtenirEquipe66
+ExitobtenirEquipe67
+Return68
+EntrymodifierEquipe69
+ExitmodifierEquipe70
+Entryoperator==71
+Exitoperator==72
+IfBegin73
+IfCondition74
+IfEnd75
+Return76
+IfBegin77
+IfCondition78
+IfEnd79
+ForBegin80
+ForCondition81
+ForEnd82
+ForBegin83
+ForCondition84
+ForEnd85
+IfBegin86
+IfCondition87
+IfEnd88
+Break89
+IfBegin90
+IfCondition91
+IfEnd92
+Return93
+Return94
+Return95
+Entryoperator==96
+Exitoperator==97
+Return98
+EntryobtenirTypeAttaque99
+ExitobtenirTypeAttaque100
+Return101
+EntryappliquerAttaque102
+ExitappliquerAttaque103
+IfBegin104
+IfCondition105
+IfEnd106
+IfBegin107
+IfCondition108
+IfEnd109
+IfBegin110
+IfCondition111
+IfEnd112
+EntryestFini113
+ExitestFini114
+IfBegin115
+IfCondition116
+IfEnd117
+Return118
+Return119
+EntryajouterDresseur120
+ExitajouterDresseur121
+ForBegin122
+ForCondition123
+ForEnd124
+IfBegin125
+IfCondition126
+IfEnd127
+Return128
+Return129
+EntryretirerDresseur130
+ExitretirerDresseur131
+ForBegin132
+ForCondition133
+ForEnd134
+IfBegin135
+IfCondition136
+IfEnd137
+Return138
+Return139
+EntryajouterCreature140
+ExitajouterCreature141
+Return142
+EntryretirerCreature143
+ExitretirerCreature144
+ForBegin145
+ForCondition146
+ForEnd147
+IfBegin148
+IfCondition149
+IfEnd150
+Return151
+Return152
+EntrychoisirDresseurAleatoire153
+ExitchoisirDresseurAleatoire154
+IfBegin155
+IfCondition156
+IfEnd157
+Return158
+Return159
+EntrychoisirCreatureAleatoire160
+ExitchoisirCreatureAleatoire161
+IfBegin162
+IfCondition163
+IfEnd164
+Return165
+Return166
+EntryattraperCreature167
+ExitattraperCreature168
+Return169
+EntryrelacherCreature170
+ExitrelacherCreature171
+Return172
+Entryoperator+=173
+Exitoperator+=174
+Return175
+Entryoperator-=176
+Exitoperator-=177
+Return178
+Entryoperator+=179
+Exitoperator+=180
+Return181
+Entryoperator-=182
+Exitoperator-=183
+Return184
+EntryobtenirEnergieNecessaire185
+ExitobtenirEnergieNecessaire186
+Return187
+EntryobtenirNom188
+ExitobtenirNom189
+Return190
+EntrymodifierNombreDeDegat191
+ExitmodifierNombreDeDegat192
+EntrymodifierEnergieNecessarie193
+ExitmodifierEnergieNecessarie194
+EntrymodifierNom195
+ExitmodifierNom196
+EntryobtenirNombreDeDegat197
+ExitobtenirNombreDeDegat198
+Return199
+Entryoperator=200
+Exitoperator=201
+IfBegin202
+IfCondition203
+IfEnd204
+Return205
+Entryoperator==206
+Exitoperator==207
+Return208
+EntryobtenirTypeAttaque209
+ExitobtenirTypeAttaque210
+Return211
+EntryappliquerAttaque212
+ExitappliquerAttaque213
+IfBegin214
+IfCondition215
+IfEnd216
+IfBegin217
+IfCondition218
+IfEnd219
+IfBegin220
+IfCondition221
+IfEnd222
+EntryestFini223
+ExitestFini224
+IfBegin225
+IfCondition226
+IfEnd227
+Return228
+Return229
+Entryoperator=230
+Exitoperator=231
+IfBegin232
+IfCondition233
+IfEnd234
+Return235
+EntryobtenirAttaqueMagique236
+ExitobtenirAttaqueMagique237
+Return238
+EntryobtenirBonus239
+ExitobtenirBonus240
+Return241
+EntrymodifierBonus242
+ExitmodifierBonus243
+EntrymodfierAttaqueMagique244
+ExitmodfierAttaqueMagique245
+EntryobtenirTypeCreature246
+ExitobtenirTypeCreature247
+Return248
+Entryattaquer249
+Exitattaquer250
+IfBegin251
+IfCondition252
+IfEnd253
+IfBegin254
+IfCondition255
+IfEnd256
+IfBegin257
+IfCondition258
+IfEnd259
+EntryapprendreAttaqueMagique260
+ExitapprendreAttaqueMagique261
+IfBegin262
+IfCondition263
+IfEnd264
+IfBegin265
+IfCondition266
+IfEnd267
+EntryoublierAttaqueMagique268
+ExitoublierAttaqueMagique269
+EntryobtenirNom270
+ExitobtenirNom271
+Return272
+EntryobtenirAttaque273
+ExitobtenirAttaque274
+Return275
+EntryobtenirDefense276
+ExitobtenirDefense277
+Return278
+EntryobtenirPointDeVie279
+ExitobtenirPointDeVie280
+Return281
+EntryobtenirPointDeVieTotal282
+ExitobtenirPointDeVieTotal283
+Return284
+EntryobtenirEnergie285
+ExitobtenirEnergie286
+Return287
+EntryobtenirEnergieTotale288
+ExitobtenirEnergieTotale289
+Return290
+EntryobtenirExperience291
+ExitobtenirExperience292
+Return293
+EntryobtenirExperienceNecessaire294
+ExitobtenirExperienceNecessaire295
+Return296
+EntryobtenirNiveau297
+ExitobtenirNiveau298
+Return299
+EntryobtenirPouvoirs300
+ExitobtenirPouvoirs301
+Return302
+EntryobtenirTypeCreature303
+ExitobtenirTypeCreature304
+Return305
+Entryattaquer306
+Exitattaquer307
+ForBegin308
+ForCondition309
+ForEnd310
+IfBegin311
+IfCondition312
+IfEnd313
+IfBegin314
+IfCondition315
+IfEnd316
+IfBegin317
+IfCondition318
+IfEnd319
+IfBegin320
+IfCondition321
+IfEnd322
+IfBegin323
+IfCondition324
+IfEnd325
+EntryexperienceGagnee326
+ExitexperienceGagnee327
+IfBegin328
+IfCondition329
+IfEnd330
+IfBegin331
+IfCondition332
+IfEnd333
+Return334
+Return335
+EntryapprendrePouvoir336
+ExitapprendrePouvoir337
+ForBegin338
+ForCondition339
+ForEnd340
+IfBegin341
+IfCondition342
+IfEnd343
+Return344
+Return345
+EntryoublierPouvoir346
+ExitoublierPouvoir347
+ForBegin348
+ForCondition349
+ForEnd350
+IfBegin351
+IfCondition352
+IfEnd353
+Return354
+Return355
+EntrymodifierNom356
+ExitmodifierNom357
+EntrymodifierAttaque358
+ExitmodifierAttaque359
+EntrymodifierDefense360
+ExitmodifierDefense361
+EntrymodifierPointDeVie362
+ExitmodifierPointDeVie363
+EntrymodifierEnergie364
+ExitmodifierEnergie365
+EntrymodifierExperience366
+ExitmodifierExperience367
+EntrymodifierNiveau368
+ExitmodifierNiveau369
+EntrymodifierPouvoirs370
+ExitmodifierPouvoirs371
+WhileBegin372
+WhileCondition373
+WhileEnd374
+ForBegin375
+ForCondition376
+ForEnd377
+Entryoperator=378
+Exitoperator=379
+IfBegin380
+IfCondition381
+IfEnd382
+ForBegin383
+ForCondition384
+ForEnd385
+Return386
+Entryoperator==387
+Exitoperator==388
+Return389
+Entryoperator==390
+Exitoperator==391
+Return392
+Return2 -> ExitobtenirNom1
+Return2 -> ExitobtenirNom1
+Return5 -> ExitobtenirNom1
+Return5 -> ExitobtenirNom1
+ExitmodifierNom7 -> ExitobtenirNom1
+ExitmodifierBonus9 -> ExitobtenirNom1
+Return12 -> ExitobtenirNom1
+Return12 -> ExitobtenirNom1
+ExitmodifierNom14 -> ExitobtenirNom1
+Return17 -> ExitobtenirNom1
+Return17 -> ExitobtenirNom1
+Return20 -> ExitobtenirNom1
+Return20 -> ExitobtenirNom1
+Return29 -> ExitobtenirNom1
+Return30 -> ExitobtenirNom1
+Return30 -> ExitobtenirNom1
+ExitmodifierCreature32 -> ExitobtenirNom1
+Return41 -> ExitobtenirNom1
+Return42 -> ExitobtenirNom1
+Return42 -> ExitobtenirNom1
+Return51 -> ExitobtenirNom1
+Return52 -> ExitobtenirNom1
+Return52 -> ExitobtenirNom1
+Return55 -> ExitobtenirNom1
+Return55 -> ExitobtenirNom1
+ExitmodifierObjetMagique57 -> ExitobtenirNom1
+IfEnd65 -> ExitobtenirNom1
+Return68 -> ExitobtenirNom1
+Return68 -> ExitobtenirNom1
+ExitmodifierEquipe70 -> ExitobtenirNom1
+Return76 -> ExitobtenirNom1
+Return93 -> ExitobtenirNom1
+Return94 -> ExitobtenirNom1
+Return95 -> ExitobtenirNom1
+Return95 -> ExitobtenirNom1
+Return98 -> ExitobtenirNom1
+Return98 -> ExitobtenirNom1
+Return101 -> ExitobtenirNom1
+Return101 -> ExitobtenirNom1
+IfEnd112 -> ExitobtenirNom1
+Return118 -> ExitobtenirNom1
+Return119 -> ExitobtenirNom1
+Return119 -> ExitobtenirNom1
+Return128 -> ExitobtenirNom1
+Return129 -> ExitobtenirNom1
+Return129 -> ExitobtenirNom1
+Return138 -> ExitobtenirNom1
+Return139 -> ExitobtenirNom1
+Return139 -> ExitobtenirNom1
+Return142 -> ExitobtenirNom1
+Return142 -> ExitobtenirNom1
+Return151 -> ExitobtenirNom1
+Return152 -> ExitobtenirNom1
+Return152 -> ExitobtenirNom1
+Return158 -> ExitobtenirNom1
+Return159 -> ExitobtenirNom1
+Return159 -> ExitobtenirNom1
+Return165 -> ExitobtenirNom1
+Return166 -> ExitobtenirNom1
+Return166 -> ExitobtenirNom1
+Return169 -> ExitobtenirNom1
+Return169 -> ExitobtenirNom1
+Return172 -> ExitobtenirNom1
+Return172 -> ExitobtenirNom1
+Return175 -> ExitobtenirNom1
+Return175 -> ExitobtenirNom1
+Return178 -> ExitobtenirNom1
+Return178 -> ExitobtenirNom1
+Return181 -> ExitobtenirNom1
+Return181 -> ExitobtenirNom1
+Return184 -> ExitobtenirNom1
+Return184 -> ExitobtenirNom1
+Return187 -> ExitobtenirNom1
+Return187 -> ExitobtenirNom1
+Return190 -> ExitobtenirNom1
+Return190 -> ExitobtenirNom1
+ExitmodifierNombreDeDegat192 -> ExitobtenirNom1
+ExitmodifierEnergieNecessarie194 -> ExitobtenirNom1
+ExitmodifierNom196 -> ExitobtenirNom1
+Return199 -> ExitobtenirNom1
+Return199 -> ExitobtenirNom1
+Return205 -> ExitobtenirNom1
+Return205 -> ExitobtenirNom1
+Return208 -> ExitobtenirNom1
+Return208 -> ExitobtenirNom1
+Return211 -> ExitobtenirNom1
+Return211 -> ExitobtenirNom1
+IfEnd222 -> ExitobtenirNom1
+Return228 -> ExitobtenirNom1
+Return229 -> ExitobtenirNom1
+Return229 -> ExitobtenirNom1
+Return235 -> ExitobtenirNom1
+Return235 -> ExitobtenirNom1
+Return238 -> ExitobtenirNom1
+Return238 -> ExitobtenirNom1
+Return241 -> ExitobtenirNom1
+Return241 -> ExitobtenirNom1
+ExitmodifierBonus243 -> ExitobtenirNom1
+ExitmodfierAttaqueMagique245 -> ExitobtenirNom1
+Return248 -> ExitobtenirNom1
+Return248 -> ExitobtenirNom1
+IfEnd259 -> ExitobtenirNom1
+IfEnd267 -> ExitobtenirNom1
+ExitoublierAttaqueMagique269 -> ExitobtenirNom1
+Return272 -> ExitobtenirNom1
+Return272 -> ExitobtenirNom1
+Return275 -> ExitobtenirNom1
+Return275 -> ExitobtenirNom1
+Return278 -> ExitobtenirNom1
+Return278 -> ExitobtenirNom1
+Return281 -> ExitobtenirNom1
+Return281 -> ExitobtenirNom1
+Return284 -> ExitobtenirNom1
+Return284 -> ExitobtenirNom1
+Return287 -> ExitobtenirNom1
+Return287 -> ExitobtenirNom1
+Return290 -> ExitobtenirNom1
+Return290 -> ExitobtenirNom1
+Return293 -> ExitobtenirNom1
+Return293 -> ExitobtenirNom1
+Return296 -> ExitobtenirNom1
+Return296 -> ExitobtenirNom1
+Return299 -> ExitobtenirNom1
+Return299 -> ExitobtenirNom1
+Return302 -> ExitobtenirNom1
+Return302 -> ExitobtenirNom1
+Return305 -> ExitobtenirNom1
+Return305 -> ExitobtenirNom1
+IfEnd325 -> ExitobtenirNom1
+Return334 -> ExitobtenirNom1
+Return335 -> ExitobtenirNom1
+Return335 -> ExitobtenirNom1
+Return344 -> ExitobtenirNom1
+Return345 -> ExitobtenirNom1
+Return345 -> ExitobtenirNom1
+Return354 -> ExitobtenirNom1
+Return355 -> ExitobtenirNom1
+Return355 -> ExitobtenirNom1
+ExitmodifierNom357 -> ExitobtenirNom1
+ExitmodifierAttaque359 -> ExitobtenirNom1
+ExitmodifierDefense361 -> ExitobtenirNom1
+ExitmodifierPointDeVie363 -> ExitobtenirNom1
+ExitmodifierEnergie365 -> ExitobtenirNom1
+ExitmodifierExperience367 -> ExitobtenirNom1
+ExitmodifierNiveau369 -> ExitobtenirNom1
+ForEnd377 -> ExitobtenirNom1
+Return386 -> ExitobtenirNom1
+Return386 -> ExitobtenirNom1
+Return389 -> ExitobtenirNom1
+Return389 -> ExitobtenirNom1
+Return392 -> ExitobtenirNom1
+Return392 -> ExitobtenirNom1
+EntryobtenirNom0 -> Return2
+EntryobtenirBonus3 -> Return5
+EntryobtenirNom10 -> Return12
+EntryobtenirNombreCreatures15 -> Return17
+EntryobtenirCreatures18 -> Return20
+EntryobtenirUneCreature21 -> ForBegin23
+ForBegin23 -> ForCondition24
+IfEnd28 -> ForCondition24
+ForCondition24 -> ForEnd25
+ForCondition24 -> IfBegin26
+IfBegin26 -> IfCondition27
+IfCondition27 -> IfEnd28
+IfCondition27 -> Return29
+IfCondition27 -> Return30
+EntryajouterCreature33 -> ForBegin35
+ForBegin35 -> ForCondition36
+IfEnd40 -> ForCondition36
+ForCondition36 -> ForEnd37
+ForCondition36 -> IfBegin38
+IfBegin38 -> IfCondition39
+IfCondition39 -> IfEnd40
+IfCondition39 -> Return41
+IfCondition39 -> Return42
+EntryenleverCreature43 -> ForBegin45
+ForBegin45 -> ForCondition46
+IfEnd50 -> ForCondition46
+ForCondition46 -> ForEnd47
+ForCondition46 -> IfBegin48
+IfBegin48 -> IfCondition49
+IfCondition49 -> IfEnd50
+IfCondition49 -> Return51
+IfCondition49 -> Return52
+EntryobtenirObjetMagique53 -> Return55
+EntryutiliserObjetMagique58 -> IfBegin60
+IfBegin60 -> IfCondition61
+IfCondition61 -> IfEnd62
+IfCondition61 -> IfBegin63
+IfBegin63 -> IfCondition64
+IfCondition64 -> IfEnd65
+EntryobtenirEquipe66 -> Return68
+Entryoperator==71 -> IfBegin73
+IfBegin73 -> IfCondition74
+IfCondition74 -> IfEnd75
+IfCondition74 -> Return76
+IfCondition74 -> IfBegin77
+IfBegin77 -> IfCondition78
+IfCondition78 -> IfEnd79
+IfCondition78 -> ForBegin80
+ForBegin80 -> ForCondition81
+ForCondition81 -> ForEnd82
+ForCondition81 -> ForBegin83
+Break89 -> ForBegin83
+ForBegin83 -> ForCondition84
+IfEnd88 -> ForCondition84
+IfEnd92 -> ForCondition84
+ForCondition84 -> ForEnd85
+ForCondition84 -> IfBegin86
+IfBegin86 -> IfCondition87
+IfCondition87 -> IfEnd88
+IfCondition87 -> Break89
+IfCondition87 -> IfBegin90
+IfBegin90 -> IfCondition91
+IfCondition91 -> IfEnd92
+IfCondition91 -> Return93
+IfCondition91 -> Return94
+IfCondition91 -> Return95
+Entryoperator==96 -> Return98
+EntryobtenirTypeAttaque99 -> Return101
+EntryappliquerAttaque102 -> IfBegin104
+IfBegin104 -> IfCondition105
+IfCondition105 -> IfEnd106
+IfCondition105 -> IfBegin107
+IfBegin107 -> IfCondition108
+IfCondition108 -> IfEnd109
+IfCondition108 -> IfBegin110
+IfBegin110 -> IfCondition111
+IfCondition111 -> IfEnd112
+EntryestFini113 -> IfBegin115
+IfBegin115 -> IfCondition116
+IfCondition116 -> IfEnd117
+IfCondition116 -> Return118
+IfCondition116 -> Return119
+EntryajouterDresseur120 -> ForBegin122
+ForBegin122 -> ForCondition123
+IfEnd127 -> ForCondition123
+ForCondition123 -> ForEnd124
+ForCondition123 -> IfBegin125
+IfBegin125 -> IfCondition126
+IfCondition126 -> IfEnd127
+IfCondition126 -> Return128
+IfCondition126 -> Return129
+EntryretirerDresseur130 -> ForBegin132
+ForBegin132 -> ForCondition133
+IfEnd137 -> ForCondition133
+ForCondition133 -> ForEnd134
+ForCondition133 -> IfBegin135
+IfBegin135 -> IfCondition136
+IfCondition136 -> IfEnd137
+IfCondition136 -> Return138
+IfCondition136 -> Return139
+EntryajouterCreature140 -> Return142
+EntryretirerCreature143 -> ForBegin145
+ForBegin145 -> ForCondition146
+IfEnd150 -> ForCondition146
+ForCondition146 -> ForEnd147
+ForCondition146 -> IfBegin148
+IfBegin148 -> IfCondition149
+IfCondition149 -> IfEnd150
+IfCondition149 -> Return151
+IfCondition149 -> Return152
+EntrychoisirDresseurAleatoire153 -> IfBegin155
+IfBegin155 -> IfCondition156
+IfCondition156 -> IfEnd157
+IfCondition156 -> Return158
+IfCondition156 -> Return159
+EntrychoisirCreatureAleatoire160 -> IfBegin162
+IfBegin162 -> IfCondition163
+IfCondition163 -> IfEnd164
+IfCondition163 -> Return165
+IfCondition163 -> Return166
+EntryattraperCreature167 -> Return169
+EntryrelacherCreature170 -> Return172
+Entryoperator+=173 -> Return175
+Entryoperator-=176 -> Return178
+Entryoperator+=179 -> Return181
+Entryoperator-=182 -> Return184
+EntryobtenirEnergieNecessaire185 -> Return187
+EntryobtenirNom188 -> Return190
+EntryobtenirNombreDeDegat197 -> Return199
+Entryoperator=200 -> IfBegin202
+IfBegin202 -> IfCondition203
+IfCondition203 -> IfEnd204
+IfCondition203 -> Return205
+Entryoperator==206 -> Return208
+EntryobtenirTypeAttaque209 -> Return211
+EntryappliquerAttaque212 -> IfBegin214
+IfBegin214 -> IfCondition215
+IfCondition215 -> IfEnd216
+IfCondition215 -> IfBegin217
+IfBegin217 -> IfCondition218
+IfCondition218 -> IfEnd219
+IfCondition218 -> IfBegin220
+IfBegin220 -> IfCondition221
+IfCondition221 -> IfEnd222
+EntryestFini223 -> IfBegin225
+IfBegin225 -> IfCondition226
+IfCondition226 -> IfEnd227
+IfCondition226 -> Return228
+IfCondition226 -> Return229
+Entryoperator=230 -> IfBegin232
+IfBegin232 -> IfCondition233
+IfCondition233 -> IfEnd234
+IfCondition233 -> Return235
+EntryobtenirAttaqueMagique236 -> Return238
+EntryobtenirBonus239 -> Return241
+EntryobtenirTypeCreature246 -> Return248
+Entryattaquer249 -> IfBegin251
+IfBegin251 -> IfCondition252
+IfCondition252 -> IfEnd253
+IfCondition252 -> IfBegin254
+IfBegin254 -> IfCondition255
+IfCondition255 -> IfEnd256
+IfCondition255 -> IfBegin257
+IfBegin257 -> IfCondition258
+IfCondition258 -> IfEnd259
+EntryapprendreAttaqueMagique260 -> IfBegin262
+IfBegin262 -> IfCondition263
+IfCondition263 -> IfEnd264
+IfCondition263 -> IfBegin265
+IfBegin265 -> IfCondition266
+IfCondition266 -> IfEnd267
+EntryobtenirNom270 -> Return272
+EntryobtenirAttaque273 -> Return275
+EntryobtenirDefense276 -> Return278
+EntryobtenirPointDeVie279 -> Return281
+EntryobtenirPointDeVieTotal282 -> Return284
+EntryobtenirEnergie285 -> Return287
+EntryobtenirEnergieTotale288 -> Return290
+EntryobtenirExperience291 -> Return293
+EntryobtenirExperienceNecessaire294 -> Return296
+EntryobtenirNiveau297 -> Return299
+EntryobtenirPouvoirs300 -> Return302
+EntryobtenirTypeCreature303 -> Return305
+Entryattaquer306 -> ForBegin308
+ForBegin308 -> ForCondition309
+IfEnd313 -> ForCondition309
+ForCondition309 -> ForEnd310
+ForCondition309 -> IfBegin311
+IfBegin311 -> IfCondition312
+IfCondition312 -> IfEnd313
+IfCondition312 -> IfBegin314
+IfBegin314 -> IfCondition315
+IfCondition315 -> IfEnd316
+IfCondition315 -> IfBegin317
+IfBegin317 -> IfCondition318
+IfCondition318 -> IfEnd319
+IfCondition318 -> IfBegin320
+IfBegin320 -> IfCondition321
+IfCondition321 -> IfEnd322
+IfCondition321 -> IfBegin323
+IfBegin323 -> IfCondition324
+IfCondition324 -> IfEnd325
+EntryexperienceGagnee326 -> IfBegin328
+IfBegin328 -> IfCondition329
+IfCondition329 -> IfEnd330
+IfCondition329 -> IfBegin331
+IfBegin331 -> IfCondition332
+IfCondition332 -> IfEnd333
+IfCondition332 -> Return334
+IfCondition332 -> Return335
+EntryapprendrePouvoir336 -> ForBegin338
+ForBegin338 -> ForCondition339
+IfEnd343 -> ForCondition339
+ForCondition339 -> ForEnd340
+ForCondition339 -> IfBegin341
+IfBegin341 -> IfCondition342
+IfCondition342 -> IfEnd343
+IfCondition342 -> Return344
+IfCondition342 -> Return345
+EntryoublierPouvoir346 -> ForBegin348
+ForBegin348 -> ForCondition349
+IfEnd353 -> ForCondition349
+ForCondition349 -> ForEnd350
+ForCondition349 -> IfBegin351
+IfBegin351 -> IfCondition352
+IfCondition352 -> IfEnd353
+IfCondition352 -> Return354
+IfCondition352 -> Return355
+EntrymodifierPouvoirs370 -> WhileBegin372
+WhileBegin372 -> WhileCondition373
+WhileCondition373 -> WhileEnd374
+WhileCondition373 -> ForBegin375
+ForBegin375 -> ForCondition376
+ForCondition376 -> ForEnd377
+Entryoperator=378 -> IfBegin380
+IfBegin380 -> IfCondition381
+IfCondition381 -> IfEnd382
+IfCondition381 -> ForBegin383
+ForBegin383 -> ForCondition384
+ForCondition384 -> ForEnd385
+ForCondition384 -> Return386
+Entryoperator==387 -> Return389
+Entryoperator==390 -> Return392
+}

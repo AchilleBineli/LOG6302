@@ -1,0 +1,4 @@
+/usagers/acbin/Bureau/LOG6302/stubProj/src/Creature.cpp:111:36: warning: comparison of unsigned expression >= 0 is always true [-Wtautological-compare]
+                if (creature.obtenirPointDeVie() >= 0) {
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~
+1 warning generated.
